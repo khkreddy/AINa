@@ -1,0 +1,136 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "EQJS-2.0",
+  "type": "object",
+  "required": ["eqjs_version", "schema_type", "metadata", "classification", "content", "solution", "semantic", "assessment_metadata"],
+  "properties": {
+    "eqjs_version": { "type": "string", "const": "2.0" },
+    "schema_type": { "type": "string", "const": "exam_question" },
+    "metadata": {
+      "type": "object",
+      "required": ["id", "source", "created", "protocol_conformance", "validation_status"],
+      "properties": {
+        "id": { "type": "string" },
+        "source": { "type": "string" },
+        "created": { "type": "string", "format": "date-time" },
+        "last_modified": { "type": "string", "format": "date-time" },
+        "protocol_conformance": { "type": "array", "items": { "type": "string" } },
+        "validation_status": {
+          "type": "object",
+          "required": ["validated"],
+          "properties": {
+            "validated": { "type": "boolean" },
+            "timestamp": { "type": "string" },
+            "checked_invariants": { "type": "array", "items": { "type": "string" } },
+            "validator_version": { "type": "string" }
+          }
+        }
+      }
+    },
+    "classification": {
+      "type": "object",
+      "required": ["subject", "topic", "difficulty", "cognitive_level"],
+      "properties": {
+        "subject": { "type": "string", "enum": ["biology", "chemistry", "physics", "science"] },
+        "topic": { "type": "array", "items": { "type": "string" } },
+        "difficulty": { "type": "string", "enum": ["easy", "medium", "hard"] },
+        "cognitive_level": { "type": "string", "enum": ["remember", "understand", "apply", "analyze", "evaluate", "create"] },
+        "estimated_time_seconds": { "type": "integer" },
+        "marks": { "type": "integer" },
+        "asset_percent_correct": { "type": "number" }
+      }
+    },
+    "content": {
+      "type": "object",
+      "required": ["question_text", "question_format", "options"],
+      "properties": {
+        "question_text": { "type": "string" },
+        "question_format": { "type": "string", "const": "mcq" },
+        "options": {
+          "type": "object",
+          "required": ["A", "B", "C", "D"],
+          "properties": {
+            "A": { "type": "string" },
+            "B": { "type": "string" },
+            "C": { "type": "string" },
+            "D": { "type": "string" }
+          },
+          "additionalProperties": false
+        },
+        "stimulus": {
+          "type": "object",
+          "properties": {
+            "diagrams": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["diagram_id", "type", "semantic_description"],
+                "properties": {
+                  "diagram_id": { "type": "string" },
+                  "protocol": { "type": "string" },
+                  "type": { "type": "string" },
+                  "semantic_description": { "type": "string" },
+                  "structured_data": { "type": "object" }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "solution": {
+      "type": "object",
+      "required": ["correct_answer", "common_errors"],
+      "properties": {
+        "correct_answer": { "type": "string", "enum": ["A", "B", "C", "D"] },
+        "marking_scheme": { "type": "object" },
+        "common_errors": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["incorrect_answer", "misconception", "pedagogical_note"],
+            "properties": {
+              "incorrect_answer": { "type": "string" },
+              "frequency_percent": { "type": "number" },
+              "misconception": { "type": "string" },
+              "pedagogical_note": { "type": "string" }
+            }
+          }
+        },
+        "expert_comment": { "type": "string" }
+      }
+    },
+    "semantic": {
+      "type": "object",
+      "required": ["concepts", "prerequisites", "reasoning_type"],
+      "properties": {
+        "concepts": { "type": "array", "items": { "type": "string" } },
+        "prerequisites": { "type": "array", "items": { "type": "string" } },
+        "question_pattern": { "type": "string" },
+        "reasoning_type": { "type": "string" },
+        "asset_skill_no": { "type": "integer" },
+        "asset_skill_label": { "type": "string" }
+      }
+    },
+    "assessment_metadata": {
+      "type": "object",
+      "required": ["assessment", "paper_code", "original_qno"],
+      "properties": {
+        "assessment": { "type": "string" },
+        "paper_code": { "type": "string" },
+        "original_qno": { "type": "integer" },
+        "skill_no": { "type": "integer" },
+        "percent_correct": { "type": "number" },
+        "option_distribution_percent": {
+          "type": "object",
+          "properties": {
+            "A": { "type": "number" },
+            "B": { "type": "number" },
+            "C": { "type": "number" },
+            "D": { "type": "number" }
+          }
+        }
+      }
+    }
+  }
+}

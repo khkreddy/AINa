@@ -1,0 +1,22 @@
+name: Raw to EQJS Conversion
+on:
+  schedule:
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install anthropic jsonschema
+      - run: python scripts/run_raw_to_eqjs.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "auto: raw->eqjs conversion"
+          file_pattern: "eqjs/** metadata/conversion-logs/**"

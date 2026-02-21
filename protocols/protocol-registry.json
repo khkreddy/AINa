@@ -1,0 +1,38 @@
+{
+  "protocol_registry_version": "1.0",
+  "last_updated": "2026-02-21",
+  "protocols": [
+    {
+      "id": "CESP-1.0",
+      "name": "Chemical Experiment Setup Protocol",
+      "status": "DRAFT",
+      "file": "protocols/CESP-1.0.md",
+      "scope": "Chemistry lab apparatus diagrams (2D front-view)",
+      "triggers": ["apparatus", "experiment setup", "lab diagram", "distillation", "titration", "electrolysis", "gas collection", "filtration", "bunsen burner", "condenser", "flask", "beaker", "test tube", "burette", "pipette", "crucible", "evaporating dish", "thermometer", "retort stand", "delivery tube", "trough", "gas syringe", "heating", "reflux", "chromatography", "calorimetry", "electrochemical cell"]
+    },
+    {
+      "id": "PDDC-1.0",
+      "name": "Phase Diagram Data Chart Protocol",
+      "status": "FROZEN",
+      "file": "protocols/PDDC-1.0.md",
+      "scope": "Phase diagrams, ternary plots, region-partitioned scientific charts",
+      "triggers": ["phase diagram", "triple point", "critical point", "phase boundary", "solid liquid gas", "melting curve", "boiling curve", "sublimation curve", "soil texture triangle", "ternary diagram", "alloy phase", "binary phase", "region-partitioned", "state diagram"]
+    },
+    {
+      "id": "TS-PG-1.2",
+      "name": "Time-Series Parametric Graph Protocol",
+      "status": "FROZEN",
+      "file": "protocols/TS-PG-1.2.md",
+      "scope": "Periodic/seasonal time-series graphs with parametric equations",
+      "triggers": ["seasonal graph", "temperature over months", "rainfall over year", "periodic curve", "sinusoidal", "time series", "monthly data", "cyclical pattern", "annual variation", "daylight hours"]
+    },
+    {
+      "id": "GRP-STACKED-1.0",
+      "name": "Stacked Bar/Area Chart Protocol",
+      "status": "FROZEN",
+      "file": "protocols/GRP-STACKED-1.0.md",
+      "scope": "Stacked bar charts, grouped bar charts, area charts",
+      "triggers": ["stacked bar", "grouped chart", "bar graph with categories", "stacked area", "comparative bar", "resource extraction graph", "population pyramid", "composition chart"]
+    }
+  ]
+}
