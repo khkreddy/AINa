@@ -1,0 +1,5949 @@
+[
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q1",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-01-31T11:45:00+05:30",
+    "last_modified": "2026-01-31T11:45:00+05:30",
+    "protocol_conformance": ["EQJS-2.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-01-31T11:45:00+05:30",
+      "checked_invariants": ["MCQ-INV-001", "ANSWER-INV-001"],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "biology",
+    "topic": ["ecology", "biotic_relationships", "commensalism"],
+    "difficulty": "medium",
+    "cognitive_level": "understand",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 60
+  },
+
+  "content": {
+    "question_text": "Commensalism is a type of relationship between two organisms in which one organism benefits while the other is unaffected. Which of the following is an example of commensalism?",
+    "question_format": "mcq",
+    "options": {
+      "A": "Squirrels eat fruits and carry the seeds on their coat.",
+      "B": "Venus fly trap plants consume insects for nitrogen.",
+      "C": "Penicillium secretes penicillin, which kills bacteria.",
+      "D": "Tree frogs use plants only for protection."
+    }
+  },
+
+  "solution": {
+    "correct_answer": "D",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify an interaction where one organism benefits and the other is unaffected",
+          "marks": 1,
+          "keywords": ["commensalism", "one benefits", "other unaffected"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 17,
+        "misconception": "Confusing commensalism with mutualism where both organisms benefit",
+        "pedagogical_note": "Seed dispersal benefits both squirrels and plants, so this is not commensalism"
+      },
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 12,
+        "misconception": "Misidentifying predation as a symbiotic relationship",
+        "pedagogical_note": "Insect is harmed, so the relationship is predatory, not commensal"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 10,
+        "misconception": "Confusing antibiosis with commensalism",
+        "pedagogical_note": "Killing or inhibiting another organism indicates harm, not neutrality"
+      }
+    ],
+    "expert_comment": "Only option D shows one organism (tree frog) benefiting while the plant is neither helped nor harmed, which fits the definition of commensalism."
+  },
+
+  "semantic": {
+    "concepts": [
+      "commensalism",
+      "symbiotic_relationships",
+      "ecological_interactions"
+    ],
+    "prerequisites": [
+      "definitions_of_symbiosis",
+      "basic_ecology_terms"
+    ],
+    "question_pattern": "definition_to_example_classification",
+    "reasoning_type": "conceptual",
+    "asset_skill_no": 3,
+    "asset_skill_label": "Classification/comparison of organisms/processes; giving examples"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 1,
+    "skill_no": 3,
+    "percent_correct": 60,
+    "option_distribution_percent": {
+      "A": 17,
+      "B": 12,
+      "C": 10,
+      "D": 60
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q2",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-01-31T12:05:00+05:30",
+    "last_modified": "2026-01-31T12:05:00+05:30",
+    "protocol_conformance": ["EQJS-2.0", "GRP-STACKED-1.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-01-31T12:05:00+05:30",
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001",
+        "GRAPH-INV-ORDER-STACK",
+        "GRAPH-INV-AXIS-RANGE"
+      ],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "biology",
+    "topic": [
+      "natural_resources",
+      "resource_extraction",
+      "data_interpretation",
+      "environmental_science"
+    ],
+    "difficulty": "easy",
+    "cognitive_level": "analyze",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 67
+  },
+
+  "content": {
+    "question_text": "The graph below shows the global extraction of natural resources from ecosystems and mines between the period 1980 to 2005. Based on the graph, which of the following is TRUE?",
+    "question_format": "mcq",
+    "options": {
+      "A": "The mass of minerals extracted in 1980 is the same as the mass of fossil fuels extracted in 2005.",
+      "B": "The mass of metals extracted in 2005 is greater than the mass of fossil fuels extracted in 1980.",
+      "C": "In 2000, greater extraction of minerals occurred than of biomass.",
+      "D": "The extraction of biomass was the highest in 1995."
+    },
+    "stimulus": {
+      "diagrams": [
+        {
+          "diagram_id": "stimulus_graph_1",
+          "protocol": "GRP-STACKED-1.0",
+          "type": "stacked_bar_chart",
+          "semantic_description": "Stacked bar chart showing global extraction of natural resources (1980–2005) with four categories: Fossil Fuels, Minerals, Metals, and Biomass.",
+          "structured_data": {
+            "x_axis": {
+              "label": "Year",
+              "values": [1980, 1985, 1990, 1995, 2000, 2005],
+              "arrowed": true
+            },
+            "y_axis": {
+              "label": "Mass of natural resources extracted (billion tonnes)",
+              "range": [0, 60],
+              "gridlines": [10, 20, 30, 40, 50, 60],
+              "arrowed": true
+            },
+            "stack_order_bottom_to_top": [
+              "Fossil Fuels",
+              "Minerals",
+              "Metals",
+              "Biomass"
+            ],
+            "data_series": [
+              {
+                "year": 1980,
+                "Fossil Fuels": 8,
+                "Minerals": 15,
+                "Metals": 4,
+                "Biomass": 13
+              },
+              {
+                "year": 1985,
+                "Fossil Fuels": 9,
+                "Minerals": 14,
+                "Metals": 3,
+                "Biomass": 17
+              },
+              {
+                "year": 1990,
+                "Fossil Fuels": 10,
+                "Minerals": 17,
+                "Metals": 4,
+                "Biomass": 16
+              },
+              {
+                "year": 1995,
+                "Fossil Fuels": 10,
+                "Minerals": 17,
+                "Metals": 4,
+                "Biomass": 17
+              },
+              {
+                "year": 2000,
+                "Fossil Fuels": 11,
+                "Minerals": 20,
+                "Metals": 4,
+                "Biomass": 17
+              },
+              {
+                "year": 2005,
+                "Fossil Fuels": 12,
+                "Minerals": 22,
+                "Metals": 5,
+                "Biomass": 18
+              }
+            ],
+            "legend": {
+              "position": "below_chart",
+              "rows": [
+                ["Biomass", "Metals"],
+                ["Minerals", "Fossil Fuels"]
+              ],
+              "style_mapping": {
+                "Fossil Fuels": "solid grey",
+                "Minerals": "diagonal hatch",
+                "Metals": "solid black",
+                "Biomass": "dotted"
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+
+  "solution": {
+    "correct_answer": "C",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Compare mineral and biomass extraction values for the year 2000",
+          "marks": 1,
+          "keywords": ["2000", "minerals", "biomass", "greater than"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 5,
+        "misconception": "Incorrect comparison of values across different years",
+        "pedagogical_note": "Students must read exact bar segment heights rather than assume symmetry"
+      },
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 23,
+        "misconception": "Overestimating metals extraction relative to fossil fuels",
+        "pedagogical_note": "Metals form the smallest segment in all years"
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 4,
+        "misconception": "Assuming the highest visible biomass segment without comparison",
+        "pedagogical_note": "Biomass is highest in 2005, not 1995"
+      }
+    ],
+    "expert_comment": "In the year 2000, minerals (~20 billion tonnes) exceed biomass (~17 billion tonnes), making option C correct."
+  },
+
+  "semantic": {
+    "concepts": [
+      "stacked_bar_graphs",
+      "resource_extraction_trends",
+      "quantitative_comparison"
+    ],
+    "prerequisites": [
+      "reading_graph_axes",
+      "interpreting_stacked_bars"
+    ],
+    "question_pattern": "graph_based_true_statement_identification",
+    "reasoning_type": "quantitative",
+    "asset_skill_no": 7,
+    "asset_skill_label": "Advanced or complex data representation or interpretation"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 2,
+    "skill_no": 7,
+    "percent_correct": 67,
+    "option_distribution_percent": {
+      "A": 5,
+      "B": 23,
+      "C": 67,
+      "D": 4
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q3",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-01-31T12:20:00+05:30",
+    "last_modified": "2026-01-31T12:35:00+05:30",
+    "protocol_conformance": ["EQJS-2.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-01-31T12:35:00+05:30",
+      "checked_invariants": ["MCQ-INV-001", "ANSWER-INV-001"],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "biology",
+    "topic": [
+      "viruses",
+      "mutation",
+      "vaccination",
+      "immune_response"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "apply",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 63
+  },
+
+  "content": {
+    "question_text": "Some viruses change their structure rapidly. Which of the following is a consequence of this?",
+    "question_format": "mcq",
+    "options": {
+      "A": "The treatment for such viruses involves consuming a combination of antibiotics.",
+      "B": "The human immune system can fight such viruses faster.",
+      "C": "Such viruses are unable to infect the human body.",
+      "D": "Vaccines for these viruses are difficult to make."
+    }
+  },
+
+  "solution": {
+    "correct_answer": "D",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Apply knowledge of viral mutation to vaccine development",
+          "marks": 1,
+          "keywords": ["mutation", "changing antigens", "vaccine difficulty"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 22,
+        "misconception": "Belief that antibiotics are effective against viral infections",
+        "pedagogical_note": "Antibiotics act on bacteria, not viruses"
+      },
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 8,
+        "misconception": "Assuming mutation improves immune recognition",
+        "pedagogical_note": "Rapid mutation allows viruses to evade immune memory"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 7,
+        "misconception": "Thinking instability prevents infection",
+        "pedagogical_note": "Many rapidly mutating viruses are highly infectious"
+      }
+    ],
+    "expert_comment": "Rapid structural changes alter viral antigens, making it difficult to design vaccines that remain effective over time."
+  },
+
+  "semantic": {
+    "concepts": [
+      "viral_mutation",
+      "antigen_variation",
+      "vaccine_development"
+    ],
+    "prerequisites": [
+      "basic_virology",
+      "immune_system_basics"
+    ],
+    "question_pattern": "cause_effect_application",
+    "reasoning_type": "deductive",
+    "asset_skill_no": 5,
+    "asset_skill_label": "Extraction, translation and application of knowledge or information"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 3,
+    "skill_no": 5,
+    "percent_correct": 63,
+    "option_distribution_percent": {
+      "A": 22,
+      "B": 8,
+      "C": 7,
+      "D": 63
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q4",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-01-31T13:00:00+05:30",
+    "last_modified": "2026-01-31T13:00:00+05:30",
+    "protocol_conformance": ["EQJS-2.0", "GRP-MULTI-CHOICE-1.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-01-31T13:00:00+05:30",
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001",
+        "GRAPH-INV-AXES-CONSISTENT"
+      ],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "biology",
+    "topic": [
+      "water_pollution",
+      "dissolved_oxygen",
+      "aquatic_ecosystems",
+      "organic_matter"
+    ],
+    "difficulty": "hard",
+    "cognitive_level": "understand",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 39
+  },
+
+  "content": {
+    "question_text": "When pollutants such as sewage, industrial discharges, and decaying plant material enter natural water bodies, microorganisms in these water bodies use dissolved oxygen to break down the organic matter in them. Dissolved oxygen is also used by aquatic organisms to survive. Which of the following graphs correctly represents the relationship between the presence of organic matter and the concentration of dissolved oxygen in a static water body?",
+    "question_format": "mcq",
+    "options": {
+      "A": "Graph A",
+      "B": "Graph B",
+      "C": "Graph C",
+      "D": "Graph D"
+    },
+    "stimulus": {
+      "diagrams": [
+        {
+          "diagram_id": "stimulus_graph_set_1",
+          "protocol": "GRP-MULTI-CHOICE-1.0",
+          "type": "four_graph_comparison",
+          "semantic_description": "Four line graphs showing different possible relationships between organic matter concentration and dissolved oxygen concentration.",
+          "structured_data": {
+            "layout": {
+              "rows": 2,
+              "columns": 2,
+              "labels": ["A", "B", "C", "D"]
+            },
+            "common_axes": {
+              "x_axis": {
+                "label": "Organic matter (ppm)",
+                "arrowed": true,
+                "scale_shown": false
+              },
+              "y_axis": {
+                "label": "Dissolved oxygen (ppm)",
+                "arrowed": true,
+                "scale_shown": false
+              },
+              "axes_intersect_at_origin": true
+            },
+            "graphs": {
+              "A": {
+                "curve_type": "straight_line",
+                "slope": "negative",
+                "description": "Line slopes downward from left to right, showing decrease in dissolved oxygen as organic matter increases."
+              },
+              "B": {
+                "curve_type": "straight_line",
+                "slope": "positive",
+                "description": "Line slopes upward from left to right, showing increase in dissolved oxygen as organic matter increases."
+              },
+              "C": {
+                "curve_type": "straight_line",
+                "slope": "zero",
+                "description": "Horizontal line indicating dissolved oxygen remains constant regardless of organic matter."
+              },
+              "D": {
+                "curve_type": "inverted_parabola",
+                "description": "Curve rises from origin to a peak then falls symmetrically, indicating maximum dissolved oxygen at intermediate organic matter."
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+
+  "solution": {
+    "correct_answer": "A",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify that increasing organic matter leads to increased oxygen consumption by microorganisms",
+          "marks": 1,
+          "keywords": ["organic matter", "microorganisms", "oxygen consumption", "decrease"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 28,
+        "misconception": "Assuming organic matter improves water quality",
+        "pedagogical_note": "Organic matter increases biological oxygen demand, reducing dissolved oxygen"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 20,
+        "misconception": "Belief that dissolved oxygen is unaffected by pollution",
+        "pedagogical_note": "Pollution significantly alters oxygen levels in water"
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 11,
+        "misconception": "Assuming an optimal level of organic matter for oxygen availability",
+        "pedagogical_note": "In static water bodies, increasing organic matter consistently reduces dissolved oxygen"
+      }
+    ],
+    "expert_comment": "As organic matter increases, microorganisms consume more dissolved oxygen, leading to a negative relationship between organic matter and dissolved oxygen concentration."
+  },
+
+  "semantic": {
+    "concepts": [
+      "biological_oxygen_demand",
+      "aquatic_respiration",
+      "pollution_effects"
+    ],
+    "prerequisites": [
+      "basic_ecology",
+      "oxygen_cycle_in_water"
+    ],
+    "question_pattern": "concept_to_graph_matching",
+    "reasoning_type": "causal",
+    "asset_skill_no": 4,
+    "asset_skill_label": "Representing, relating or explaining scientific processes or observed phenomena"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 4,
+    "skill_no": 4,
+    "percent_correct": 39,
+    "option_distribution_percent": {
+      "A": 39,
+      "B": 28,
+      "C": 20,
+      "D": 11
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q5",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-01-31T13:20:00+05:30",
+    "last_modified": "2026-01-31T13:20:00+05:30",
+    "protocol_conformance": ["EQJS-2.0", "IMG-TXT-1.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-01-31T13:20:00+05:30",
+      "checked_invariants": ["MCQ-INV-001", "ANSWER-INV-001"],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "biology",
+    "topic": [
+      "animal_behavior",
+      "anti_predator_adaptations",
+      "survival_strategies"
+    ],
+    "difficulty": "easy",
+    "cognitive_level": "evaluate",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 68
+  },
+
+  "content": {
+    "question_text": "Animals show different anti-predator behaviour which signals predators to avoid chasing them and look for other prey. Shown below is an example of one such animal. Which of the following is also an anti-predator behaviour?",
+    "question_format": "mcq",
+    "options": {
+      "A": "Opossums can play dead for several hours where they drool, let their tongues hang out, and excrete waste.",
+      "B": "Snakes use a special sense organ to detect chemical substances specific to the opposite sex.",
+      "C": "Insects use antennae that help them detect chemicals, humidity, and air currents.",
+      "D": "Bats emit sound waves and use the echoes to move."
+    },
+    "stimulus": {
+      "diagrams": [
+        {
+          "diagram_id": "stimulus_image_1",
+          "protocol": "IMG-TXT-1.0",
+          "type": "animal_behavior_image",
+          "semantic_description": "A photograph of a gazelle performing stotting behaviour.",
+          "structured_data": {
+            "animal": "Gazelle",
+            "behavior_name": "stotting",
+            "visual_description": "The gazelle is shown jumping high into the air with stiff legs and an arched back.",
+            "behavior_function": "Signals to predators that the animal is alert and physically fit, discouraging pursuit.",
+            "caption_text": "Some animals such as gazelle show a movement such as stotting where they jump high with stiff legs and an arched back."
+          }
+        }
+      ]
+    }
+  },
+
+  "solution": {
+    "correct_answer": "A",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify a behaviour that helps an animal avoid predation",
+          "marks": 1,
+          "keywords": ["anti-predator", "avoidance", "defence behaviour"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 8,
+        "misconception": "Confusing reproductive behaviour with anti-predator behaviour",
+        "pedagogical_note": "Detecting mates does not help avoid predators"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 7,
+        "misconception": "Mistaking sensory adaptations for predator avoidance",
+        "pedagogical_note": "Antennae assist sensing, not signalling predators"
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 17,
+        "misconception": "Confusing navigation mechanisms with defence strategies",
+        "pedagogical_note": "Echolocation helps movement and hunting, not predator deterrence"
+      }
+    ],
+    "expert_comment": "Playing dead (thanatosis) is a well-known anti-predator behaviour that reduces the predator’s interest, similar in function to stotting."
+  },
+
+  "semantic": {
+    "concepts": [
+      "anti_predator_behaviour",
+      "thanatosis",
+      "animal_defence_strategies"
+    ],
+    "prerequisites": [
+      "basic_animal_behaviour",
+      "predator_prey_relationships"
+    ],
+    "question_pattern": "example_based_behavior_identification",
+    "reasoning_type": "integrative",
+    "asset_skill_no": 8,
+    "asset_skill_label": "Integrating different concepts or information for decision making"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 5,
+    "skill_no": 8,
+    "percent_correct": 68,
+    "option_distribution_percent": {
+      "A": 68,
+      "B": 8,
+      "C": 7,
+      "D": 17
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q6",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-01-31T14:00:00+05:30",
+    "last_modified": "2026-01-31T14:00:00+05:30",
+    "protocol_conformance": ["EQJS-2.0", "GRP-GROUPED-BAR-1.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-01-31T14:00:00+05:30",
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001",
+        "GRAPH-INV-GROUPING",
+        "GRAPH-INV-SCALE-NONZERO"
+      ],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "biology",
+    "topic": [
+      "microorganisms",
+      "biocides",
+      "data_interpretation",
+      "experimental_results"
+    ],
+    "difficulty": "hard",
+    "cognitive_level": "analyze",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 39
+  },
+
+  "content": {
+    "question_text": "Rocima 101 is a biocidal agent. It is used to kill or control the spread of harmful microbes. Below is a graph representing the effect of 6% and 8% of this biocide on the growth of bacteria and mould when applied once, twice and three times. Which of the following is TRUE based on this?",
+    "question_format": "mcq",
+    "options": {
+      "A": "Bacteria are not affected by the biocide.",
+      "B": "Moulds are less affected by the biocide than bacteria.",
+      "C": "Even a single application of 6% of the biocide kills all moulds.",
+      "D": "8% of the biocide can kill more bacteria than 6% of the biocide."
+    },
+    "stimulus": {
+      "diagrams": [
+        {
+          "diagram_id": "stimulus_graph_6",
+          "protocol": "GRP-GROUPED-BAR-1.0",
+          "type": "grouped_bar_chart",
+          "semantic_description": "Grouped bar chart showing the effect of biocide concentration and application number on bacteria and mould growth.",
+          "structured_data": {
+            "x_axis": {
+              "label": "Biocide concentration / microorganisms",
+              "categories": [
+                "6% bacteria",
+                "6% moulds",
+                "8% bacteria",
+                "8% moulds"
+              ],
+              "arrowed": true
+            },
+            "y_axis": {
+              "label": "Biocidal activity",
+              "range": [1, 5],
+              "ticks": [1, 2, 3, 4, 5],
+              "arrowed": true,
+              "baseline": 1
+            },
+            "grouping": {
+              "groups": [
+                {
+                  "condition": "6% bacteria",
+                  "application_values": {
+                    "1": 5,
+                    "2": 5,
+                    "3": 5
+                  }
+                },
+                {
+                  "condition": "6% moulds",
+                  "application_values": {
+                    "1": 1,
+                    "2": 3,
+                    "3": 4
+                  }
+                },
+                {
+                  "condition": "8% bacteria",
+                  "application_values": {
+                    "1": 5,
+                    "2": 5,
+                    "3": 5
+                  }
+                },
+                {
+                  "condition": "8% moulds",
+                  "application_values": {
+                    "1": 2,
+                    "2": 4,
+                    "3": 5
+                  }
+                }
+              ],
+              "bar_styles": {
+                "1": "white_fill_black_outline",
+                "2": "medium_grey_fill",
+                "3": "dark_grey_fill"
+              },
+              "application_label": "Application number"
+            },
+            "spacing": {
+              "inter_group_gap": "equal",
+              "intra_group_gap": "none"
+            }
+          }
+        }
+      ]
+    }
+  },
+
+  "solution": {
+    "correct_answer": "B",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Compare biocidal activity of bacteria and moulds at the same concentrations and applications",
+          "marks": 1,
+          "keywords": ["moulds", "bacteria", "lower response", "comparison"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 31,
+        "misconception": "Interpreting high biocidal activity values as no effect",
+        "pedagogical_note": "Higher biocidal activity indicates stronger killing effect"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 18,
+        "misconception": "Assuming moulds are fully killed after one application",
+        "pedagogical_note": "At 6%, mould biocidal activity is lowest after one application"
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 11,
+        "misconception": "Assuming higher concentration increases effect on bacteria",
+        "pedagogical_note": "Bacterial biocidal activity is already maximal at both concentrations"
+      }
+    ],
+    "expert_comment": "Bacteria show maximum biocidal activity at both 6% and 8%, whereas moulds show lower activity values, indicating moulds are less affected."
+  },
+
+  "semantic": {
+    "concepts": [
+      "biocidal_effectiveness",
+      "microbial_sensitivity",
+      "experimental_data_interpretation"
+    ],
+    "prerequisites": [
+      "reading_grouped_bar_graphs",
+      "understanding_biocides"
+    ],
+    "question_pattern": "data_based_true_statement",
+    "reasoning_type": "quantitative",
+    "asset_skill_no": 7,
+    "asset_skill_label": "Advanced or complex data representation or interpretation"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 6,
+    "skill_no": 7,
+    "percent_correct": 39,
+    "option_distribution_percent": {
+      "A": 31,
+      "B": 39,
+      "C": 18,
+      "D": 11
+    }
+  }
+},
+
+{
+  "stimulus_id": "Ei_ASSET_Sci_3A124_SHARED_Q7_Q8",
+  "stimulus_type": "shared_context",
+  "applies_to_questions": [
+    "Ei_ASSET_Sci_3A124_Q7",
+    "Ei_ASSET_Sci_3A124_Q8"
+  ],
+  "content": {
+    "text_blocks": [
+      {
+        "block_id": "context_1",
+        "type": "context",
+        "content": "Answer questions 7 and 8 based on the information provided. Ayesha placed a bag made of a semi-permeable membrane in a vessel. Both the bag and the vessel contained solutions having some substances in the following proportions:"
+      }
+    ],
+    "tables": [
+      {
+        "table_id": "stimulus_table_q7_q8",
+        "protocol": "TBL-1.0",
+        "caption": "Composition of solutions in the bag and the vessel",
+        "columns": ["", "Bag", "Vessel"],
+        "rows": [
+          ["Sugar (g)", "10 g", "20 g"],
+          ["Salt (g)", "20 g", "–"],
+          ["Water (mL)", "100 mL", "100 mL"]
+        ],
+        "notes": "The en-dash (–) indicates that salt is absent in the vessel solution."
+      }
+    ]
+  },
+  "semantic": {
+    "concepts": [
+      "osmosis",
+      "diffusion",
+      "semi_permeable_membrane",
+      "solution_concentration"
+    ],
+    "intended_use": "shared_stimulus_for_multiple_questions"
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q7",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-01-31T15:00:00+05:30",
+    "last_modified": "2026-01-31T15:00:00+05:30",
+    "protocol_conformance": ["EQJS-2.0", "TBL-1.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-01-31T15:00:00+05:30",
+      "checked_invariants": ["MCQ-INV-001", "ANSWER-INV-001"],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "biology",
+    "topic": [
+      "osmosis",
+      "diffusion",
+      "cell_membranes",
+      "solutions"
+    ],
+    "difficulty": "hard",
+    "cognitive_level": "recall",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 25
+  },
+
+  "content": {
+    "question_text": "Ayesha's friends said the following about the movement of molecules by osmosis from the time of placing the bag into the vessel till equilibrium is achieved:\n\nKriti: Water will move from the bag to the vessel.\nKavya: Water will move from the vessel to the bag.\nAda: Salt and sugar will move from the bag to the vessel.\n\nWho is correct?",
+    "question_format": "mcq",
+    "options": {
+      "A": "only Kavya",
+      "B": "only Ada and Kavya",
+      "C": "only Kriti and Kavya",
+      "D": "all – Ada, Kriti and Kavya"
+    },
+    "stimulus_reference": "Ei_ASSET_Sci_3A124_SHARED_Q7_Q8"
+  },
+
+  "solution": {
+    "correct_answer": "C",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify which statements are correct according to the given scenario",
+          "marks": 1,
+          "keywords": ["osmosis", "water movement", "equilibrium"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 37,
+        "misconception": "Assuming only one statement can be correct",
+        "pedagogical_note": "Students often focus on a single correct idea and ignore other stated possibilities"
+      },
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 24,
+        "misconception": "Confusing osmosis with diffusion of solutes",
+        "pedagogical_note": "Osmosis specifically involves the movement of water molecules"
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 14,
+        "misconception": "Assuming all substances can move freely across the membrane",
+        "pedagogical_note": "A semi-permeable membrane restricts movement of solutes"
+      }
+    ],
+    "expert_comment": "This question assesses recall of the definition of osmosis and interpretation of statements describing molecular movement in solutions."
+  },
+
+  "semantic": {
+    "concepts": [
+      "osmosis",
+      "semi_permeable_membrane",
+      "water_potential"
+    ],
+    "prerequisites": [
+      "definition_of_osmosis",
+      "properties_of_cell_membranes"
+    ],
+    "question_pattern": "statement_evaluation",
+    "reasoning_type": "deductive",
+    "asset_skill_no": 1,
+    "asset_skill_label": "Recollection or recognition of science facts and concepts"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 7,
+    "skill_no": 1,
+    "percent_correct": 25,
+    "option_distribution_percent": {
+      "A": 37,
+      "B": 24,
+      "C": 25,
+      "D": 14
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q8",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-01-31T15:20:00+05:30",
+    "last_modified": "2026-01-31T15:20:00+05:30",
+    "protocol_conformance": ["EQJS-2.0", "TBL-1.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-01-31T15:20:00+05:30",
+      "checked_invariants": ["MCQ-INV-001", "ANSWER-INV-001"],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "biology",
+    "topic": [
+      "osmosis",
+      "equilibrium",
+      "semi_permeable_membrane",
+      "solutions"
+    ],
+    "difficulty": "hard",
+    "cognitive_level": "create",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 28
+  },
+
+  "content": {
+    "question_text": "What is likely to happen after some time?",
+    "question_format": "mcq",
+    "options": {
+      "A": "The vessel will have less water than the bag.",
+      "B": "The vessel will have more water than the bag.",
+      "C": "Both the vessel and the bag will have the same amount of water.",
+      "D": "Cannot say because the vessel does not contain salt but the bag does."
+    },
+    "stimulus_reference": "Ei_ASSET_Sci_3A124_SHARED_Q7_Q8"
+  },
+
+  "solution": {
+    "correct_answer": "A",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Predict the net movement of water based on relative solute concentrations",
+          "marks": 1,
+          "keywords": ["osmosis", "net water movement", "equilibrium"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 21,
+        "misconception": "Assuming the vessel must always gain water",
+        "pedagogical_note": "Water moves toward higher solute concentration across a semi-permeable membrane"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 39,
+        "misconception": "Belief that equilibrium implies equal volumes of water",
+        "pedagogical_note": "Equilibrium refers to equal water potential, not necessarily equal volumes"
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 12,
+        "misconception": "Thinking lack of information prevents prediction",
+        "pedagogical_note": "The solute information provided is sufficient to predict water movement"
+      }
+    ],
+    "expert_comment": "Because the bag has a higher total solute concentration than the vessel, water moves into the bag by osmosis, leaving the vessel with less water."
+  },
+
+  "semantic": {
+    "concepts": [
+      "osmosis",
+      "water_potential",
+      "equilibrium_conditions"
+    ],
+    "prerequisites": [
+      "solute_concentration_effects",
+      "definition_of_osmosis"
+    ],
+    "question_pattern": "prediction_after_process",
+    "reasoning_type": "predictive",
+    "asset_skill_no": 9,
+    "asset_skill_label": "Hypothesis formulation or prediction of outcome"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 8,
+    "skill_no": 9,
+    "percent_correct": 28,
+    "option_distribution_percent": {
+      "A": 28,
+      "B": 21,
+      "C": 39,
+      "D": 12
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q9",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-01-31T15:40:00+05:30",
+    "last_modified": "2026-01-31T15:40:00+05:30",
+    "protocol_conformance": ["EQJS-2.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-01-31T15:40:00+05:30",
+      "checked_invariants": ["MCQ-INV-001", "ANSWER-INV-001"],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "biology",
+    "topic": [
+      "classification_of_living_organisms",
+      "cell_structure",
+      "nutrition_modes"
+    ],
+    "difficulty": "hard",
+    "cognitive_level": "understand",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 23
+  },
+
+  "content": {
+    "question_text": "On observing a multicellular organism X, Uzma says that it is NOT a plant or an animal. To which of the following questions would she have answered 'yes' to make this distinction?\n\nP) Is the nuclear membrane absent?\nQ) Do its cells have a cell wall?\nR) Is it a heterotroph?",
+    "question_format": "mcq",
+    "options": {
+      "A": "only P",
+      "B": "only Q",
+      "C": "both Q and R",
+      "D": "all P, Q and R"
+    }
+  },
+
+  "solution": {
+    "correct_answer": "C",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify characteristics that distinguish fungi from plants and animals",
+          "marks": 1,
+          "keywords": ["cell wall", "heterotroph", "fungi"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 43,
+        "misconception": "Confusing multicellular organisms with prokaryotes",
+        "pedagogical_note": "Multicellular organisms always have a nuclear membrane"
+      },
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 13,
+        "misconception": "Assuming presence of cell wall alone excludes plants",
+        "pedagogical_note": "Plants also have cell walls"
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 21,
+        "misconception": "Assuming all listed features must apply",
+        "pedagogical_note": "Absence of nuclear membrane is incorrect for multicellular organisms"
+      }
+    ],
+    "expert_comment": "An organism that has a cell wall and is heterotrophic but still multicellular is most likely a fungus, which is neither a plant nor an animal."
+  },
+
+  "semantic": {
+    "concepts": [
+      "fungi_characteristics",
+      "cell_wall_presence",
+      "heterotrophic_nutrition",
+      "eukaryotic_cells"
+    ],
+    "prerequisites": [
+      "cell_types",
+      "modes_of_nutrition",
+      "basic_classification"
+    ],
+    "question_pattern": "classification_by_features",
+    "reasoning_type": "conceptual",
+    "asset_skill_no": 3,
+    "asset_skill_label": "Classification/comparison of organisms/processes; giving examples"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 9,
+    "skill_no": 3,
+    "percent_correct": 23,
+    "option_distribution_percent": {
+      "A": 43,
+      "B": 13,
+      "C": 23,
+      "D": 21
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q10",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-01-31T16:10:00+05:30",
+    "last_modified": "2026-01-31T16:10:00+05:30",
+    "protocol_conformance": ["EQJS-2.0", "GRP-SAMPLING-1.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-01-31T16:10:00+05:30",
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001",
+        "GRAPH-INV-COVERAGE"
+      ],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "biology",
+    "topic": [
+      "sampling_methods",
+      "pest_distribution",
+      "field_investigation",
+      "experimental_design"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "create",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 51
+  },
+
+  "content": {
+    "question_text": "Jigar knows that there is a pest destroying the crops in his field. He wants to find out where the insect has spread in his field. The circles marked in the boxes represent the plants that are chosen as samples. Which pattern for collecting 10 plants would provide the best idea of the spread of this insect?",
+    "question_format": "mcq",
+    "options": {
+      "A": "Pattern A",
+      "B": "Pattern B",
+      "C": "Pattern C",
+      "D": "Pattern D"
+    },
+    "stimulus": {
+      "diagrams": [
+        {
+          "diagram_id": "stimulus_sampling_patterns",
+          "protocol": "GRP-SAMPLING-1.0",
+          "type": "sampling_pattern_comparison",
+          "semantic_description": "Four rectangular boxes showing different spatial sampling patterns for selecting plants in a field.",
+          "structured_data": {
+            "layout": {
+              "orientation": "horizontal_row",
+              "labels": ["A", "B", "C", "D"]
+            },
+            "particle_representation": {
+              "shape": "circle",
+              "marking": "X_cross",
+              "size": "uniform"
+            },
+            "patterns": {
+              "A": {
+                "count": 10,
+                "distribution": "two_edge_rows",
+                "description": "Five samples along the top edge and five along the bottom edge, leaving the center unsampled."
+              },
+              "B": {
+                "count": 12,
+                "distribution": "central_cluster",
+                "description": "Samples tightly clustered at the center, with large unsampled outer areas."
+              },
+              "C": {
+                "count": 9,
+                "distribution": "partial_edge_and_center",
+                "description": "Samples on left and right edges with a single central sample, leaving large gaps."
+              },
+              "D": {
+                "count": 10,
+                "distribution": "random_uniform",
+                "description": "Samples randomly and evenly distributed across the entire field area."
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+
+  "solution": {
+    "correct_answer": "D",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify the sampling pattern that provides the most representative coverage of the field",
+          "marks": 1,
+          "keywords": ["random sampling", "uniform coverage", "representative"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 13,
+        "misconception": "Assuming edge sampling is sufficient",
+        "pedagogical_note": "Sampling only edges ignores conditions in the central region of the field"
+      },
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 18,
+        "misconception": "Belief that dense sampling in one area improves accuracy",
+        "pedagogical_note": "Clustering samples reduces representativeness of the whole field"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 17,
+        "misconception": "Thinking a few central samples compensate for uneven coverage",
+        "pedagogical_note": "Large unsampled regions reduce the reliability of conclusions"
+      }
+    ],
+    "expert_comment": "A random and evenly distributed sampling pattern best represents pest spread across the entire field."
+  },
+
+  "semantic": {
+    "concepts": [
+      "random_sampling",
+      "representative_samples",
+      "pest_spread_analysis"
+    ],
+    "prerequisites": [
+      "basic_sampling_ideas",
+      "field_study_methods"
+    ],
+    "question_pattern": "best_method_selection",
+    "reasoning_type": "experimental_design",
+    "asset_skill_no": 10,
+    "asset_skill_label": "Design of appropriate apparatus, experiment or activity for scientific investigation"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 10,
+    "skill_no": 10,
+    "percent_correct": 51,
+    "option_distribution_percent": {
+      "A": 13,
+      "B": 18,
+      "C": 17,
+      "D": 51
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q11",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-01-31T16:40:00+05:30",
+    "last_modified": "2026-01-31T16:40:00+05:30",
+    "protocol_conformance": ["EQJS-2.0", "CDP-1.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-01-31T16:40:00+05:30",
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001",
+        "CDP-CONNECTIVITY-INV",
+        "CDP-POLARITY-INV"
+      ],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "physics",
+    "topic": [
+      "electromagnetism",
+      "electromagnets",
+      "magnetic_effect_of_current"
+    ],
+    "difficulty": "hard",
+    "cognitive_level": "apply",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 12
+  },
+
+  "content": {
+    "question_text": "Sagar designed two experimental setups with two insulated copper coils connected to identical batteries and wound around different cores as shown. The insulated copper coils used were of the same length and thickness. In which of the setups will the compass needle deflect?",
+    "question_format": "mcq",
+    "options": {
+      "A": "only P",
+      "B": "only Q",
+      "C": "both P and Q",
+      "D": "neither P nor Q"
+    },
+    "stimulus": {
+      "diagrams": [
+        {
+          "protocol": "CDP-1.0",
+          "question_metadata": {
+            "id": "circuit_setups_P_Q",
+            "pedagogical_intent": "Identify magnetic effect of current in solenoids with different cores",
+            "intent": "physics_faithful",
+            "symbol_set": "IEC"
+          },
+          "diagrams": [
+            {
+              "id": "setup_P",
+              "title": "Set up P",
+              "layout": {
+                "type": "grid_manhattan",
+                "grid_size": 1.0,
+                "crossing_style": "forbid"
+              },
+              "components": [
+                {
+                  "id": "B1",
+                  "type": "battery",
+                  "position": { "x": 5, "y": 10 },
+                  "orientation": 0,
+                  "label": "Battery"
+                },
+                {
+                  "id": "L1",
+                  "type": "inductor",
+                  "position": { "x": 5, "y": 4 },
+                  "orientation": 0,
+                  "label": "Copper coil (Nickel rod core)"
+                },
+                {
+                  "id": "C1",
+                  "type": "compass",
+                  "position": { "x": 9, "y": 4 },
+                  "orientation": 0,
+                  "label": "Compass"
+                }
+              ],
+              "connections": [
+                {
+                  "id": "w1",
+                  "from": "B1.positive",
+                  "to": "L1.left",
+                  "path": "auto_manhattan",
+                  "junction_dot": false
+                },
+                {
+                  "id": "w2",
+                  "from": "L1.right",
+                  "to": "B1.negative",
+                  "path": "auto_manhattan",
+                  "junction_dot": false
+                }
+              ]
+            },
+            {
+              "id": "setup_Q",
+              "title": "Set up Q",
+              "layout": {
+                "type": "grid_manhattan",
+                "grid_size": 1.0,
+                "crossing_style": "forbid"
+              },
+              "components": [
+                {
+                  "id": "B2",
+                  "type": "battery",
+                  "position": { "x": 5, "y": 10 },
+                  "orientation": 0,
+                  "label": "Battery"
+                },
+                {
+                  "id": "L2",
+                  "type": "inductor",
+                  "position": { "x": 5, "y": 4 },
+                  "orientation": 0,
+                  "label": "Copper coil (Rubber rod core)"
+                },
+                {
+                  "id": "C2",
+                  "type": "compass",
+                  "position": { "x": 9, "y": 4 },
+                  "orientation": 0,
+                  "label": "Compass"
+                }
+              ],
+              "connections": [
+                {
+                  "id": "w3",
+                  "from": "B2.positive",
+                  "to": "L2.left",
+                  "path": "auto_manhattan",
+                  "junction_dot": false
+                },
+                {
+                  "id": "w4",
+                  "from": "L2.right",
+                  "to": "B2.negative",
+                  "path": "auto_manhattan",
+                  "junction_dot": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+
+  "solution": {
+    "correct_answer": "C",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Recognize that electric current through a coil produces a magnetic field regardless of core material",
+          "marks": 1,
+          "keywords": ["current", "magnetic field", "solenoid"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 62,
+        "misconception": "Belief that only magnetic cores produce magnetic fields",
+        "pedagogical_note": "The magnetic field is produced by current; the core only strengthens it"
+      },
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 16,
+        "misconception": "Assuming non-metallic cores uniquely cause deflection",
+        "pedagogical_note": "Core material does not determine whether a field exists"
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 9,
+        "misconception": "Thinking current alone cannot affect a compass",
+        "pedagogical_note": "A current-carrying conductor always produces a magnetic field"
+      }
+    ],
+    "expert_comment": "In both setups, current flows through the coil, producing a magnetic field that deflects the compass. The nickel core strengthens the field but is not required for deflection."
+  },
+
+  "semantic": {
+    "concepts": [
+      "magnetic_effect_of_current",
+      "solenoid",
+      "electromagnet"
+    ],
+    "prerequisites": [
+      "electric_current",
+      "basic_magnetism"
+    ],
+    "question_pattern": "comparative_experimental_reasoning",
+    "reasoning_type": "deductive",
+    "asset_skill_no": 5,
+    "asset_skill_label": "Extraction, translation and application of knowledge or information"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 11,
+    "skill_no": 5,
+    "percent_correct": 12,
+    "option_distribution_percent": {
+      "A": 62,
+      "B": 16,
+      "C": 12,
+      "D": 9
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q12",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-01-31T17:10:00+05:30",
+    "last_modified": "2026-01-31T17:10:00+05:30",
+    "protocol_conformance": ["EQJS-2.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-01-31T17:10:00+05:30",
+      "checked_invariants": ["MCQ-INV-001", "ANSWER-INV-001"],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "biology",
+    "topic": [
+      "hormonal_regulation",
+      "insulin_function",
+      "viral_mimicry",
+      "homeostasis"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "create",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 33
+  },
+
+  "content": {
+    "question_text": "The level of glucose is regulated in the bloodstream of an organism by insulin. Insulin facilitates the uptake of glucose by cells which use it to produce energy. Some viruses, on infecting a mammal, can mimic 50% of the structure of insulin. These viruses use glucose from the bloodstream of the infected mammal for their own growth and survival. What is the likely response of a mammal to this viral infection?",
+    "question_format": "mcq",
+    "options": {
+      "A": "They will eat more frequently.",
+      "B": "They will die due to lack of energy.",
+      "C": "They will start producing more insulin.",
+      "D": "Nothing will happen to the host as glucose will still remain in its body."
+    }
+  },
+
+  "solution": {
+    "correct_answer": "A",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Predict the physiological response to reduced glucose availability",
+          "marks": 1,
+          "keywords": ["glucose uptake", "energy demand", "hunger response"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 27,
+        "misconception": "Assuming immediate fatal energy loss",
+        "pedagogical_note": "Organisms compensate for reduced glucose by increasing food intake"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 32,
+        "misconception": "Belief that insulin production directly increases in response to mimicry",
+        "pedagogical_note": "The problem is glucose availability, not insulin deficiency"
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 7,
+        "misconception": "Ignoring the impact of viral glucose consumption",
+        "pedagogical_note": "Glucose is diverted away from host cells"
+      }
+    ],
+    "expert_comment": "As viruses divert glucose for their own use, the mammal experiences reduced energy availability and compensates by increasing food intake."
+  },
+
+  "semantic": {
+    "concepts": [
+      "glucose_homeostasis",
+      "insulin_action",
+      "viral_resource_exploitation"
+    ],
+    "prerequisites": [
+      "hormone_function",
+      "basic_metabolism"
+    ],
+    "question_pattern": "physiological_response_prediction",
+    "reasoning_type": "predictive",
+    "asset_skill_no": 9,
+    "asset_skill_label": "Hypothesis formulation or prediction of outcome"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 12,
+    "skill_no": 9,
+    "percent_correct": 33,
+    "option_distribution_percent": {
+      "A": 33,
+      "B": 27,
+      "C": 32,
+      "D": 7
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q13",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-01-31T17:45:00+05:30",
+    "last_modified": "2026-01-31T17:45:00+05:30",
+    "protocol_conformance": ["EQJS-2.0", "GGCP-1.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-01-31T17:45:00+05:30",
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001",
+        "GGCP-BIJECTION-INV",
+        "GGCP-LAYOUT-INV"
+      ],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "biology",
+    "topic": [
+      "evolution",
+      "classification",
+      "cladograms",
+      "vertebrates"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "analyze",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 47
+  },
+
+  "content": {
+    "question_text": "A cladogram is a tree diagram that represents the relationships between different organisms, based on how they have evolved from a common ancestor. Groups of organisms split from their ancestors because they acquire a new character. Shown below is a cladogram where region X represents a common feature present in all organisms except fish. Which of the following could be feature X?",
+    "question_format": "mcq",
+    "options": {
+      "A": "presence of a backbone",
+      "B": "reproduction by laying eggs",
+      "C": "presence of hair on the body",
+      "D": "presence of well-developed limbs"
+    },
+    "stimulus": {
+      "diagrams": [
+        {
+          "protocol": "GGCP-1.0",
+          "graph_semantics": {
+            "nodes": [
+              { "id": "N1", "content": "Fish", "content_type": "image", "container": "none" },
+              { "id": "N2", "content": "Amphibians", "content_type": "image", "container": "none" },
+              { "id": "N3", "content": "Reptiles", "content_type": "image", "container": "none" },
+              { "id": "N4", "content": "Birds", "content_type": "image", "container": "none" },
+              { "id": "N5", "content": "Rodents", "content_type": "image", "container": "none" },
+              { "id": "N6", "content": "Primates", "content_type": "image", "container": "none" },
+              { "id": "root", "content": "Common ancestor", "content_type": "text", "container": "none" },
+              { "id": "J1", "content": "", "content_type": "text", "container": "none" },
+              { "id": "J2", "content": "", "content_type": "text", "container": "none" },
+              { "id": "J3", "content": "", "content_type": "text", "container": "none" },
+              { "id": "J4", "content": "", "content_type": "text", "container": "none" },
+              { "id": "J5", "content": "", "content_type": "text", "container": "none" }
+            ],
+            "edges": [
+              { "from": "root", "to": "J1", "arrow_type": "straight" },
+              { "from": "J1", "to": "N1", "arrow_type": "curved" },
+              { "from": "J1", "to": "J2", "arrow_type": "straight", "relation_label": "X" },
+              { "from": "J2", "to": "N2", "arrow_type": "curved" },
+              { "from": "J2", "to": "J3", "arrow_type": "straight" },
+              { "from": "J3", "to": "J4", "arrow_type": "curved" },
+              { "from": "J3", "to": "J5", "arrow_type": "straight" },
+              { "from": "J4", "to": "N3", "arrow_type": "curved" },
+              { "from": "J4", "to": "N4", "arrow_type": "curved" },
+              { "from": "J5", "to": "N5", "arrow_type": "curved" },
+              { "from": "J5", "to": "N6", "arrow_type": "curved" }
+            ]
+          },
+          "layout_specification": {
+            "layout_type": "hierarchical",
+            "direction": "bottom_to_top",
+            "nested_containers": [
+              { "id": "Box1", "contains": ["N1", "N2", "N3", "N4", "N5", "N6"] },
+              { "id": "Box2", "contains": ["N2", "N3", "N4", "N5", "N6"], "excludes": ["N1"] },
+              { "id": "Box3", "contains": ["N3", "N4", "N5", "N6"], "excludes": ["N1", "N2"] },
+              { "id": "Box4", "contains": ["N5", "N6"], "excludes": ["N1", "N2", "N3", "N4"] }
+            ]
+          },
+          "rendering_hints": {
+            "junction_style": "open_circle",
+            "line_weight": "thick",
+            "marker_label": "X"
+          }
+        }
+      ]
+    }
+  },
+
+  "solution": {
+    "correct_answer": "D",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify a trait present in amphibians, reptiles, birds, and mammals but absent in fish",
+          "marks": 1,
+          "keywords": ["limbs", "tetrapods", "fish exclusion"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 21,
+        "misconception": "Assuming fish lack a backbone",
+        "pedagogical_note": "Fish are vertebrates and do possess a backbone"
+      },
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 23,
+        "misconception": "Overgeneralizing egg-laying",
+        "pedagogical_note": "Many fish also reproduce by laying eggs"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 8,
+        "misconception": "Restricting mammalian traits incorrectly",
+        "pedagogical_note": "Hair is unique to mammals, not shared by all groups shown"
+      }
+    ],
+    "expert_comment": "Well-developed limbs are present in all tetrapods (amphibians onwards) but absent in fish, making this the correct shared derived character."
+  },
+
+  "semantic": {
+    "concepts": [
+      "derived_characters",
+      "tetrapod_evolution",
+      "phylogenetic_trees"
+    ],
+    "prerequisites": [
+      "basic_vertebrate_groups",
+      "evolutionary_relationships"
+    ],
+    "question_pattern": "feature_identification_from_cladogram",
+    "reasoning_type": "inductive",
+    "asset_skill_no": 6,
+    "asset_skill_label": "Analysis of information to identify trends or properties"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 13,
+    "skill_no": 6,
+    "percent_correct": 47,
+    "option_distribution_percent": {
+      "A": 21,
+      "B": 23,
+      "C": 8,
+      "D": 47
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q14",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-01-31T18:10:00+05:30",
+    "last_modified": "2026-01-31T18:10:00+05:30",
+    "protocol_conformance": ["EQJS-2.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-01-31T18:10:00+05:30",
+      "checked_invariants": ["MCQ-INV-001", "ANSWER-INV-001"],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "physics",
+    "topic": [
+      "boiling_point",
+      "atmospheric_pressure",
+      "effects_of_altitude",
+      "heat_and_temperature"
+    ],
+    "difficulty": "hard",
+    "cognitive_level": "create",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 28
+  },
+
+  "content": {
+    "question_text": "Nisha went on a mountain camping trip. She decided to cook rice, in an open vessel, at night for all the campers. She knows that the boiling point of a liquid is directly proportional to pressure. What is she likely to find when cooking rice in the mountain camp as compared to cooking it in her home near the beach?",
+    "question_format": "mcq",
+    "options": {
+      "A": "It will take longer to cook, as the boiling point of water decreases.",
+      "B": "It will take longer to cook, as the boiling point of water increases.",
+      "C": "It will cook faster, as the boiling point of water decreases.",
+      "D": "It will cook faster, as the boiling point of water increases."
+    }
+  },
+
+  "solution": {
+    "correct_answer": "A",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Relate atmospheric pressure at high altitude to boiling point and cooking time",
+          "marks": 1,
+          "keywords": ["lower pressure", "lower boiling point", "longer cooking"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 38,
+        "misconception": "Assuming boiling point increases at higher altitude",
+        "pedagogical_note": "Atmospheric pressure decreases with altitude, lowering boiling point"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 21,
+        "misconception": "Thinking lower boiling point speeds up cooking",
+        "pedagogical_note": "Lower boiling point means lower cooking temperature"
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 13,
+        "misconception": "Confusing pressure–boiling point relationship",
+        "pedagogical_note": "Boiling point is directly proportional to pressure"
+      }
+    ],
+    "expert_comment": "At higher altitudes, atmospheric pressure is lower, so water boils at a lower temperature and food takes longer to cook."
+  },
+
+  "semantic": {
+    "concepts": [
+      "pressure_boiling_point_relationship",
+      "altitude_effects",
+      "thermal_cooking_process"
+    ],
+    "prerequisites": [
+      "states_of_matter",
+      "effect_of_pressure_on_liquids"
+    ],
+    "question_pattern": "real_world_application_prediction",
+    "reasoning_type": "predictive",
+    "asset_skill_no": 9,
+    "asset_skill_label": "Hypothesis formulation or prediction of outcome"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 14,
+    "skill_no": 9,
+    "percent_correct": 28,
+    "option_distribution_percent": {
+      "A": 28,
+      "B": 38,
+      "C": 21,
+      "D": 13
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q15",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-01-31T18:40:00+05:30",
+    "last_modified": "2026-01-31T18:40:00+05:30",
+    "protocol_conformance": ["EQJS-2.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-01-31T18:40:00+05:30",
+      "checked_invariants": ["MCQ-INV-001", "ANSWER-INV-001"],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "chemistry",
+    "topic": [
+      "electrolysis",
+      "electrodes",
+      "electrochemical_reactions"
+    ],
+    "difficulty": "hard",
+    "cognitive_level": "apply",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 27
+  },
+
+  "content": {
+    "question_text": "Consider an electrolysis setup with a copper rod as the anode and a silver rod as the cathode. Both rods weigh the same. The electrolyte is a copper sulphate solution of unknown weight. An electric current is passed through this setup for a few minutes and then both the electrodes are weighed again. Which of the following will be true about the weight of the copper rod after passing electric current as compared to its initial weight?",
+    "question_format": "mcq",
+    "options": {
+      "A": "It will be less.",
+      "B": "It will be more.",
+      "C": "It will be the same.",
+      "D": "Cannot say without knowing the weight of the electrolyte used."
+    }
+  },
+
+  "solution": {
+    "correct_answer": "A",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify the reaction occurring at the anode during electrolysis",
+          "marks": 1,
+          "keywords": ["anode", "oxidation", "loss of mass"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 34,
+        "misconception": "Assuming metal deposition occurs at the anode",
+        "pedagogical_note": "Deposition occurs at the cathode, not the anode"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 26,
+        "misconception": "Belief that mass remains unchanged",
+        "pedagogical_note": "Copper atoms dissolve into solution from the anode"
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 11,
+        "misconception": "Thinking electrolyte mass determines electrode change",
+        "pedagogical_note": "Electrode reactions depend on current and electrode material, not electrolyte mass"
+      }
+    ],
+    "expert_comment": "At the anode, copper atoms lose electrons and enter the solution as copper ions, causing the copper rod to lose mass."
+  },
+
+  "semantic": {
+    "concepts": [
+      "electrolysis",
+      "anode_reaction",
+      "oxidation"
+    ],
+    "prerequisites": [
+      "basic_electrochemistry",
+      "definitions_of_anode_and_cathode"
+    ],
+    "question_pattern": "process_outcome_application",
+    "reasoning_type": "procedural",
+    "asset_skill_no": 2,
+    "asset_skill_label": "Knowledge of use of scientific instruments, tools and procedures"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 15,
+    "skill_no": 2,
+    "percent_correct": 27,
+    "option_distribution_percent": {
+      "A": 27,
+      "B": 34,
+      "C": 26,
+      "D": 11
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q16",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-01-31T19:05:00+05:30",
+    "last_modified": "2026-01-31T19:05:00+05:30",
+    "protocol_conformance": ["EQJS-2.0", "TBL-1.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-01-31T19:05:00+05:30",
+      "checked_invariants": ["MCQ-INV-001", "ANSWER-INV-001"],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "biology",
+    "topic": [
+      "classification_of_living_organisms",
+      "cell_organization",
+      "unicellular_multicellular"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "understand",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 44
+  },
+
+  "content": {
+    "question_text": "David divided some organisms into two groups as shown below. Which of the following criteria would David have used to divide them?",
+    "question_format": "mcq",
+    "options": {
+      "A": "Are they prokaryotic or eukaryotic?",
+      "B": "Are they unicellular or multicellular?",
+      "C": "Are they autotrophs or heterotrophs?",
+      "D": "Are they pathogenic or non-pathogenic?"
+    },
+    "stimulus": {
+      "tables": [
+        {
+          "table_id": "stimulus_table_q16",
+          "protocol": "TBL-1.0",
+          "caption": "Grouping of organisms",
+          "columns": ["Group 1", "Group 2"],
+          "rows": [
+            ["Bacteria", "Penicillium"],
+            ["Amoeba", "Mango plant"]
+          ]
+        }
+      ]
+    }
+  },
+
+  "solution": {
+    "correct_answer": "B",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify the shared characteristic within each group",
+          "marks": 1,
+          "keywords": ["unicellular", "multicellular", "classification"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 22,
+        "misconception": "Assuming prokaryotic–eukaryotic separation",
+        "pedagogical_note": "Amoeba and Penicillium are both eukaryotic but placed in different groups"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 17,
+        "misconception": "Confusing nutrition mode with cellular organization",
+        "pedagogical_note": "Both groups contain heterotrophs and autotrophs"
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 15,
+        "misconception": "Assuming grouping by disease-causing ability",
+        "pedagogical_note": "Pathogenicity is not consistently shared within either group"
+      }
+    ],
+    "expert_comment": "Bacteria and Amoeba are unicellular organisms, while Penicillium and mango plant are multicellular, making unicellular vs multicellular the correct classification criterion."
+  },
+
+  "semantic": {
+    "concepts": [
+      "unicellular_organisms",
+      "multicellular_organisms",
+      "biological_classification"
+    ],
+    "prerequisites": [
+      "cell_types",
+      "basic_organism_groups"
+    ],
+    "question_pattern": "grouping_by_shared_property",
+    "reasoning_type": "conceptual",
+    "asset_skill_no": 3,
+    "asset_skill_label": "Classification/comparison of organisms/processes; giving examples"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 16,
+    "skill_no": 3,
+    "percent_correct": 44,
+    "option_distribution_percent": {
+      "A": 22,
+      "B": 44,
+      "C": 17,
+      "D": 15
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q17",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-01-31T19:35:00+05:30",
+    "last_modified": "2026-01-31T19:35:00+05:30",
+    "protocol_conformance": ["EQJS-2.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-01-31T19:35:00+05:30",
+      "checked_invariants": ["MCQ-INV-001", "ANSWER-INV-001"],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "chemistry",
+    "topic": [
+      "laboratory_apparatus",
+      "measurement_of_liquids",
+      "volume_scales"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "apply",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 32
+  },
+
+  "content": {
+    "question_text": "Shown below is the scale on a container used to measure liquids. Which of the following containers is this scale likely to belong to?",
+    "question_format": "mcq",
+    "options": {
+      "A": "Container A",
+      "B": "Container B",
+      "C": "Container C",
+      "D": "Container D"
+    },
+    "stimulus": {
+      "diagrams": [
+        {
+          "diagram_id": "stimulus_scale_q17",
+          "type": "graduated_scale",
+          "semantic_description": "Vertical graduated scale showing volume markings from 400 mL to 1000 mL at 100 mL intervals.",
+          "structured_data": {
+            "scale_orientation": "vertical",
+            "range_mL": [400, 1000],
+            "interval_mL": 100,
+            "total_marks": 7,
+            "graduation_positions_cm": {
+              "400": 0,
+              "500": 0.3,
+              "600": 0.73,
+              "700": 1.2,
+              "800": 1.7,
+              "900": 2.35,
+              "1000": 3.1
+            },
+            "visual_notes": [
+              "Right edge of container shown",
+              "Straight vertical wall",
+              "Horizontal graduation marks",
+              "Flat rim at top"
+            ]
+          }
+        },
+        {
+          "diagram_id": "stimulus_labware_options_q17",
+          "type": "labware_selection",
+          "semantic_description": "Four laboratory vessels shown as outlines for identification.",
+          "structured_data": {
+            "options": {
+              "A": "Erlenmeyer flask (conical flask)",
+              "B": "Round-bottom flask",
+              "C": "Pear-shaped flask",
+              "D": "Beaker"
+            }
+          }
+        }
+      ]
+    }
+  },
+
+  "solution": {
+    "correct_answer": "A",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Match the scale shape and markings to the geometry of the container",
+          "marks": 1,
+          "keywords": ["straight sides", "graduations", "volume measurement"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 46,
+        "misconception": "Assuming all straight scales belong to beakers",
+        "pedagogical_note": "Beakers have wider openings and spouts, and their scales are usually less precise"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 12,
+        "misconception": "Ignoring container geometry",
+        "pedagogical_note": "Pear-shaped flasks do not have uniform cross-sections suitable for linear scales"
+      },
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 9,
+        "misconception": "Confusing round-bottom flasks with measuring vessels",
+        "pedagogical_note": "Round-bottom flasks are not used for accurate volume measurement"
+      }
+    ],
+    "expert_comment": "A container with straight sides and evenly spaced graduation marks corresponds best to a conical flask with a graduated scale."
+  },
+
+  "semantic": {
+    "concepts": [
+      "volume_measurement",
+      "graduated_containers",
+      "laboratory_glassware"
+    ],
+    "prerequisites": [
+      "basic_lab_apparatus",
+      "reading_scales"
+    ],
+    "question_pattern": "instrument_identification",
+    "reasoning_type": "procedural",
+    "asset_skill_no": 2,
+    "asset_skill_label": "Knowledge of use of scientific instruments, tools and procedures"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 17,
+    "skill_no": 2,
+    "percent_correct": 32,
+    "option_distribution_percent": {
+      "A": 32,
+      "B": 9,
+      "C": 12,
+      "D": 46
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q18",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-01-31T20:05:00+05:30",
+    "last_modified": "2026-01-31T20:05:00+05:30",
+    "protocol_conformance": ["EQJS-2.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-01-31T20:05:00+05:30",
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001",
+        "GRAPH-INV-AXES",
+        "GRAPH-INV-MONOTONICITY"
+      ],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "biology",
+    "topic": [
+      "transpiration",
+      "plant_physiology",
+      "data_interpretation"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "analyze",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 29
+  },
+
+  "content": {
+    "question_text": "Shown below is a graph of the rate of transpiration versus the number of leaves remaining on a tomato plant. Which of the following statements about transpiration can be deduced from the graph?",
+    "question_format": "mcq",
+    "options": {
+      "A": "Transpiration occurs through the stomata.",
+      "B": "Transpiration also occurs through plant parts other than leaves.",
+      "C": "The rate of transpiration is high in certain environmental conditions.",
+      "D": "Each leaf loses the same amount of water vapour through transpiration."
+    },
+    "stimulus": {
+      "diagrams": [
+        {
+          "diagram_id": "stimulus_transpiration_graph_q18",
+          "type": "line_graph",
+          "semantic_description": "Line graph showing increase in transpiration rate with increasing number of leaves on a tomato plant.",
+          "structured_data": {
+            "x_axis": {
+              "label": "Leaves Remaining",
+              "range": [0, 6],
+              "ticks": [0, 1, 2, 3, 4, 5, 6],
+              "arrowed": true
+            },
+            "y_axis": {
+              "label": "Transpiration Rate (ul/min)",
+              "range": [0.0, 14.0],
+              "ticks": [0.0, 2.0, 4.0, 6.0, 8.0, 10.0, 12.0, 14.0],
+              "arrowed": true
+            },
+            "gridlines": {
+              "horizontal": true,
+              "vertical": false
+            },
+            "data_points": [
+              { "x": 0, "y": 1.5 },
+              { "x": 1, "y": 3.8 },
+              { "x": 2, "y": 4.3 },
+              { "x": 3, "y": 5.2 },
+              { "x": 4, "y": 7.1 },
+              { "x": 5, "y": 12.4 }
+            ],
+            "line_style": {
+              "type": "smooth_curve",
+              "color": "black",
+              "weight": "medium"
+            },
+            "marker_style": {
+              "shape": "filled_circle",
+              "color": "grey",
+              "size": "medium"
+            }
+          }
+        }
+      ]
+    }
+  },
+
+  "solution": {
+    "correct_answer": "B",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Interpret transpiration rate when no leaves are present",
+          "marks": 1,
+          "keywords": ["baseline transpiration", "non-leaf transpiration"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 29,
+        "misconception": "Assuming all transpiration occurs only through stomata",
+        "pedagogical_note": "The graph shows transpiration even when leaves are absent"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 26,
+        "misconception": "Attributing changes to environmental conditions",
+        "pedagogical_note": "Environmental variables are not represented on the graph"
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 15,
+        "misconception": "Assuming equal contribution from each leaf",
+        "pedagogical_note": "The curve is non-linear, indicating unequal contribution"
+      }
+    ],
+    "expert_comment": "Since transpiration occurs even when zero leaves remain, the graph shows that transpiration also occurs through other plant parts such as the stem."
+  },
+
+  "semantic": {
+    "concepts": [
+      "transpiration_paths",
+      "plant_surface_water_loss",
+      "graphical_inference"
+    ],
+    "prerequisites": [
+      "basic_transpiration",
+      "reading_line_graphs"
+    ],
+    "question_pattern": "deduction_from_graph",
+    "reasoning_type": "analytical",
+    "asset_skill_no": 6,
+    "asset_skill_label": "Analysis of information to identify trends or properties"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 18,
+    "skill_no": 6,
+    "percent_correct": 29,
+    "option_distribution_percent": {
+      "A": 29,
+      "B": 29,
+      "C": 26,
+      "D": 15
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q19",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-01-31T20:30:00+05:30",
+    "last_modified": "2026-01-31T20:30:00+05:30",
+    "protocol_conformance": ["EQJS-2.0", "IMG-1.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-01-31T20:30:00+05:30",
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001",
+        "IMG-STIMULUS-INV"
+      ],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "biology",
+    "topic": [
+      "plant_growth",
+      "insect_plant_interactions",
+      "cell_division"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "apply",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 46
+  },
+
+  "content": {
+    "question_text": "Eurosta solidaginis is a species of flies whose larvae grow inside a plant part that has rapidly dividing cells. The larvae release a chemical that causes a gall (growth which resembles swelling) to form around the plant part. This gall provides the insect larvae with protection. In which part of the plant is a gall likely to be formed?",
+    "question_format": "mcq",
+    "options": {
+      "A": "mature leaf",
+      "B": "ripened fruit",
+      "C": "tip of a shoot",
+      "D": "bark of a tree"
+    },
+    "stimulus": {
+      "images": [
+        {
+          "image_id": "stimulus_image_fly",
+          "description": "Eurosta solidaginis fly",
+          "role": "organism_reference"
+        },
+        {
+          "image_id": "stimulus_image_gall",
+          "description": "Gall formed by insect larvae",
+          "role": "phenomenon_reference"
+        }
+      ]
+    }
+  },
+
+  "solution": {
+    "correct_answer": "C",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify plant regions with actively dividing (meristematic) cells",
+          "marks": 1,
+          "keywords": ["meristem", "cell division", "growth region"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 17,
+        "misconception": "Assuming mature tissues divide rapidly",
+        "pedagogical_note": "Mature leaves have limited cell division"
+      },
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 23,
+        "misconception": "Confusing growth with storage tissues",
+        "pedagogical_note": "Ripened fruits are not sites of active cell division"
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 13,
+        "misconception": "Assuming bark contains rapidly dividing cells",
+        "pedagogical_note": "Bark is composed largely of dead or differentiated tissues"
+      }
+    ],
+    "expert_comment": "Galls form in regions with actively dividing cells; the tip of a shoot contains apical meristem tissue and is therefore the most likely site."
+  },
+
+  "semantic": {
+    "concepts": [
+      "meristematic_tissue",
+      "gall_formation",
+      "plant_insect_interaction"
+    ],
+    "prerequisites": [
+      "plant_tissues",
+      "basic_plant_growth"
+    ],
+    "question_pattern": "application_of_biological_concept",
+    "reasoning_type": "conceptual_application",
+    "asset_skill_no": 5,
+    "asset_skill_label": "Extraction, translation and application of knowledge or information"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 19,
+    "skill_no": 5,
+    "percent_correct": 46,
+    "option_distribution_percent": {
+      "A": 17,
+      "B": 23,
+      "C": 46,
+      "D": 13
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q20",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-01-31T20:55:00+05:30",
+    "last_modified": "2026-01-31T20:55:00+05:30",
+    "protocol_conformance": ["EQJS-2.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-01-31T20:55:00+05:30",
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001"
+      ],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "physics",
+    "topic": [
+      "motion",
+      "speed_and_velocity",
+      "kinematics",
+      "inference_from_data"
+    ],
+    "difficulty": "hard",
+    "cognitive_level": "analyze",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 22
+  },
+
+  "content": {
+    "question_text": "Points P and Q are 10 km apart when joined by a straight line. Darshan sees a bicycle crossing P at a speed of 10 km/hr. Exactly an hour later he sees that it crosses Q at a speed of 10 km/hr. He has no more observations of the bicycle between P and Q. Which of the following can we conclude based on these two observations?",
+    "question_format": "mcq",
+    "options": {
+      "A": "The bicycle travelled in a straight line joining P and Q.",
+      "B": "The bicycle never attained zero speed between P and Q.",
+      "C": "The bicycle did not accelerate at any point between P and Q.",
+      "D": "None of the above can be concluded based on these observations."
+    }
+  },
+
+  "solution": {
+    "correct_answer": "D",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Evaluate which inferences are logically justified from limited speed observations",
+          "marks": 1,
+          "keywords": ["insufficient data", "multiple possibilities", "kinematics"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 26,
+        "misconception": "Assuming shortest distance implies straight-line motion",
+        "pedagogical_note": "The bicycle could have followed a curved or indirect path"
+      },
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 16,
+        "misconception": "Assuming constant motion between observations",
+        "pedagogical_note": "The bicycle may have stopped at some point between P and Q"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 36,
+        "misconception": "Assuming equal speeds at two points imply no acceleration",
+        "pedagogical_note": "The bicycle could have accelerated or decelerated between the two points"
+      }
+    ],
+    "expert_comment": "With only two speed observations at different points, nothing definite can be concluded about the path taken, stops made, or acceleration between P and Q."
+  },
+
+  "semantic": {
+    "concepts": [
+      "limits_of_observation",
+      "motion_inference",
+      "kinematic_reasoning"
+    ],
+    "prerequisites": [
+      "definition_of_speed",
+      "basic_motion_concepts"
+    ],
+    "question_pattern": "logical_inference_from_data",
+    "reasoning_type": "analytical",
+    "asset_skill_no": 6,
+    "asset_skill_label": "Analysis of information to identify trends or properties"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 20,
+    "skill_no": 6,
+    "percent_correct": 22,
+    "option_distribution_percent": {
+      "A": 26,
+      "B": 16,
+      "C": 36,
+      "D": 22
+    }
+  }
+},
+
+{
+  "stimulus_id": "Ei_ASSET_Sci_3A124_SHARED_Q21_Q22_Q23",
+  "stimulus_type": "shared_context",
+  "applies_to_questions": [
+    "Ei_ASSET_Sci_3A124_Q21",
+    "Ei_ASSET_Sci_3A124_Q22",
+    "Ei_ASSET_Sci_3A124_Q23"
+  ],
+  "content": {
+    "text_blocks": [
+      {
+        "block_id": "context_sonic_ranger",
+        "type": "context",
+        "content": "Answer questions 21, 22 and 23 based on the information provided. A sonic ranger is a device that measures object distance by sending ultrasonic waves, which bounce off the object and return as echoes. It has a speaker for emitting ultrasonic waves and a microphone to detect echoes. The time gap between emission and detection helps calculate the object's distance. It can also track moving objects by emitting short bursts of ultrasonic waves at regular intervals to generate position-time graphs."
+      }
+    ]
+  },
+  "semantic": {
+    "concepts": [
+      "ultrasonic_waves",
+      "echo",
+      "time_of_flight",
+      "distance_measurement",
+      "position_time_graphs",
+      "motion_tracking"
+    ],
+    "intended_use": "shared_stimulus_for_multiple_questions"
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q21",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-01-31T21:20:00+05:30",
+    "last_modified": "2026-01-31T21:20:00+05:30",
+    "protocol_conformance": ["EQJS-2.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-01-31T21:20:00+05:30",
+      "checked_invariants": ["MCQ-INV-001", "ANSWER-INV-001"],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "physics",
+    "topic": [
+      "sound",
+      "ultrasound",
+      "echo",
+      "measurement_limitations"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "apply",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 31
+  },
+
+  "content": {
+    "question_text": "A certain sonic ranger cannot measure object distances less than 100 cm from the sonic ranger. Which of the following can be a reason for this?",
+    "question_format": "mcq",
+    "options": {
+      "A": "For small distances, enough sound energy is NOT reflected for the microphone to detect.",
+      "B": "Echoes are not heard if the distance between the source and the object is less than 17 metres.",
+      "C": "If the object is too close, it may absorb the sound waves instead of reflecting them due to their high amplitude.",
+      "D": "For small distances, the time gap between the original and the reflected sound may be too small to measure accurately."
+    },
+    "stimulus_reference": "Ei_ASSET_Sci_3A124_SHARED_Q21_Q22_Q23"
+  },
+
+  "solution": {
+    "correct_answer": "D",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Relate minimum measurable distance to time resolution of the measuring device",
+          "marks": 1,
+          "keywords": ["time gap", "resolution", "echo detection"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 14,
+        "misconception": "Assuming weak reflection at close distances",
+        "pedagogical_note": "Closer objects reflect sufficient energy; time resolution is the limiting factor"
+      },
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 30,
+        "misconception": "Misapplying the 17 m echo-hearing limit to instruments",
+        "pedagogical_note": "That limit applies to human hearing, not electronic sensors"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 24,
+        "misconception": "Assuming absorption increases with amplitude at short distances",
+        "pedagogical_note": "Reflection depends on material properties, not proximity alone"
+      }
+    ],
+    "expert_comment": "At very small distances, the reflected ultrasonic signal returns too quickly for the device to distinguish it from the transmitted signal."
+  },
+
+  "semantic": {
+    "concepts": [
+      "time_of_flight",
+      "instrument_resolution",
+      "ultrasound_measurement"
+    ],
+    "prerequisites": [
+      "echo_principle",
+      "basic_sound_properties"
+    ],
+    "question_pattern": "reason_for_limitation",
+    "reasoning_type": "conceptual_application",
+    "asset_skill_no": 5,
+    "asset_skill_label": "Extraction, translation and application of knowledge or information"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 21,
+    "skill_no": 5,
+    "percent_correct": 31,
+    "option_distribution_percent": {
+      "A": 14,
+      "B": 30,
+      "C": 24,
+      "D": 31
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q22",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-01-31T21:45:00+05:30",
+    "last_modified": "2026-01-31T21:45:00+05:30",
+    "protocol_conformance": ["EQJS-2.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-01-31T21:45:00+05:30",
+      "checked_invariants": ["MCQ-INV-001", "ANSWER-INV-001"],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "physics",
+    "topic": [
+      "sound",
+      "echo",
+      "distance_measurement",
+      "ultrasound"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "apply",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 41
+  },
+
+  "content": {
+    "question_text": "Other than the time taken for the echo to be heard, what other information about the sound waves is needed to find the distance of the object?",
+    "question_format": "mcq",
+    "options": {
+      "A": "speed",
+      "B": "amplitude",
+      "C": "frequency",
+      "D": "No other information is required."
+    },
+    "stimulus_reference": "Ei_ASSET_Sci_3A124_SHARED_Q21_Q22_Q23"
+  },
+
+  "solution": {
+    "correct_answer": "A",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify the physical quantity required to convert time of flight into distance",
+          "marks": 1,
+          "keywords": ["speed of sound", "distance calculation"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 21,
+        "misconception": "Confusing signal strength with distance calculation",
+        "pedagogical_note": "Amplitude affects detectability, not distance computation"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 28,
+        "misconception": "Assuming frequency determines distance",
+        "pedagogical_note": "Frequency affects wavelength, not time–distance conversion"
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 9,
+        "misconception": "Ignoring the need for speed in time–distance relationships",
+        "pedagogical_note": "Distance = speed × time (÷2 for echo)"
+      }
+    ],
+    "expert_comment": "To calculate distance from echo time, the speed of sound in the medium must be known."
+  },
+
+  "semantic": {
+    "concepts": [
+      "speed_of_sound",
+      "time_distance_relation",
+      "echo_calculation"
+    ],
+    "prerequisites": [
+      "basic_wave_properties",
+      "definition_of_speed"
+    ],
+    "question_pattern": "required_information_identification",
+    "reasoning_type": "procedural",
+    "asset_skill_no": 2,
+    "asset_skill_label": "Knowledge of use of scientific instruments, tools and procedures"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 22,
+    "skill_no": 2,
+    "percent_correct": 41,
+    "option_distribution_percent": {
+      "A": 41,
+      "B": 21,
+      "C": 28,
+      "D": 9
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q23",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-01-31T22:10:00+05:30",
+    "last_modified": "2026-01-31T22:10:00+05:30",
+    "protocol_conformance": ["EQJS-2.0", "TBL-1.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-01-31T22:10:00+05:30",
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001",
+        "GRAPH-INV-TIME-CONSISTENCY"
+      ],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "physics",
+    "topic": [
+      "motion",
+      "ultrasonic_distance_measurement",
+      "position_time_graphs",
+      "velocity"
+    ],
+    "difficulty": "hard",
+    "cognitive_level": "analyze",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 16
+  },
+
+  "content": {
+    "question_text": "A student wants to measure the velocity of an object using a sonic ranger which emits a short burst of ultrasonic waves every 1 ms. The microphone of the sonic ranger detects the echoes reflected from the object. The table below shows the time when the bursts of ultrasonic waves are emitted and the time when their corresponding echoes are detected. What will the position-time graph for the object look like?",
+    "question_format": "mcq",
+    "options": {
+      "A": "Graph A",
+      "B": "Graph B",
+      "C": "Graph C",
+      "D": "Graph D"
+    },
+    "stimulus_reference": "Ei_ASSET_Sci_3A124_SHARED_Q21_Q22_Q23",
+    "stimulus": {
+      "tables": [
+        {
+          "table_id": "stimulus_table_q23",
+          "protocol": "TBL-1.0",
+          "caption": "Emission and echo detection times",
+          "columns": [
+            "Time when the burst of ultrasonic wave is emitted (ms)",
+            "Time when the corresponding echo is detected (ms)"
+          ],
+          "rows": [
+            ["0", "2"],
+            ["1", "3"],
+            ["2", "4"],
+            ["3", "5"],
+            ["4", "6"]
+          ]
+        }
+      ],
+      "diagrams": [
+        {
+          "diagram_id": "stimulus_position_time_graphs_q23",
+          "type": "graph_mcq_set",
+          "semantic_description": "Four possible position–time graphs representing different types of motion.",
+          "structured_data": {
+            "common_axes": {
+              "x_axis": {
+                "label": "Time",
+                "ticks": "none",
+                "arrowed": true
+              },
+              "y_axis": {
+                "label": "Position",
+                "ticks": "none",
+                "arrowed": true
+              }
+            },
+            "graphs": {
+              "A": {
+                "shape": "horizontal_line",
+                "description": "Constant position over time (object at rest)"
+              },
+              "B": {
+                "shape": "straight_line_through_origin",
+                "description": "Constant positive velocity, starting from zero position"
+              },
+              "C": {
+                "shape": "straight_line_positive_slope_offset",
+                "description": "Constant positive velocity with non-zero initial position"
+              },
+              "D": {
+                "shape": "upward_curving_line",
+                "description": "Increasing velocity (positive acceleration)"
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+
+  "solution": {
+    "correct_answer": "A",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Interpret constant echo delay as constant distance from the sonic ranger",
+          "marks": 1,
+          "keywords": ["constant time gap", "constant position", "zero velocity"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 42,
+        "misconception": "Assuming increasing time implies motion",
+        "pedagogical_note": "The echo delay remains constant, indicating no change in position"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 28,
+        "misconception": "Interpreting offset incorrectly",
+        "pedagogical_note": "There is no evidence of changing position over time"
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 14,
+        "misconception": "Confusing repeated measurements with acceleration",
+        "pedagogical_note": "Acceleration would require changing echo time gaps"
+      }
+    ],
+    "expert_comment": "Since the time difference between emission and echo detection remains constant for each burst, the object remains at a fixed distance from the sonic ranger."
+  },
+
+  "semantic": {
+    "concepts": [
+      "time_of_flight",
+      "constant_position",
+      "velocity_zero"
+    ],
+    "prerequisites": [
+      "distance_measurement_using_echo",
+      "position_time_graphs"
+    ],
+    "question_pattern": "graph_selection_from_data",
+    "reasoning_type": "analytical",
+    "asset_skill_no": 7,
+    "asset_skill_label": "Advanced or complex data representation or interpretation"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 23,
+    "skill_no": 7,
+    "percent_correct": 16,
+    "option_distribution_percent": {
+      "A": 16,
+      "B": 42,
+      "C": 28,
+      "D": 14
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q24",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-01-31T22:30:00+05:30",
+    "last_modified": "2026-02-01T10:30:00+05:30",
+    "protocol_conformance": ["EQJS-2.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-02-01T10:30:00+05:30",
+      "checked_invariants": ["MCQ-INV-001", "ANSWER-INV-001"],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "chemistry",
+    "topic": [
+      "states_of_matter",
+      "particle_model_of_matter",
+      "solutions_and_mixtures",
+      "intermolecular_forces"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "understand",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 53
+  },
+
+  "content": {
+    "question_text": "Salim mixed together 50 mL of alcohol and 50 mL of water. The volume of the mixture was less than 100 mL. Which of the following is the likely reason for the volume of the mixture being less than the sum of the volumes of the two liquids?",
+    "question_format": "mcq",
+    "options": {
+      "A": "The alcohol molecules become smaller due to the pressure of the water molecules.",
+      "B": "The alcohol molecules get into the spaces between the water molecules.",
+      "C": "The temperature of the mixture decreases and the liquids contract.",
+      "D": "Water molecules evaporate when mixed with alcohol molecules."
+    }
+  },
+
+  "solution": {
+    "correct_answer": "B",
+
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Select the option that best matches the particle-level explanation expected by the test",
+          "marks": 1,
+          "keywords": ["volume contraction", "mixing liquids"]
+        }
+      ]
+    },
+
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 12,
+        "misconception": "Belief that molecules shrink in size under pressure",
+        "pedagogical_note": "Molecular size does not change during mixing"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 12,
+        "misconception": "Assuming temperature change is responsible for contraction",
+        "pedagogical_note": "No temperature change is specified or required"
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 22,
+        "misconception": "Assuming evaporation explains volume decrease",
+        "pedagogical_note": "Evaporation does not account for immediate volume contraction"
+      }
+    ],
+
+    "expert_comment": "Although option B is the expected answer in this assessment framework, this question is scientifically imprecise. The decrease in volume when alcohol and water are mixed arises primarily due to a reduction in average intermolecular (hydrogen bonding) distances, not because alcohol molecules occupy pre-existing ‘empty spaces’ between water molecules. Liquids do not contain large voids; their particles are already closely packed. This question risks reinforcing a common misconception about the structure of liquids.",
+
+    "expert_caveat": {
+      "issue_type": "conceptual_flaw",
+      "description": "The particle-spacing explanation is an oversimplification that conflicts with accurate molecular models of liquids.",
+      "risk": "Reinforces the incorrect idea that liquid particles have significant empty spaces between them.",
+      "preferred_explanation": "Volume contraction occurs because intermolecular attractions (especially hydrogen bonding) allow molecules to pack more efficiently after mixing."
+    }
+  },
+
+  "semantic": {
+    "concepts": [
+      "intermolecular_forces",
+      "hydrogen_bonding",
+      "volume_contraction",
+      "limitations_of_particle_models"
+    ],
+    "prerequisites": [
+      "basic_particle_model",
+      "properties_of_liquids"
+    ],
+    "question_pattern": "explanation_of_observed_phenomenon",
+    "reasoning_type": "conceptual",
+    "asset_skill_no": 4,
+    "asset_skill_label": "Representing, relating or explaining scientific processes or observed phenomena"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 24,
+    "skill_no": 4,
+    "percent_correct": 53,
+    "option_distribution_percent": {
+      "A": 12,
+      "B": 53,
+      "C": 12,
+      "D": 22
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q25",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-02-01T11:15:00+05:30",
+    "last_modified": "2026-02-01T11:15:00+05:30",
+    "protocol_conformance": ["EQJS-2.0", "LAB-DIAG-1.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-02-01T11:15:00+05:30",
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001",
+        "SYSTEM-BOUNDARY-INV"
+      ],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "chemistry",
+    "topic": [
+      "law_of_conservation_of_matter",
+      "chemical_reactions",
+      "open_and_closed_systems"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "analyze",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 52
+  },
+
+  "content": {
+    "question_text": "The law of conservation of matter states that matter cannot be created or destroyed in a chemical reaction. Rustom heated mercuric oxide in a test tube, as shown in the picture, and obtained mercury according to the following reaction:\n\n2HgO (s) → 2Hg (l) + O₂ (g)\n\nHe found that the mass of the test tube and its contents decreased after the reaction. He concluded that the law of conservation of matter does not apply to this reaction. Is his conclusion correct?",
+    "question_format": "mcq",
+    "options": {
+      "A": "Yes, because the weight of the test tube and its contents is less.",
+      "B": "No, because the product, oxygen, is lighter than mercuric oxide.",
+      "C": "Yes, because the reactants are completely changed to products.",
+      "D": "No, because he did not carry out the reaction in a closed test tube."
+    },
+    "stimulus": {
+      "diagrams": [
+        {
+          "diagram_id": "stimulus_lab_heating_hgo",
+          "protocol": "LAB-DIAG-1.0",
+          "type": "laboratory_apparatus_setup",
+          "semantic_description": "Heating mercuric oxide in a test tube using a Bunsen burner in an open system.",
+          "structured_data": {
+            "apparatus": [
+              "retort_stand",
+              "clamp",
+              "test_tube",
+              "bunsen_burner"
+            ],
+            "materials": [
+              "mercuric_oxide"
+            ],
+            "system_type": "open",
+            "key_feature": "gaseous_product_can_escape"
+          }
+        }
+      ]
+    }
+  },
+
+  "solution": {
+    "correct_answer": "D",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify the effect of an open system on mass measurements",
+          "marks": 1,
+          "keywords": ["open system", "escaping gas", "mass conservation"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 9,
+        "misconception": "Assuming mass loss invalidates conservation law",
+        "pedagogical_note": "Mass must be measured for the entire system, including escaped gases"
+      },
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 23,
+        "misconception": "Confusing relative density with conservation of mass",
+        "pedagogical_note": "Mass conservation does not depend on whether products are lighter or heavier"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 16,
+        "misconception": "Assuming chemical change violates conservation laws",
+        "pedagogical_note": "Chemical reactions rearrange matter but do not destroy it"
+      }
+    ],
+    "expert_comment": "The apparent decrease in mass occurs because oxygen gas escapes from the open test tube. If the reaction were carried out in a closed system, the total mass before and after the reaction would remain the same, in accordance with the law of conservation of matter."
+  },
+
+  "semantic": {
+    "concepts": [
+      "open_vs_closed_systems",
+      "mass_measurement",
+      "gaseous_products"
+    ],
+    "prerequisites": [
+      "definition_of_conservation_of_mass",
+      "basic_chemical_reactions"
+    ],
+    "question_pattern": "evaluation_of_experimental_conclusion",
+    "reasoning_type": "experimental_reasoning",
+    "asset_skill_no": 10,
+    "asset_skill_label": "Design of appropriate apparatus, experiment or activity for scientific investigation"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 25,
+    "skill_no": 10,
+    "percent_correct": 52,
+    "option_distribution_percent": {
+      "A": 9,
+      "B": 23,
+      "C": 16,
+      "D": 52
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q26",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-02-01T11:40:00+05:30",
+    "last_modified": "2026-02-01T11:40:00+05:30",
+    "protocol_conformance": ["EQJS-2.0", "PHY-DIAG-1.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-02-01T11:40:00+05:30",
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001",
+        "FORCE-EQUILIBRIUM-INV"
+      ],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "physics",
+    "topic": [
+      "simple_machines",
+      "pulleys",
+      "forces",
+      "equilibrium"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "understand",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 22
+  },
+
+  "content": {
+    "question_text": "A simple fixed pulley is a machine that helps in only changing the direction of force needed to lift an object. Ravi and Sammy are each holding a 20 kg block using pulleys as shown below. The heights at which the blocks are held stationary are different. Which of the following statements is true about the FORCES applied by Ravi and Sammy to keep the blocks in place and why?",
+    "question_format": "mcq",
+    "options": {
+      "A": "Ravi is applying more force as his block is lower.",
+      "B": "Sammy is applying more force as his block is higher.",
+      "C": "Both Ravi and Sammy are applying zero force as the blocks are stationary.",
+      "D": "Both Ravi and Sammy are applying the same force as the blocks weigh the same."
+    },
+    "stimulus": {
+      "diagrams": [
+        {
+          "diagram_id": "stimulus_pulley_comparison_q26",
+          "protocol": "PHY-DIAG-1.0",
+          "type": "pulley_system_comparison",
+          "semantic_description": "Comparison of a single fixed pulley and a fixed-plus-movable pulley holding identical loads stationary.",
+          "structured_data": {
+            "left_setup": {
+              "person": "Ravi",
+              "pulley_type": "single_fixed_pulley",
+              "load_mass_kg": 20,
+              "load_height": "lower"
+            },
+            "right_setup": {
+              "person": "Sammy",
+              "pulley_type": "fixed_and_movable_pulley",
+              "load_mass_kg": 20,
+              "load_height": "higher"
+            },
+            "state": "static_equilibrium"
+          }
+        }
+      ]
+    }
+  },
+
+  "solution": {
+    "correct_answer": "D",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Recognise that in static equilibrium the force applied balances the weight of the load",
+          "marks": 1,
+          "keywords": ["same weight", "equilibrium", "force balance"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 17,
+        "misconception": "Assuming lower position requires greater force",
+        "pedagogical_note": "Force depends on load and pulley type, not height alone"
+      },
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 48,
+        "misconception": "Confusing load height with applied force",
+        "pedagogical_note": "A higher load does not necessarily mean greater applied force"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 13,
+        "misconception": "Belief that no force is needed to hold an object stationary",
+        "pedagogical_note": "A force equal to the weight is required to maintain equilibrium"
+      }
+    ],
+    "expert_comment": "Even though the pulley arrangements and heights differ, both blocks have the same weight and are held stationary. Therefore, the forces applied must balance the same weight, resulting in equal forces being applied in both cases."
+  },
+
+  "semantic": {
+    "concepts": [
+      "force_balance",
+      "static_equilibrium",
+      "simple_machines"
+    ],
+    "prerequisites": [
+      "concept_of_force",
+      "weight_of_objects"
+    ],
+    "question_pattern": "conceptual_reasoning_about_forces",
+    "reasoning_type": "conceptual",
+    "asset_skill_no": 1,
+    "asset_skill_label": "Recollection or recognition of science facts and concepts"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 26,
+    "skill_no": 1,
+    "percent_correct": 22,
+    "option_distribution_percent": {
+      "A": 17,
+      "B": 48,
+      "C": 13,
+      "D": 22
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q27",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-02-01T14:10:00+05:30",
+    "last_modified": "2026-02-01T14:10:00+05:30",
+    "protocol_conformance": ["EQJS-2.0", "CHEM-DIAG-1.0"],
+    "validation_status": {
+      "validated": true,
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001",
+        "CHROMATOGRAPHY-2D-INV"
+      ]
+    }
+  },
+
+  "classification": {
+    "subject": "chemistry",
+    "topic": [
+      "chromatography",
+      "separation_of_mixtures",
+      "purity_of_substances",
+      "solubility"
+    ],
+    "difficulty": "hard",
+    "cognitive_level": "analyze",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 29
+  },
+
+  "content": {
+    "question_text": "Paper chromatography is a technique that separates compounds based on their differential solubility in a solvent. Naved performed paper chromatography to separate two samples P and Q (Fig. 1). As seen in Fig. 2, sample P gave rise to one dot on the paper whereas sample Q gave rise to two dots. Next, he rotated the chromatogram obtained in Fig. 2 by 90° and used it as the starting position for a second chromatography run using a different solvent, as shown in Fig. 3. What can he find out from the experiment shown in Fig. 3?",
+    "question_format": "mcq",
+    "options": {
+      "A": "whether the components will react with one another to form a compound or not",
+      "B": "whether the components are of the same amount or not",
+      "C": "whether the components obtained are pure or not",
+      "D": "He cannot find out anything from this experiment."
+    },
+    "stimulus": {
+      "diagrams": [
+        {
+          "diagram_id": "stimulus_chromatography_q27",
+          "protocol": "CHEM-DIAG-1.0",
+          "type": "two_dimensional_chromatography",
+          "semantic_description": "Two-dimensional paper chromatography showing first separation, rotation of chromatogram, and start of second run with a different solvent.",
+          "structured_data": {
+            "Fig1": {
+              "stage": "start_first_run",
+              "sample_position": "just_above_solvent_front",
+              "samples": ["P", "Q"],
+              "relative_height": "equal"
+            },
+            "Fig2": {
+              "stage": "end_first_run",
+              "separation_result": {
+                "P": { "components": 1 },
+                "Q": { "components": 2 }
+              }
+            },
+            "Fig3": {
+              "stage": "start_second_run",
+              "operation": [
+                "chromatogram_rotated_90_degrees",
+                "new_solvent_used"
+              ],
+              "spots_same_as_fig2": true,
+              "solvent_front_orientation": "horizontal",
+              "purpose": "test_purity_of_separated_components"
+            }
+          }
+        }
+      ]
+    }
+  },
+
+  "solution": {
+    "correct_answer": "C",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify that a second run with a different solvent tests whether previously separated spots represent pure substances",
+          "marks": 1
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 29,
+        "misconception": "Assuming chromatography can test chemical reactivity",
+        "pedagogical_note": "Chromatography separates substances but does not indicate reactions"
+      },
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 25,
+        "misconception": "Believing spot position or number indicates quantity",
+        "pedagogical_note": "Chromatography here is qualitative, not quantitative"
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 16,
+        "misconception": "Not recognising the purpose of a second run with a different solvent",
+        "pedagogical_note": "Changing solvent can reveal whether a spot is a mixture or a pure substance"
+      }
+    ],
+    "expert_comment": "Running the chromatogram again with a different solvent allows testing whether each spot obtained in the first run is pure. If a spot separates further in the second run, it indicates that the original spot was a mixture."
+  },
+
+  "semantic": {
+    "concepts": [
+      "two_dimensional_chromatography",
+      "solvent_dependent_solubility",
+      "purity_testing"
+    ],
+    "prerequisites": [
+      "basic_chromatography",
+      "mixtures_and_pure_substances"
+    ],
+    "question_pattern": "interpretation_of_experimental_extension",
+    "reasoning_type": "analytical",
+    "asset_skill_no": 9,
+    "asset_skill_label": "Hypothesis formulation or prediction of outcome"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 27,
+    "skill_no": 9,
+    "percent_correct": 29,
+    "option_distribution_percent": {
+      "A": 29,
+      "B": 25,
+      "C": 29,
+      "D": 16
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q28",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-02-01T14:40:00+05:30",
+    "last_modified": "2026-02-01T14:40:00+05:30",
+    "protocol_conformance": ["EQJS-2.0"],
+    "validation_status": {
+      "validated": true,
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001"
+      ]
+    }
+  },
+
+  "classification": {
+    "subject": "biology",
+    "topic": [
+      "microorganisms",
+      "antibiotics",
+      "human_health",
+      "gut_microbiome"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "understand",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 29
+  },
+
+  "content": {
+    "question_text": "When Amrita was treated for a bacterial infection, she was given an antibiotic. The doctor also gave her a medication containing a high concentration of another species of bacteria. What could be the reason for this?",
+    "question_format": "mcq",
+    "options": {
+      "A": "to make the antibiotic stronger and more effective",
+      "B": "to restore the population of useful intestinal bacteria",
+      "C": "to compete with the infection causing bacteria for nutrients",
+      "D": "to produce substances that kill the infection causing bacteria"
+    }
+  },
+
+  "solution": {
+    "correct_answer": "B",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Recognise the role of beneficial bacteria after antibiotic treatment",
+          "marks": 1,
+          "keywords": ["probiotics", "gut bacteria", "antibiotics"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 24,
+        "misconception": "Belief that bacteria can enhance antibiotic action",
+        "pedagogical_note": "Antibiotics act independently; bacteria do not strengthen them"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 15,
+        "misconception": "Assuming beneficial bacteria directly compete with pathogens during treatment",
+        "pedagogical_note": "The primary purpose is restoration, not competition"
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 31,
+        "misconception": "Assuming administered bacteria act like antibiotics",
+        "pedagogical_note": "They are meant to replenish normal flora, not kill pathogens"
+      }
+    ],
+    "expert_comment": "Antibiotics can reduce populations of beneficial bacteria in the intestine. Providing useful bacteria helps restore the normal gut microbiome after treatment."
+  },
+
+  "semantic": {
+    "concepts": [
+      "beneficial_bacteria",
+      "antibiotic_effects",
+      "microbiome_balance"
+    ],
+    "prerequisites": [
+      "basic_microbiology",
+      "role_of_bacteria_in_humans"
+    ],
+    "question_pattern": "reason_for_medical_practice",
+    "reasoning_type": "conceptual",
+    "asset_skill_no": 1,
+    "asset_skill_label": "Recollection or recognition of science facts and concepts"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 28,
+    "skill_no": 1,
+    "percent_correct": 29,
+    "option_distribution_percent": {
+      "A": 24,
+      "B": 29,
+      "C": 15,
+      "D": 31
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q29",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-02-01T15:05:00+05:30",
+    "last_modified": "2026-02-01T15:05:00+05:30",
+    "protocol_conformance": ["EQJS-2.0", "VENN-1.0"],
+    "validation_status": {
+      "validated": true,
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001",
+        "SET-LOGIC-INV"
+      ]
+    }
+  },
+
+  "classification": {
+    "subject": "biology",
+    "topic": [
+      "diagnostic_tests",
+      "false_results",
+      "set_representation",
+      "data_interpretation"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "analyze",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 29
+  },
+
+  "content": {
+    "question_text": "In diagnostic tests, a false negative is a test result which means that an individual has the disease but the test has turned out to be negative. Consider the following Venn diagram where circle X represents individuals who have the disease and circle Y represents individuals who have tested positive for the disease. The box represents the entire population who got themselves tested. Which of the regions would represent an individual with a false negative test result?",
+    "question_format": "mcq",
+    "options": {
+      "A": "Region A",
+      "B": "Region B",
+      "C": "Region C",
+      "D": "Region D"
+    },
+    "stimulus": {
+      "diagrams": [
+        {
+          "diagram_id": "stimulus_venn_false_negative_q29",
+          "protocol": "VENN-1.0",
+          "type": "venn_diagram",
+          "semantic_description": "Venn diagram showing relationship between disease status and test results.",
+          "structured_data": {
+            "universal_set": "tested_population",
+            "sets": {
+              "X": "individuals_with_disease",
+              "Y": "individuals_tested_positive"
+            },
+            "regions": {
+              "A": "X_and_not_Y",
+              "B": "X_and_Y",
+              "C": "not_X_and_Y",
+              "D": "not_X_and_not_Y"
+            }
+          }
+        }
+      ]
+    }
+  },
+
+  "solution": {
+    "correct_answer": "A",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify individuals who have the disease but test negative",
+          "marks": 1,
+          "keywords": ["false negative", "X ∩ Y′"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 35,
+        "misconception": "Confusing false negative with true positive",
+        "pedagogical_note": "Region B represents individuals who have the disease and test positive"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 13,
+        "misconception": "Confusing false negative with false positive",
+        "pedagogical_note": "Region C represents individuals without the disease who test positive"
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 22,
+        "misconception": "Assuming all negatives are false negatives",
+        "pedagogical_note": "Region D represents true negatives"
+      }
+    ],
+    "expert_comment": "A false negative corresponds to individuals who have the disease but whose test result is negative, represented by the region inside X but outside Y."
+  },
+
+  "semantic": {
+    "concepts": [
+      "false_negative",
+      "set_intersection",
+      "logical_complements"
+    ],
+    "prerequisites": [
+      "basic_set_theory",
+      "understanding_of_diagnostic_tests"
+    ],
+    "question_pattern": "mapping_definition_to_diagram",
+    "reasoning_type": "analytical",
+    "asset_skill_no": 7,
+    "asset_skill_label": "Advanced or complex data representation or interpretation"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 29,
+    "skill_no": 7,
+    "percent_correct": 29,
+    "option_distribution_percent": {
+      "A": 29,
+      "B": 35,
+      "C": 13,
+      "D": 22
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q30",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-02-01T15:30:00+05:30",
+    "last_modified": "2026-02-01T15:30:00+05:30",
+    "protocol_conformance": ["EQJS-2.0"],
+    "validation_status": {
+      "validated": true,
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001"
+      ]
+    }
+  },
+
+  "classification": {
+    "subject": "biology",
+    "topic": [
+      "animal_behaviour",
+      "learning",
+      "conditioning"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "analyze",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 61
+  },
+
+  "content": {
+    "question_text": "Ivan Pavlov, a Russian physiologist, experimented with dogs. He noted that dogs salivated (produce saliva) when they saw or smelled food. Once, he simply rang a bell and noted and saw that this did not make the dogs salivate. He then repeated the process of always ringing a bell before presenting food to the dogs. Over time he observed that whenever a bell was rung, the dogs would salivate, irrespective of whether food was presented or not. They related the ringing of the bell to the presentation of food. Based on the excerpt, which of the following is a valid conclusion?",
+    "question_format": "mcq",
+    "options": {
+      "A": "Dogs will salivate only when a bell is rung.",
+      "B": "Dogs salivate when they see or smell food.",
+      "C": "A bell is rung before presenting food to dogs.",
+      "D": "Dogs can learn to associate two unrelated things."
+    }
+  },
+
+  "solution": {
+    "correct_answer": "D",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Infer the general principle demonstrated by the experiment",
+          "marks": 1,
+          "keywords": ["learning", "association", "conditioning"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 9,
+        "misconception": "Assuming the bell becomes the only stimulus for salivation",
+        "pedagogical_note": "Food still naturally causes salivation"
+      },
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 16,
+        "misconception": "Repeating a given observation instead of drawing a conclusion",
+        "pedagogical_note": "The question asks for a conclusion, not a restatement"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 12,
+        "misconception": "Confusing an experimental procedure with an inference",
+        "pedagogical_note": "This describes what was done, not what was learned"
+      }
+    ],
+    "expert_comment": "The experiment shows that dogs can learn to associate a previously neutral stimulus (the bell) with food, demonstrating associative learning."
+  },
+
+  "semantic": {
+    "concepts": [
+      "associative_learning",
+      "classical_conditioning",
+      "stimulus_response"
+    ],
+    "prerequisites": [
+      "basic_animal_behaviour",
+      "cause_and_effect"
+    ],
+    "question_pattern": "drawing_a_conclusion_from_experiment",
+    "reasoning_type": "inferential",
+    "asset_skill_no": 5,
+    "asset_skill_label": "Extraction, translation and application of knowledge or information"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 30,
+    "skill_no": 5,
+    "percent_correct": 61,
+    "option_distribution_percent": {
+      "A": 9,
+      "B": 16,
+      "C": 12,
+      "D": 61
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q31",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-02-01T16:05:00+05:30",
+    "last_modified": "2026-02-01T16:05:00+05:30",
+    "protocol_conformance": ["EQJS-2.0", "CHEM-CHART-1.0"],
+    "validation_status": {
+      "validated": true,
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001",
+        "DATA-INTERPRETATION-INV"
+      ]
+    }
+  },
+
+  "classification": {
+    "subject": "chemistry",
+    "topic": [
+      "acids_and_bases",
+      "pH_scale",
+      "indicators",
+      "data_interpretation"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "analyze",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 54
+  },
+
+  "content": {
+    "question_text": "pH measures the extent of acidity or basicity of any substance. Substances with pH less than 7 are acidic, while those with pH greater than 7 are basic. Substances which have a pH of 7 are neutral. Shown below is the pH indicator chart for some commonly used indicators. Which of these indicators is BEST SUITED for distinguishing between basic solutions of different strengths?",
+    "question_format": "mcq",
+    "options": {
+      "A": "thymol blue",
+      "B": "methyl orange",
+      "C": "methyl red",
+      "D": "bromothymol blue"
+    },
+    "stimulus": {
+      "diagrams": [
+        {
+          "diagram_id": "stimulus_ph_indicator_chart_q31",
+          "protocol": "CHEM-CHART-1.0",
+          "type": "pH_indicator_colour_chart",
+          "semantic_description": "Colour change ranges of common pH indicators across the pH scale from 1 to 14.",
+          "structured_data": {
+            "indicators": {
+              "thymol_blue": [
+                { "range": "start–1.2", "colour": "fuscia pink" },
+                { "range": "1.2–2.8", "colour": "orange" },
+                { "range": "2.8–8.0", "colour": "yellow" },
+                { "range": "8.0–9.6", "colour": "blue" },
+                { "range": "9.6–14", "colour": "dark blue" }
+              ],
+              "methyl_orange": [
+                { "range": "start–3.1", "colour": "pink" },
+                { "range": "3.1–4.4", "colour": "cream" },
+                { "range": "4.4–14", "colour": "yellow" }
+              ],
+              "methyl_red": [
+                { "range": "start–4.4", "colour": "magenta" },
+                { "range": "4.4–6.2", "colour": "orange" },
+                { "range": "6.2–14", "colour": "yellow" }
+              ],
+              "bromothymol_blue": [
+                { "range": "start–6.0", "colour": "yellow" },
+                { "range": "6.0–7.6", "colour": "green" },
+                { "range": "7.6–14", "colour": "blue" }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+
+  "solution": {
+    "correct_answer": "A",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify the indicator with multiple colour changes across the basic pH range",
+          "marks": 1,
+          "keywords": ["basic range", "colour transitions", "indicator sensitivity"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 19,
+        "misconception": "Assuming indicators that work in acidic range are suitable for bases",
+        "pedagogical_note": "Methyl orange shows no colour change across most basic pH values"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 8,
+        "misconception": "Confusing acidic transition ranges with basic sensitivity",
+        "pedagogical_note": "Methyl red mainly changes colour in the acidic to near-neutral range"
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 18,
+        "misconception": "Assuming a single colour change in basic range is sufficient",
+        "pedagogical_note": "Bromothymol blue shows limited variation once pH exceeds ~7.6"
+      }
+    ],
+    "expert_comment": "Thymol blue undergoes multiple colour changes across a wide basic pH range, making it best suited for distinguishing between basic solutions of different strengths."
+  },
+
+  "semantic": {
+    "concepts": [
+      "indicator_transition_ranges",
+      "basicity",
+      "graphical_data_interpretation"
+    ],
+    "prerequisites": [
+      "pH_scale",
+      "acid_base_indicators"
+    ],
+    "question_pattern": "selection_based_on_data",
+    "reasoning_type": "analytical",
+    "asset_skill_no": 6,
+    "asset_skill_label": "Analysis of information to identify trends or properties"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 31,
+    "skill_no": 6,
+    "percent_correct": 54,
+    "option_distribution_percent": {
+      "A": 54,
+      "B": 19,
+      "C": 8,
+      "D": 18
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q32",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-02-01T16:35:00+05:30",
+    "last_modified": "2026-02-01T16:35:00+05:30",
+    "protocol_conformance": ["EQJS-2.0", "PHYS-DIAG-1.0"],
+    "validation_status": {
+      "validated": true,
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001",
+        "NEWTON-THIRD-LAW-INV"
+      ]
+    }
+  },
+
+  "classification": {
+    "subject": "physics",
+    "topic": [
+      "gravitation",
+      "gravitational_interaction",
+      "forces"
+    ],
+    "difficulty": "easy",
+    "cognitive_level": "understand",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 42
+  },
+
+  "content": {
+    "question_text": "Two solid iron balls 1 and 2 are kept on the floor, at a distance of 1 metre from each other, as shown below. Which of the following statements is/are TRUE about the gravitation force acting on these balls?",
+    "question_format": "mcq",
+    "options": {
+      "A": "only P",
+      "B": "only P and R",
+      "C": "only Q and R",
+      "D": "all - P, Q and R"
+    },
+    "assertions": {
+      "P": "The Earth is exerting a gravitational pull on both the balls.",
+      "Q": "Ball 1 is exerting gravitational force on ball 2.",
+      "R": "Ball 2 is exerting gravitational force on ball 1."
+    },
+    "stimulus": {
+      "diagrams": [
+        {
+          "diagram_id": "stimulus_gravitation_balls_q32",
+          "protocol": "PHYS-DIAG-1.0",
+          "type": "object_separation_diagram",
+          "semantic_description": "Two iron balls of different sizes placed 1 m apart on the floor, illustrating gravitational interactions.",
+          "structured_data": {
+            "objects": {
+              "Ball1": {
+                "material": "iron",
+                "relative_size": "smaller"
+              },
+              "Ball2": {
+                "material": "iron",
+                "relative_size": "larger"
+              }
+            },
+            "distance_between_centres_m": 1,
+            "environment": "on_floor_near_earth_surface"
+          }
+        }
+      ]
+    }
+  },
+
+  "solution": {
+    "correct_answer": "D",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Recognise that gravitational force acts between all masses and is mutual",
+          "marks": 1,
+          "keywords": ["gravitation", "mutual force", "Newton's third law"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 29,
+        "misconception": "Belief that only the Earth exerts gravitational force",
+        "pedagogical_note": "All masses attract each other gravitationally, not only the Earth"
+      },
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 17,
+        "misconception": "Assuming gravity acts only in one direction between objects",
+        "pedagogical_note": "Gravitational forces are always mutual"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 11,
+        "misconception": "Ignoring Earth's gravitational effect",
+        "pedagogical_note": "Objects near Earth's surface experience Earth's gravitational pull"
+      }
+    ],
+    "expert_comment": "Gravitational force acts between any two masses. The Earth pulls both balls, and each ball also attracts the other, in accordance with Newton’s law of gravitation."
+  },
+
+  "semantic": {
+    "concepts": [
+      "mutual_gravitation",
+      "gravitational_force",
+      "action_reaction"
+    ],
+    "prerequisites": [
+      "basic_gravity_concept",
+      "forces_between_objects"
+    ],
+    "question_pattern": "multiple_statement_evaluation",
+    "reasoning_type": "conceptual",
+    "asset_skill_no": 1,
+    "asset_skill_label": "Recollection or recognition of science facts and concepts"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 32,
+    "skill_no": 1,
+    "percent_correct": 42,
+    "option_distribution_percent": {
+      "A": 29,
+      "B": 17,
+      "C": 11,
+      "D": 42
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q33",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-02-01T17:00:00+05:30",
+    "last_modified": "2026-02-01T17:00:00+05:30",
+    "protocol_conformance": ["EQJS-2.0", "PHYS-GRAPH-1.0"],
+    "validation_status": {
+      "validated": true,
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001",
+        "GRAPH-INFERENCE-INV"
+      ]
+    }
+  },
+
+  "classification": {
+    "subject": "physics",
+    "topic": [
+      "density",
+      "thermal_expansion",
+      "anomalous_behaviour_of_water",
+      "data_interpretation"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "analyze",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 31
+  },
+
+  "content": {
+    "question_text": "Shown below is a graph of the density of water at different temperatures. Which of the following behaviours of water can be inferred from this graph?",
+    "question_format": "mcq",
+    "options": {
+      "A": "Water contracts continuously when heated beyond its melting point (0°C).",
+      "B": "Water expands continuously when heated beyond its melting point (0°C).",
+      "C": "Water expands when cooled below 4°C.",
+      "D": "Water contracts when cooled below 4°C."
+    },
+    "stimulus": {
+      "diagrams": [
+        {
+          "diagram_id": "stimulus_density_water_q33",
+          "protocol": "PHYS-GRAPH-1.0",
+          "type": "line_graph",
+          "semantic_description": "Graph showing variation of density of freshwater with temperature, with a maximum at about 4°C.",
+          "structured_data": {
+            "x_axis": {
+              "label": "Temperature (°C)",
+              "range": [0, 12]
+            },
+            "y_axis": {
+              "label": "Density (g/cm³)",
+              "range": [0.99950, 1.00000]
+            },
+            "key_feature": "maximum_density_at_4C"
+          }
+        }
+      ]
+    }
+  },
+
+  "solution": {
+    "correct_answer": "C",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Infer volume change from density change below 4°C",
+          "marks": 1,
+          "keywords": ["density maximum", "inverse relation of density and volume"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 16,
+        "misconception": "Assuming monotonic contraction on heating",
+        "pedagogical_note": "The graph clearly shows density first increases and then decreases"
+      },
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 25,
+        "misconception": "Assuming normal expansion behaviour for all liquids",
+        "pedagogical_note": "Water shows anomalous behaviour near 4°C"
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 26,
+        "misconception": "Confusing contraction with increase in density",
+        "pedagogical_note": "Below 4°C, density decreases, indicating expansion"
+      }
+    ],
+    "expert_comment": "The graph shows that water has maximum density at about 4°C. When cooled below this temperature, its density decreases, which means its volume increases and water expands."
+  },
+
+  "semantic": {
+    "concepts": [
+      "density_temperature_relationship",
+      "anomalous_expansion_of_water",
+      "graph_based_inference"
+    ],
+    "prerequisites": [
+      "density_concept",
+      "relation_between_density_and_volume"
+    ],
+    "question_pattern": "inference_from_graph",
+    "reasoning_type": "analytical",
+    "asset_skill_no": 8,
+    "asset_skill_label": "Integrating different concepts or information for decision making"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 33,
+    "skill_no": 8,
+    "percent_correct": 31,
+    "option_distribution_percent": {
+      "A": 16,
+      "B": 25,
+      "C": 31,
+      "D": 26
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q34",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-02-01T17:25:00+05:30",
+    "last_modified": "2026-02-01T17:25:00+05:30",
+    "protocol_conformance": ["EQJS-2.0"],
+    "validation_status": {
+      "validated": true,
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001",
+        "HUMAN-PHYSIOLOGY-INV"
+      ]
+    }
+  },
+
+  "classification": {
+    "subject": "biology",
+    "topic": [
+      "human_physiology",
+      "respiration",
+      "homeostasis",
+      "exercise_response"
+    ],
+    "difficulty": "easy",
+    "cognitive_level": "understand",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 60
+  },
+
+  "content": {
+    "question_text": "During intense physical exercise, the level of carbon dioxide in the blood rises rapidly. When this information reaches the brain, which body system does the brain PRIMARILY stimulate to give a response?",
+    "question_format": "mcq",
+    "options": {
+      "A": "muscular system",
+      "B": "digestive system",
+      "C": "respiratory system",
+      "D": "excretory system"
+    }
+  },
+
+  "solution": {
+    "correct_answer": "C",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify the primary system responding to increased carbon dioxide levels",
+          "marks": 1,
+          "keywords": ["carbon dioxide", "breathing rate", "respiration"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 24,
+        "misconception": "Assuming muscles are directly stimulated to remove carbon dioxide",
+        "pedagogical_note": "Muscles produce carbon dioxide but do not remove it from the body"
+      },
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 7,
+        "misconception": "Confusing energy intake with gas exchange",
+        "pedagogical_note": "Digestive system is not involved in regulating blood gas levels"
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 7,
+        "misconception": "Assuming excretion of gases occurs via kidneys",
+        "pedagogical_note": "Carbon dioxide is removed primarily through the lungs"
+      }
+    ],
+    "expert_comment": "An increase in carbon dioxide concentration in the blood stimulates the respiratory centers in the brain, leading to faster and deeper breathing to remove excess carbon dioxide."
+  },
+
+  "semantic": {
+    "concepts": [
+      "carbon_dioxide_regulation",
+      "respiratory_control",
+      "homeostatic_response"
+    ],
+    "prerequisites": [
+      "basic_respiration",
+      "function_of_body_systems"
+    ],
+    "question_pattern": "cause_effect_in_physiology",
+    "reasoning_type": "conceptual",
+    "asset_skill_no": 3,
+    "asset_skill_label": "Classification/comparison of organisms/processes; giving examples"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 34,
+    "skill_no": 3,
+    "percent_correct": 60,
+    "option_distribution_percent": {
+      "A": 24,
+      "B": 7,
+      "C": 60,
+      "D": 7
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q35",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-02-01T17:50:00+05:30",
+    "last_modified": "2026-02-01T17:50:00+05:30",
+    "protocol_conformance": ["EQJS-2.0", "BIO-EXP-DIAG-1.0"],
+    "validation_status": {
+      "validated": true,
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001",
+        "CONTROLLED-EXPERIMENT-INV"
+      ]
+    }
+  },
+
+  "classification": {
+    "subject": "biology",
+    "topic": [
+      "plant_growth",
+      "experimental_design",
+      "variables_in_experiments"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "analyze",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 29
+  },
+
+  "content": {
+    "question_text": "Shown below is an experimental setup by Manik. He kept all the plants in the same artificial light. The effect of which of the following on plant growth can Manik find out?",
+    "question_format": "mcq",
+    "options": {
+      "A": "the quantity of water",
+      "B": "the amount of fertiliser",
+      "C": "the presence of artificial light",
+      "D": "He cannot find out the effect of any of the above."
+    },
+    "stimulus": {
+      "diagrams": [
+        {
+          "diagram_id": "stimulus_plant_experiment_q35",
+          "protocol": "BIO-EXP-DIAG-1.0",
+          "type": "controlled_experiment_setup",
+          "semantic_description": "Four identical plants grown under the same artificial light, with increasing amounts of fertiliser and water applied together.",
+          "structured_data": {
+            "controlled_variables": [
+              "plant_type",
+              "artificial_light"
+            ],
+            "manipulated_variables": [
+              "water_quantity",
+              "fertiliser_amount"
+            ],
+            "experimental_groups": [
+              { "fertiliser_g": 20, "water_ml": 200 },
+              { "fertiliser_g": 25, "water_ml": 250 },
+              { "fertiliser_g": 30, "water_ml": 300 },
+              { "fertiliser_g": 35, "water_ml": 350 }
+            ],
+            "key_issue": "more_than_one_variable_changed_simultaneously"
+          }
+        }
+      ]
+    }
+  },
+
+  "solution": {
+    "correct_answer": "D",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Recognise that changing more than one variable prevents identification of a single causal factor",
+          "marks": 1,
+          "keywords": ["controlled experiment", "single variable", "confounding variables"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 17,
+        "misconception": "Ignoring that fertiliser amount also changes with water",
+        "pedagogical_note": "To test water alone, fertiliser must be kept constant"
+      },
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 28,
+        "misconception": "Ignoring that water quantity also changes with fertiliser",
+        "pedagogical_note": "To test fertiliser alone, water must be kept constant"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 25,
+        "misconception": "Assuming light is being tested despite being constant",
+        "pedagogical_note": "A constant factor cannot be tested for its effect"
+      }
+    ],
+    "expert_comment": "Since both the amount of water and fertiliser are changed together, the effect of neither variable can be isolated. A valid experiment must change only one variable at a time."
+  },
+
+  "semantic": {
+    "concepts": [
+      "controlled_variables",
+      "fair_testing",
+      "experimental_design_errors"
+    ],
+    "prerequisites": [
+      "basic_experimental_method",
+      "variables_in_science"
+    ],
+    "question_pattern": "identifying_flawed_experimental_design",
+    "reasoning_type": "analytical",
+    "asset_skill_no": 10,
+    "asset_skill_label": "Design of appropriate apparatus, experiment or activity for scientific investigation"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 35,
+    "skill_no": 10,
+    "percent_correct": 29,
+    "option_distribution_percent": {
+      "A": 17,
+      "B": 28,
+      "C": 25,
+      "D": 29
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q36",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-02-01T18:15:00+05:30",
+    "last_modified": "2026-02-01T19:10:00+05:30",
+    "protocol_conformance": ["EQJS-2.0", "OPTICS-DIAG-1.0"],
+    "validation_status": {
+      "validated": true,
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001",
+        "PLANE-MIRROR-VISIBILITY-INV"
+      ]
+    }
+  },
+
+  "classification": {
+    "subject": "physics",
+    "topic": [
+      "reflection",
+      "plane_mirror",
+      "image_formation",
+      "ray_geometry"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "analyze",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 46
+  },
+
+  "content": {
+    "question_text": "Jaya enters a room through door X and exits through door Y. A plane mirror is fixed on the wall. A few objects – P, Q and R – are placed in front of the mirror. In which order would Jaya see the images of the objects in the mirror as she walks on the dotted line, always facing the mirror?",
+    "question_format": "mcq",
+    "options": {
+      "A": "P, Q, R",
+      "B": "R, Q, P",
+      "C": "only Q will be seen",
+      "D": "only P, Q will be seen in this order"
+    },
+    "stimulus": {
+      "diagrams": [
+        {
+          "diagram_id": "stimulus_plane_mirror_room_q36",
+          "protocol": "OPTICS-DIAG-1.0",
+          "type": "top_view_reflection_setup",
+          "semantic_description": "Top view of a room showing a plane mirror, three objects aligned horizontally, and an observer path explicitly anchored at the midpoints of the entry and exit doors.",
+          "structured_data": {
+            "room": {
+              "shape": "rectangle",
+              "doors": {
+                "X": {
+                  "wall": "left_short_wall",
+                  "vertical_position": "top_half",
+                  "opening_reference_point": "midpoint_of_break"
+                },
+                "Y": {
+                  "wall": "right_short_wall",
+                  "vertical_position": "top_half",
+                  "opening_reference_point": "midpoint_of_break"
+                }
+              }
+            },
+            "observer_path": {
+              "start_point": {
+                "anchored_to": "door_X",
+                "anchor_position": "midpoint_of_break"
+              },
+              "end_point": {
+                "anchored_to": "door_Y",
+                "anchor_position": "midpoint_of_break"
+              },
+              "path_shape": "horizontal_straight_line",
+              "path_style": "dotted",
+              "vertical_offset_from_doors": "inside_room_below_door_openings",
+              "orientation": "always_facing_mirror",
+              "directionality": {
+                "direction": "X_to_Y",
+                "entry_arrow": {
+                  "location": "at_start_point",
+                  "arrow_direction": "towards_path",
+                  "visual_style": "solid_arrow"
+                },
+                "exit_arrow": {
+                  "location": "at_end_point",
+                  "arrow_direction": "away_from_path",
+                  "visual_style": "solid_arrow"
+                }
+              }
+            },
+            "mirror": {
+              "type": "plane_mirror",
+              "wall": "top_long_wall",
+              "position": "centered",
+              "orientation": "reflective_surface_facing_room",
+              "non_reflective_side": "hatched_outside"
+            },
+            "objects": {
+              "alignment": "collinear_horizontal",
+              "reference_line": "invisible_horizontal_line_between_path_and_mirror",
+              "P": {
+                "position_relative_to_mirror": "just_before_left_edge"
+              },
+              "Q": {
+                "position_relative_to_mirror": "directly_in_front_of_mirror"
+              },
+              "R": {
+                "position_relative_to_mirror": "just_after_right_edge"
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+
+  "solution": {
+    "correct_answer": "B",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Analyse how the mirror’s field of view changes as the observer moves from the midpoint of door X to the midpoint of door Y",
+          "marks": 1
+        }
+      ]
+    },
+    "expert_comment": "As Jaya walks from door X to door Y along the dotted path while facing the mirror, objects enter the mirror’s field of view in reverse order. Hence, she sees R first, then Q, and finally P."
+  },
+
+  "semantic": {
+    "concepts": [
+      "field_of_view_in_plane_mirror",
+      "relative_motion_and_reflection",
+      "image_visibility"
+    ],
+    "prerequisites": [
+      "laws_of_reflection",
+      "basic_ray_diagrams"
+    ],
+    "question_pattern": "spatial_reasoning_with_motion",
+    "reasoning_type": "analytical",
+    "asset_skill_no": 6,
+    "asset_skill_label": "Analysis of information to identify trends or properties"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 36,
+    "skill_no": 6,
+    "percent_correct": 46,
+    "option_distribution_percent": {
+      "A": 22,
+      "B": 46,
+      "C": 18,
+      "D": 13
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q37",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-02-01T19:30:00+05:30",
+    "last_modified": "2026-02-01T19:50:00+05:30",
+    "protocol_conformance": ["EQJS-2.0", "ASTRO-DIAG-1.0"],
+    "validation_status": {
+      "validated": true,
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001",
+        "ORBITAL-PERIOD-INV"
+      ]
+    }
+  },
+
+  "classification": {
+    "subject": "physics",
+    "topic": [
+      "astronomy",
+      "seasons",
+      "planetary_motion",
+      "orbital_period"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "analyze",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 51
+  },
+
+  "content": {
+    "question_text": "Mars and Earth follow the same direction of rotation and the tilt in their axes of rotation is very close. Both Earth and Mars have four distinct seasons. Shown below is the position of Mars and Earth in the solar system. Which of the following statements is likely to be TRUE about the length of the seasons on Mars as compared to Earth?",
+    "question_format": "mcq",
+    "options": {
+      "A": "They are longer.",
+      "B": "They are shorter.",
+      "C": "They are the same length.",
+      "D": "Cannot conclude based on the information provided."
+    },
+    "stimulus": {
+      "diagrams": [
+        {
+          "diagram_id": "stimulus_solar_system_strip_q37",
+          "protocol": "ASTRO-DIAG-1.0",
+          "type": "solar_system_cross_section_strip",
+          "semantic_description": "Rectangular cross-sectional strip of the solar system showing the Sun and planets arranged linearly from left to right, indicating relative distances from the Sun without showing full orbital paths.",
+          "structured_data": {
+            "view_type": "linear_cross_section_strip",
+            "sun": {
+              "position": "far_left",
+              "note": "sun_size_not_used_for_scaling"
+            },
+            "planets_in_order_left_to_right": [
+              "Mercury",
+              "Venus",
+              "Earth",
+              "Mars",
+              "Jupiter",
+              "Saturn",
+              "Uranus",
+              "Neptune"
+            ],
+            "spacing_represents": "approximate_relative_orbital_distances",
+            "orbits": {
+              "shown": false,
+              "note": "full_circular_orbits_not_displayed"
+            },
+            "visual_intent": [
+              "Earth_closer_to_Sun_than_Mars",
+              "Mars_farther_from_Sun_than_Earth"
+            ]
+          }
+        }
+      ]
+    }
+  },
+
+  "solution": {
+    "correct_answer": "A",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Infer that a planet farther from the Sun has a longer orbital period and therefore longer seasons",
+          "marks": 1
+        }
+      ]
+    },
+    "expert_comment": "Mars is farther from the Sun than Earth and takes longer to complete one revolution. Since seasons depend on orbital period, seasons on Mars last longer than those on Earth."
+  },
+
+  "semantic": {
+    "concepts": [
+      "orbital_period",
+      "cause_of_seasons",
+      "planetary_year"
+    ],
+    "prerequisites": [
+      "basic_solar_system",
+      "earth_revolution"
+    ],
+    "question_pattern": "comparative_astronomy_reasoning",
+    "reasoning_type": "analytical",
+    "asset_skill_no": 6,
+    "asset_skill_label": "Analysis of information to identify trends or properties"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 37,
+    "skill_no": 6,
+    "percent_correct": 51,
+    "option_distribution_percent": {
+      "A": 51,
+      "B": 16,
+      "C": 17,
+      "D": 15
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q38",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-02-01T20:05:00+05:30",
+    "last_modified": "2026-02-01T20:05:00+05:30",
+    "protocol_conformance": ["EQJS-2.0"],
+    "validation_status": {
+      "validated": true,
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001",
+        "FREE-FALL-PHYSICS-INV"
+      ]
+    }
+  },
+
+  "classification": {
+    "subject": "physics",
+    "topic": [
+      "gravitation",
+      "free_fall",
+      "motion_under_gravity",
+      "weight"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "analyze",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 60
+  },
+
+  "content": {
+    "question_text": "A ball is dropped from a height 'h' on Earth, and different parameters are recorded. An identical ball is dropped from the same height on the Moon. Which parameter(s) is/are likely to be different when measured on Earth and the Moon?\n\nP) time taken by the ball to reach the ground\nQ) maximum velocity acquired by the ball\nR) force acting on the ball\nS) weight of the ball.",
+    "question_format": "mcq",
+    "options": {
+      "A": "only S",
+      "B": "only Q and R",
+      "C": "only P and R",
+      "D": "all – P, Q, R and S"
+    }
+  },
+
+  "solution": {
+    "correct_answer": "D",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Compare gravitational acceleration on Earth and Moon and its effect on motion, force, and weight",
+          "marks": 1
+        }
+      ]
+    },
+    "expert_comment": "The acceleration due to gravity is different on Earth and the Moon. Hence, the time taken to fall, the maximum velocity reached, the gravitational force acting on the ball, and its weight will all be different."
+  },
+
+  "semantic": {
+    "concepts": [
+      "acceleration_due_to_gravity",
+      "weight_vs_mass",
+      "free_fall_motion"
+    ],
+    "prerequisites": [
+      "Newtonian_gravitation",
+      "basic_kinematics"
+    ],
+    "question_pattern": "multi_parameter_comparison",
+    "reasoning_type": "analytical",
+    "asset_skill_no": 8,
+    "asset_skill_label": "Integrating different concepts or information for decision making"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 38,
+    "skill_no": 8,
+    "percent_correct": 60,
+    "option_distribution_percent": {
+      "A": 9,
+      "B": 11,
+      "C": 19,
+      "D": 60
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q39",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-02-01T20:20:00+05:30",
+    "last_modified": "2026-02-01T20:20:00+05:30",
+    "protocol_conformance": ["EQJS-2.0"],
+    "validation_status": {
+      "validated": true,
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001",
+        "SCIENTIFIC-CONCLUSION-INV"
+      ]
+    }
+  },
+
+  "classification": {
+    "subject": "biology",
+    "topic": [
+      "parasitism",
+      "scientific_inference",
+      "sampling",
+      "data_interpretation"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "evaluate",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 29
+  },
+
+  "content": {
+    "question_text": "In a study with 10,000 spiders of a particular species, it was found that 1% of these spiders showed the presence of a parasitic worm. Based on this data, it was concluded that the worm is not a major parasite for this species of spider. Is the conclusion valid and why?",
+    "question_format": "mcq",
+    "options": {
+      "A": "No, because only 1% of the spider population had the worm.",
+      "B": "Yes, because only one type of parasitic worm was checked.",
+      "C": "No, because only one species of spider was examined.",
+      "D": "Yes, because the sample size was large enough."
+    }
+  },
+
+  "solution": {
+    "correct_answer": "D",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Evaluate whether the conclusion is justified based on sample size and prevalence",
+          "marks": 1
+        }
+      ]
+    },
+    "expert_comment": "A sample size of 10,000 individuals is large enough to reliably estimate parasite prevalence in that species. Since only 1% were infected, it is reasonable to conclude that the worm is not a major parasite for this spider species."
+  },
+
+  "semantic": {
+    "concepts": [
+      "sample_size",
+      "prevalence",
+      "validity_of_conclusions",
+      "biological_parasitism"
+    ],
+    "prerequisites": [
+      "basic_statistics",
+      "parasite_host_relationships"
+    ],
+    "question_pattern": "data_based_evaluation",
+    "reasoning_type": "evaluative",
+    "asset_skill_no": 10,
+    "asset_skill_label": "Design of appropriate apparatus, experiment or activity for scientific investigation"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 39,
+    "skill_no": 10,
+    "percent_correct": 29,
+    "option_distribution_percent": {
+      "A": 20,
+      "B": 27,
+      "C": 23,
+      "D": 29
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q40",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-02-01T20:35:00+05:30",
+    "last_modified": "2026-02-01T20:35:00+05:30",
+    "protocol_conformance": ["EQJS-2.0"],
+    "validation_status": {
+      "validated": true,
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001",
+        "WORK-ENERGY-INV"
+      ]
+    }
+  },
+
+  "classification": {
+    "subject": "physics",
+    "topic": [
+      "work_and_energy",
+      "gravitational_potential_energy",
+      "inclined_plane"
+    ],
+    "difficulty": "easy",
+    "cognitive_level": "understand",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 20
+  },
+
+  "content": {
+    "question_text": "Ashley wants to find the work done by her against gravity when she runs up an inclined plane. Besides her weight, Ashley notes down the following parameters:\n(i) length of the inclined plane\n(ii) horizontal distance moved by her\n(iii) vertical height of the inclined plane\n(iv) time taken to climb the inclined plane\nWhich of the parameters will she DEFINITELY need to calculate the work done by her against gravity?",
+    "question_format": "mcq",
+    "options": {
+      "A": "only (i)",
+      "B": "only (iii)",
+      "C": "only (i) and (iv)",
+      "D": "only (ii) and (iii)"
+    }
+  },
+
+  "solution": {
+    "correct_answer": "B",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify the physical quantity required to calculate work done against gravity",
+          "marks": 1
+        }
+      ]
+    },
+    "expert_comment": "Work done against gravity depends only on the vertical height gained and the weight of the person. Hence, the vertical height of the inclined plane is the only additional parameter required."
+  },
+
+  "semantic": {
+    "concepts": [
+      "work_done_against_gravity",
+      "gravitational_potential_energy"
+    ],
+    "prerequisites": [
+      "definition_of_work",
+      "basic_gravity"
+    ],
+    "question_pattern": "parameter_selection",
+    "reasoning_type": "conceptual",
+    "asset_skill_no": 1,
+    "asset_skill_label": "Recollection or recognition of science facts and concepts"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 40,
+    "skill_no": 1,
+    "percent_correct": 20,
+    "option_distribution_percent": {
+      "A": 11,
+      "B": 20,
+      "C": 42,
+      "D": 26
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q41",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-02-01T20:50:00+05:30",
+    "last_modified": "2026-02-01T20:50:00+05:30",
+    "protocol_conformance": ["EQJS-2.0"],
+    "validation_status": {
+      "validated": true,
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001",
+        "ATOMIC-STRUCTURE-INV"
+      ]
+    }
+  },
+
+  "classification": {
+    "subject": "chemistry",
+    "topic": [
+      "atomic_structure",
+      "states_of_matter",
+      "nature_of_atoms"
+    ],
+    "difficulty": "easy",
+    "cognitive_level": "understand",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 26
+  },
+
+  "content": {
+    "question_text": "Which of the following is TRUE about the state of atoms in an element?",
+    "question_format": "mcq",
+    "options": {
+      "A": "Atoms are in an intermediate state where the nucleus is solid and orbits are gas-like.",
+      "B": "The state of the atom changes based on the state of the element.",
+      "C": "The state of atoms cannot be defined.",
+      "D": "Atoms are always in the solid state."
+    }
+  },
+
+  "solution": {
+    "correct_answer": "C",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Recognise that macroscopic states of matter do not apply to individual atoms",
+          "marks": 1
+        }
+      ]
+    },
+    "expert_comment": "The terms solid, liquid and gas describe the collective behaviour of large numbers of particles. An individual atom does not have a definable state of matter."
+  },
+
+  "semantic": {
+    "concepts": [
+      "atoms_vs_states_of_matter",
+      "microscopic_vs_macroscopic_properties"
+    ],
+    "prerequisites": [
+      "basic_atomic_model",
+      "definition_of_states_of_matter"
+    ],
+    "question_pattern": "conceptual_clarification",
+    "reasoning_type": "conceptual",
+    "asset_skill_no": 1,
+    "asset_skill_label": "Recollection or recognition of science facts and concepts"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 41,
+    "skill_no": 1,
+    "percent_correct": 26,
+    "option_distribution_percent": {
+      "A": 27,
+      "B": 32,
+      "C": 26,
+      "D": 14
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q42",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-02-01T21:05:00+05:30",
+    "last_modified": "2026-02-01T21:05:00+05:30",
+    "protocol_conformance": ["EQJS-2.0", "MECH-DIAG-1.0"],
+    "validation_status": {
+      "validated": true,
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001",
+        "MECHANICAL-ENERGY-INV"
+      ]
+    }
+  },
+
+  "classification": {
+    "subject": "physics",
+    "topic": [
+      "work_and_energy",
+      "mechanical_energy",
+      "kinetic_energy",
+      "potential_energy"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "apply",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 32
+  },
+
+  "content": {
+    "question_text": "A bag is lifted from the ground and placed on a moving conveyor belt of a closed cabinet X-ray system used for security screening of bags as depicted in images P, Q and R. Which of the following correctly compares the total energy (E) of the bag in images P, Q and R?",
+    "question_format": "mcq",
+    "options": {
+      "A": "EP = EQ = ER",
+      "B": "EP < EQ < ER",
+      "C": "EP > EQ > ER",
+      "D": "EP < EQ = ER"
+    },
+    "stimulus": {
+      "diagrams": [
+        {
+          "diagram_id": "stimulus_conveyor_bag_energy_q42",
+          "protocol": "MECH-DIAG-1.0",
+          "type": "three_stage_energy_comparison",
+          "semantic_description": "Three situations showing a bag on the floor, lifted to belt height, and placed on a moving conveyor belt, used to compare total mechanical energy.",
+          "structured_data": {
+            "common_elements": {
+              "conveyor_belt": {
+                "state": "moving",
+                "motion_indicator": "arrow_with_label"
+              }
+            },
+            "situations": {
+              "P": {
+                "label": "Bag on floor",
+                "vertical_position": "ground_level",
+                "motion_state": "at_rest",
+                "energy_components": ["gravitational_potential_energy_minimum"]
+              },
+              "Q": {
+                "label": "Bag lifted to the same height as the belt",
+                "vertical_position": "belt_height",
+                "motion_state": "at_rest",
+                "energy_components": ["gravitational_potential_energy"]
+              },
+              "R": {
+                "label": "Bag placed on the moving conveyor belt",
+                "vertical_position": "belt_height",
+                "motion_state": "moving_with_belt",
+                "energy_components": [
+                  "gravitational_potential_energy",
+                  "kinetic_energy"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+
+  "solution": {
+    "correct_answer": "B",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Compare gravitational potential and kinetic energy contributions in the three situations",
+          "marks": 1
+        }
+      ]
+    },
+    "expert_comment": "In P, the bag has the least gravitational potential energy and no kinetic energy. In Q, it has higher gravitational potential energy but no kinetic energy. In R, it has the same gravitational potential energy as Q and additional kinetic energy due to motion, making its total energy the greatest."
+  },
+
+  "semantic": {
+    "concepts": [
+      "mechanical_energy",
+      "gravitational_potential_energy",
+      "kinetic_energy"
+    ],
+    "prerequisites": [
+      "definition_of_energy",
+      "energy_due_to_motion_and_position"
+    ],
+    "question_pattern": "comparative_energy_reasoning",
+    "reasoning_type": "application",
+    "asset_skill_no": 5,
+    "asset_skill_label": "Extraction, translation and application of knowledge or information"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 42,
+    "skill_no": 5,
+    "percent_correct": 32,
+    "option_distribution_percent": {
+      "A": 21,
+      "B": 32,
+      "C": 18,
+      "D": 28
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q43",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-02-01T21:25:00+05:30",
+    "last_modified": "2026-02-01T21:25:00+05:30",
+    "protocol_conformance": ["EQJS-2.0", "MECH-DIAG-1.0"],
+    "validation_status": {
+      "validated": true,
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001",
+        "SIMPLE-MACHINES-INV"
+      ]
+    }
+  },
+
+  "classification": {
+    "subject": "physics",
+    "topic": [
+      "simple_machines",
+      "screws",
+      "fasteners",
+      "applications_of_mechanics"
+    ],
+    "difficulty": "easy",
+    "cognitive_level": "understand",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 45
+  },
+
+  "content": {
+    "question_text": "Screws are used to secure or fasten objects. Shown here are two types of screws, P and Q, when seen from the side. What is the advantage of using screws of type Q over screws of type P?",
+    "question_format": "mcq",
+    "options": {
+      "A": "They use less metal per screw, and thus save material costs.",
+      "B": "They can be embedded in the object, creating a smooth finish.",
+      "C": "They enforce a greater grip on the object being tightened or fastened.",
+      "D": "They can be removed without the help of a specialised tool like a screwdriver."
+    },
+    "stimulus": {
+      "diagrams": [
+        {
+          "diagram_id": "stimulus_screw_types_p_q_q43",
+          "protocol": "MECH-DIAG-1.0",
+          "type": "technical_comparison",
+          "semantic_description": "Side view comparison of a pan head screw (P) and a countersunk screw (Q) highlighting differences in head shape and seating.",
+          "structured_data": {
+            "screw_P": {
+              "head_shape": "rounded_pan_head",
+              "surface_interaction": "protrudes_above_surface"
+            },
+            "screw_Q": {
+              "head_shape": "countersunk_conical",
+              "surface_interaction": "sits_flush_with_surface"
+            },
+            "threads": {
+              "pattern": "identical",
+              "note": "threading not a differentiating factor"
+            }
+          }
+        }
+      ]
+    }
+  },
+
+  "solution": {
+    "correct_answer": "B",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify how the head shape of a countersunk screw affects its seating in a surface",
+          "marks": 1
+        }
+      ]
+    },
+    "expert_comment": "Countersunk screws (type Q) are designed so that their heads sit flush with the surface of the object. This provides a smooth finish, which is the main advantage over pan head screws."
+  },
+
+  "semantic": {
+    "concepts": [
+      "design_of_fasteners",
+      "function_of_screw_heads",
+      "engineering_applications"
+    ],
+    "prerequisites": [
+      "basic_simple_machines",
+      "everyday_mechanical_devices"
+    ],
+    "question_pattern": "structure_function_relationship",
+    "reasoning_type": "conceptual",
+    "asset_skill_no": 2,
+    "asset_skill_label": "Knowledge of use of scientific instruments, tools and procedures"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 43,
+    "skill_no": 2,
+    "percent_correct": 45,
+    "option_distribution_percent": {
+      "A": 8,
+      "B": 45,
+      "C": 30,
+      "D": 14
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q44",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-02-01T21:45:00+05:30",
+    "last_modified": "2026-02-01T21:45:00+05:30",
+    "protocol_conformance": ["EQJS-2.0"],
+    "validation_status": {
+      "validated": true,
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001",
+        "DAYLIGHT-DURATION-INV"
+      ]
+    }
+  },
+
+  "classification": {
+    "subject": "physics",
+    "topic": [
+      "earth_and_space",
+      "day_and_night",
+      "seasons",
+      "sunrise_and_daylight"
+    ],
+    "difficulty": "easy",
+    "cognitive_level": "understand",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 55
+  },
+
+  "content": {
+    "question_text": "Given below is the time of sunrise in an Indian city on different days in the year.\nA) 6:29 AM\nB) 6:55 AM\nC) 6:10 AM\nD) 7:11 AM\nWhich of these days is likely to have the longest period of daylight?",
+    "question_format": "mcq",
+    "options": {
+      "A": "6:29 AM",
+      "B": "6:55 AM",
+      "C": "6:10 AM",
+      "D": "7:11 AM"
+    }
+  },
+
+  "solution": {
+    "correct_answer": "C",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Relate earlier sunrise to longer duration of daylight",
+          "marks": 1
+        }
+      ]
+    },
+    "expert_comment": "A day with an earlier sunrise generally has a longer duration of daylight. Among the given options, 6:10 AM is the earliest sunrise and hence corresponds to the longest day."
+  },
+
+  "semantic": {
+    "concepts": [
+      "daylight_duration",
+      "sunrise_time",
+      "earth_rotation_and_tilt"
+    ],
+    "prerequisites": [
+      "basic_day_night_cycle",
+      "effect_of_seasons_on_day_length"
+    ],
+    "question_pattern": "time_comparison",
+    "reasoning_type": "conceptual",
+    "asset_skill_no": 4,
+    "asset_skill_label": "Representing, relating or explaining scientific processes or observed phenomena"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 44,
+    "skill_no": 4,
+    "percent_correct": 55,
+    "option_distribution_percent": {
+      "A": 14,
+      "B": 9,
+      "C": 55,
+      "D": 20
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q45",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-02-01T22:05:00+05:30",
+    "last_modified": "2026-02-01T22:05:00+05:30",
+    "protocol_conformance": ["EQJS-2.0", "MECH-DIAG-1.0"],
+    "validation_status": {
+      "validated": true,
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001",
+        "FRICTIONLESS-MOTION-INV"
+      ]
+    }
+  },
+
+  "classification": {
+    "subject": "physics",
+    "topic": [
+      "motion",
+      "inclined_plane",
+      "velocity_time_graphs",
+      "acceleration_due_to_gravity"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "understand",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 45
+  },
+
+  "content": {
+    "question_text": "A trolley released at point P moved freely down a frictionless slope. Which of the following graphs represents the velocity of the trolley as it moved from point P to point Q?",
+    "question_format": "mcq",
+    "options": {
+      "A": "Graph A",
+      "B": "Graph B",
+      "C": "Graph C",
+      "D": "Graph D"
+    },
+    "stimulus": {
+      "diagrams": [
+        {
+          "diagram_id": "stimulus_inclined_plane_q45",
+          "protocol": "MECH-DIAG-1.0",
+          "type": "inclined_plane_motion_setup",
+          "semantic_description": "A trolley released from rest at the top of a frictionless inclined plane, moving down under constant acceleration due to gravity.",
+          "structured_data": {
+            "inclined_plane": {
+              "angle": "approximately_20_to_25_degrees",
+              "surface": "frictionless"
+            },
+            "trolley": {
+              "initial_state": "released_from_rest",
+              "motion_direction": "down_the_slope"
+            },
+            "points": {
+              "P": "upper_point_on_slope",
+              "Q": "lower_point_on_slope"
+            }
+          }
+        },
+        {
+          "diagram_id": "stimulus_velocity_time_graphs_q45",
+          "protocol": "MECH-DIAG-1.0",
+          "type": "velocity_time_graph_options",
+          "semantic_description": "Four velocity–time graphs showing different possible relationships between velocity and time.",
+          "structured_data": {
+            "graph_A": {
+              "shape": "straight_line_positive_slope",
+              "passes_through_origin": true,
+              "represents": "constant_positive_acceleration"
+            },
+            "graph_B": {
+              "shape": "curved_concave_up",
+              "represents": "increasing_acceleration"
+            },
+            "graph_C": {
+              "shape": "straight_line_negative_slope",
+              "represents": "constant_deceleration"
+            },
+            "graph_D": {
+              "shape": "curved_concave_down",
+              "represents": "decreasing_acceleration"
+            }
+          }
+        }
+      ]
+    }
+  },
+
+  "solution": {
+    "correct_answer": "A",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Recognise that motion down a frictionless inclined plane occurs with constant acceleration",
+          "marks": 1
+        }
+      ]
+    },
+    "expert_comment": "On a frictionless inclined plane, the component of gravitational acceleration along the slope is constant. Since the trolley is released from rest, its velocity increases uniformly with time, giving a straight-line velocity–time graph through the origin."
+  },
+
+  "semantic": {
+    "concepts": [
+      "uniform_acceleration",
+      "velocity_time_graph",
+      "motion_on_inclined_plane"
+    ],
+    "prerequisites": [
+      "basic_kinematics",
+      "effect_of_gravity_on_motion"
+    ],
+    "question_pattern": "graph_identification",
+    "reasoning_type": "conceptual",
+    "asset_skill_no": 4,
+    "asset_skill_label": "Representing, relating or explaining scientific processes or observed phenomena"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 45,
+    "skill_no": 4,
+    "percent_correct": 45,
+    "option_distribution_percent": {
+      "A": 45,
+      "B": 22,
+      "C": 20,
+      "D": 10
+    }
+  }
+}
+]

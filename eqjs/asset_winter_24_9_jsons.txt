@@ -1,0 +1,5321 @@
+[
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_39224_Q1",
+    "source": "Ei_ASSET Science Paper 39224",
+    "created": "2026-02-12T09:15:00+05:30",
+    "last_modified": "2026-02-12T09:15:00+05:30",
+    "protocol_conformance": ["EQJS-2.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-02-12T09:15:00+05:30",
+      "checked_invariants": ["MCQ-INV-001", "ANSWER-INV-001"],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "physics",
+    "topic": ["astronomy", "solar_eclipse", "celestial_objects"],
+    "difficulty": "medium",
+    "cognitive_level": "analyze",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 58
+  },
+
+  "content": {
+    "question_text": "As seen from the Earth, a solar eclipse occurs when the Moon, passing between the Sun and the Earth, covers the Sun either fully or partially. Sometimes, artificial satellites can also pass in between the Sun and the Earth, but this will not cause an eclipse. Why?",
+    "question_format": "mcq",
+    "options": {
+      "A": "They do not reflect the sunlight like the Moon.",
+      "B": "They are too small to block enough of the Sun.",
+      "C": "They are farther away from the Earth than the Moon.",
+      "D": "They revolve at a higher speed compared to the Moon."
+    }
+  },
+
+  "solution": {
+    "correct_answer": "B",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Relate apparent size of an object to its ability to block sunlight as seen from Earth",
+          "marks": 1,
+          "keywords": ["apparent size", "blocking sunlight", "solar eclipse"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 22,
+        "misconception": "Belief that reflection of light is required to cause an eclipse",
+        "pedagogical_note": "An eclipse depends on blocking light, not reflecting it"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 7,
+        "misconception": "Confusion about relative distances of satellites and the Moon",
+        "pedagogical_note": "Most artificial satellites are much closer to Earth than the Moon"
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 12,
+        "misconception": "Assuming speed of motion determines eclipse formation",
+        "pedagogical_note": "Speed affects duration, not the occurrence of an eclipse"
+      }
+    ],
+    "expert_comment": "An eclipse depends on the apparent angular size of the object blocking the Sun. Artificial satellites are far too small to block a significant portion of the Sun as seen from Earth."
+  },
+
+  "semantic": {
+    "concepts": [
+      "solar_eclipse",
+      "apparent_size",
+      "line_of_sight",
+      "celestial_mechanics"
+    ],
+    "prerequisites": [
+      "basic_astronomy",
+      "sun_earth_moon_system"
+    ],
+    "question_pattern": "phenomenon_explanation",
+    "reasoning_type": "conceptual_analysis",
+    "asset_skill_no": 6,
+    "asset_skill_label": "Analysis to identify trends or properties"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_39224",
+    "original_qno": 1,
+    "skill_no": 6,
+    "percent_correct": 58,
+    "option_distribution_percent": {
+      "A": 22,
+      "B": 58,
+      "C": 7,
+      "D": 12
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_39224_Q2",
+    "source": "Ei_ASSET Science Paper 39224",
+    "created": "2026-02-12T09:25:00+05:30",
+    "last_modified": "2026-02-12T09:25:00+05:30",
+    "protocol_conformance": ["EQJS-2.0", "STIM-LIST-FRAME-1.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-02-12T09:25:00+05:30",
+      "checked_invariants": ["MCQ-INV-001", "ANSWER-INV-001"],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "chemistry",
+    "topic": [
+      "chemical_reactions",
+      "chemical_vs_physical_changes",
+      "biological_chemical_processes"
+    ],
+    "difficulty": "easy",
+    "cognitive_level": "understand",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 61
+  },
+
+  "content": {
+    "question_text": "Consider the following processes. Which of the above are chemical interactions?",
+    "question_format": "mcq",
+    "stimulus": {
+      "diagrams": [
+        {
+          "diagram_id": "stimulus_list_1",
+          "protocol": "STIM-LIST-FRAME-1.0",
+          "type": "framed_list",
+          "semantic_description": "A rectangular frame containing a vertically ordered list of five numbered processes related to everyday and biological phenomena.",
+          "structured_description": {
+            "frame_shape": "rounded_rectangle",
+            "border_style": "solid",
+            "background": "light_shade",
+            "content_order_top_to_bottom": [
+              "1. Rusting of iron",
+              "2. Antibiotics fighting an infection",
+              "3. Digestion of the food in the stomach",
+              "4. Photosynthesis in plants",
+              "5. Rising of a cake in an oven"
+            ],
+            "text_alignment": "left",
+            "numbering_style": "arabic_numerals_with_period"
+          }
+        }
+      ]
+    },
+    "options": {
+      "A": "1 only",
+      "B": "1 and 5 only",
+      "C": "1, 3 and 5 only",
+      "D": "All- 1,2,3,4 and 5 are chemical interactions."
+    }
+  },
+
+  "solution": {
+    "correct_answer": "D",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify whether each listed process involves formation of new substances",
+          "marks": 1,
+          "keywords": ["chemical change", "new substances", "reaction"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 10,
+        "misconception": "Restricting chemical interactions only to non-living systems",
+        "pedagogical_note": "Chemical reactions also occur extensively in living organisms"
+      },
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 11,
+        "misconception": "Confusing visible physical change with chemical change",
+        "pedagogical_note": "Rising of a cake involves chemical reactions producing gases, not just expansion"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 18,
+        "misconception": "Failure to recognise biochemical processes as chemical interactions",
+        "pedagogical_note": "Digestion, photosynthesis and antibiotic action all involve chemical reactions"
+      }
+    ],
+    "expert_comment": "All five processes involve chemical reactions where new substances are formed, either through oxidation, biochemical reactions, or heat-driven chemical changes."
+  },
+
+  "semantic": {
+    "concepts": [
+      "chemical_interaction",
+      "chemical_reaction",
+      "biochemical_processes"
+    ],
+    "prerequisites": [
+      "definition_of_chemical_change",
+      "examples_of_chemical_reactions"
+    ],
+    "question_pattern": "classification_multiple_examples",
+    "reasoning_type": "conceptual",
+    "asset_skill_no": 4,
+    "asset_skill_label": "Representing or explaining processes or phenomena"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_39224",
+    "original_qno": 2,
+    "skill_no": 4,
+    "percent_correct": 61,
+    "option_distribution_percent": {
+      "A": 10,
+      "B": 11,
+      "C": 18,
+      "D": 61
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_39224_Q3",
+    "source": "Ei_ASSET Science Paper 39224",
+    "created": "2026-02-12T09:45:00+05:30",
+    "last_modified": "2026-02-12T09:45:00+05:30",
+    "protocol_conformance": ["EQJS-2.0", "OPT-ANAMORPHIC-MIRROR-1.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-02-12T09:45:00+05:30",
+      "checked_invariants": ["MCQ-INV-001", "ANSWER-INV-001", "OPTICS-INV-MIRROR-TYPE"],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "physics",
+    "topic": [
+      "light",
+      "reflection",
+      "mirrors",
+      "image_formation"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "analyze",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 47
+  },
+
+  "content": {
+    "question_text": "The picture below shows an interesting art work drawn on a piece of paper and its reflection in a reflecting surface. Which of the following is likely to be the shape of the reflecting surface?",
+    "question_format": "mcq",
+    "stimulus": {
+      "diagrams": [
+        {
+          "diagram_id": "stimulus_anamorphic_1",
+          "protocol": "OPT-ANAMORPHIC-MIRROR-1.0",
+          "type": "anamorphic_art_reflection",
+          "semantic_description": "An anamorphic drawing on a flat sheet of paper that appears highly distorted when viewed directly but forms a recognizable upright image when seen as a reflection in a curved reflecting surface.",
+          "structured_description": {
+            "base_surface": "flat_horizontal_paper",
+            "drawing_characteristic": "radially stretched and distorted artwork on paper",
+            "reflecting_object": {
+              "shape": "vertical_curved_surface",
+              "axis_orientation": "vertical",
+              "surface_property": "specular_reflection"
+            },
+            "reflected_image": {
+              "appearance": "undistorted recognizable figure",
+              "location": "on curved reflecting surface"
+            },
+            "viewer_position": "in front of reflecting surface"
+          }
+        }
+      ]
+    },
+    "options": {
+      "A": "plane",
+      "B": "convex",
+      "C": "concave",
+      "D": "It is not possible to predict based on the given information."
+    }
+  },
+
+  "solution": {
+    "correct_answer": "B",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify the type of mirror that can convert a distorted planar drawing into a normal-looking reflected image",
+          "marks": 1,
+          "keywords": ["anamorphic art", "curved mirror", "convex mirror"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 7,
+        "misconception": "Assuming all reflections preserve shapes regardless of mirror type",
+        "pedagogical_note": "A plane mirror cannot correct large geometric distortions in a drawing"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 41,
+        "misconception": "Confusing cylindrical convex mirrors with concave mirrors",
+        "pedagogical_note": "Concave mirrors tend to magnify or invert images rather than unwrap distortions"
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 5,
+        "misconception": "Belief that insufficient information is provided",
+        "pedagogical_note": "The characteristic distortion and correction strongly indicate a specific mirror type"
+      }
+    ],
+    "expert_comment": "Anamorphic art is specifically designed to appear correct when viewed in a cylindrical convex mirror. The convex curvature compresses the stretched drawing into a recognizable image."
+  },
+
+  "semantic": {
+    "concepts": [
+      "reflection",
+      "convex_mirror",
+      "anamorphic_art",
+      "image_distortion"
+    ],
+    "prerequisites": [
+      "types_of_mirrors",
+      "basic_reflection_properties"
+    ],
+    "question_pattern": "visual_inference_from_reflection",
+    "reasoning_type": "spatial_reasoning",
+    "asset_skill_no": 5,
+    "asset_skill_label": "Extraction and application of information"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_39224",
+    "original_qno": 3,
+    "skill_no": 5,
+    "percent_correct": 47,
+    "option_distribution_percent": {
+      "A": 7,
+      "B": 47,
+      "C": 41,
+      "D": 5
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_39224_Q4",
+    "source": "Ei_ASSET Science Paper 39224",
+    "created": "2026-02-12T10:05:00+05:30",
+    "last_modified": "2026-02-12T10:05:00+05:30",
+    "protocol_conformance": ["EQJS-2.0", "TAB-DATA-STRUCT-1.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-02-12T10:05:00+05:30",
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001",
+        "TABLE-INV-CONSISTENCY"
+      ],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "biology",
+    "topic": [
+      "human_nutrition",
+      "dietary_patterns",
+      "climate_and_food_sources",
+      "data_interpretation"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "analyze",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 60
+  },
+
+  "content": {
+    "question_text": "The table below shows how humans at different latitudes depend on plants and animals for their energy. Based on the given data, which of the following statements is TRUE?",
+    "question_format": "mcq",
+    "stimulus": {
+      "diagrams": [
+        {
+          "diagram_id": "stimulus_table_1",
+          "protocol": "TAB-DATA-STRUCT-1.0",
+          "type": "data_table",
+          "semantic_description": "A table showing latitude ranges and corresponding percentage of dietary energy obtained from plant food and animal food.",
+          "structured_data": {
+            "columns": [
+              "Degrees of latitude from the equator",
+              "Percentage of energy in the diet obtained from plant food",
+              "Percentage of energy in the diet obtained from animal food"
+            ],
+            "rows": [
+              ["0–10", "36 to 45", "55 to 64"],
+              ["11–20", "46 to 55", "45 to 54"],
+              ["21–30", "46 to 55", "45 to 54"],
+              ["31–40", "46 to 55", "45 to 54"],
+              ["41–50", "26 to 35", "65 to 74"],
+              ["51–60", "16 to 25", "75 to 84"],
+              [">60", "≤5 to 15", "85 to ≥95"]
+            ]
+          }
+        }
+      ]
+    },
+    "options": {
+      "A": "Humans eat less quantity of food in warmer climates.",
+      "B": "Humans in colder climates need more calories to survive.",
+      "C": "Humans in colder climates depend more on animals than plants to obtain their energy.",
+      "D": "Humans in warmer climates depend more on plants than animals to obtain their energy."
+    }
+  },
+
+  "solution": {
+    "correct_answer": "C",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Compare plant and animal energy percentages at higher latitudes",
+          "marks": 1,
+          "keywords": ["higher latitude", "animal food", "greater dependence"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 10,
+        "misconception": "Interpreting percentage of food source as total quantity of food eaten",
+        "pedagogical_note": "The table shows proportions of energy sources, not total food intake"
+      },
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 17,
+        "misconception": "Inferring caloric requirement without direct data",
+        "pedagogical_note": "The table does not provide information about total calories needed"
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 12,
+        "misconception": "Overgeneralising trends at low latitudes",
+        "pedagogical_note": "Warmer regions show mixed dependence, not consistently higher plant reliance"
+      }
+    ],
+    "expert_comment": "At higher latitudes (colder climates), the percentage of dietary energy from animal sources increases sharply while plant-based energy decreases, indicating greater dependence on animals."
+  },
+
+  "semantic": {
+    "concepts": [
+      "dietary_energy_sources",
+      "latitude_and_climate",
+      "human_adaptation",
+      "data_comparison"
+    ],
+    "prerequisites": [
+      "reading_tables",
+      "understanding_percentages",
+      "basic_climate_zones"
+    ],
+    "question_pattern": "data_based_true_statement_identification",
+    "reasoning_type": "quantitative_comparison",
+    "asset_skill_no": 7,
+    "asset_skill_label": "Advanced data interpretation"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_39224",
+    "original_qno": 4,
+    "skill_no": 7,
+    "percent_correct": 60,
+    "option_distribution_percent": {
+      "A": 10,
+      "B": 17,
+      "C": 60,
+      "D": 12
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_39224_Q5",
+    "source": "Ei_ASSET Science Paper 39224",
+    "created": "2026-02-12T10:20:00+05:30",
+    "last_modified": "2026-02-12T10:20:00+05:30",
+    "protocol_conformance": ["EQJS-2.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-02-12T10:20:00+05:30",
+      "checked_invariants": ["MCQ-INV-001", "ANSWER-INV-001"],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "science",
+    "topic": [
+      "scientific_method",
+      "observation_vs_inference",
+      "scientific_thinking"
+    ],
+    "difficulty": "easy",
+    "cognitive_level": "understand",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 39
+  },
+
+  "content": {
+    "question_text": "One evening, four friends were chatting in a park.\nAnil: There are so many Mango trees here.\nBhavya: I am sure there will be many birds in the park.\nCharita: We should not throw trash in the park.\nDanny: My doctor told me that mosquito bites can cause Malaria.\nWho has made a statement that a scientist would call an OBSERVATION?",
+    "question_format": "mcq",
+    "options": {
+      "A": "Anil",
+      "B": "Bhavya",
+      "C": "Charita",
+      "D": "Danny"
+    }
+  },
+
+  "solution": {
+    "correct_answer": "A",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify the statement that is directly based on what is seen or sensed",
+          "marks": 1,
+          "keywords": ["observation", "directly seen", "no assumption"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 14,
+        "misconception": "Confusing prediction with observation",
+        "pedagogical_note": "Bhavya is making an assumption about birds, not reporting what is seen"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 6,
+        "misconception": "Confusing advice or value judgement with observation",
+        "pedagogical_note": "Charita is expressing an opinion, not observing"
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 41,
+        "misconception": "Confusing reported information with direct observation",
+        "pedagogical_note": "Danny is recalling medical information, not making an observation in the park"
+      }
+    ],
+    "expert_comment": "An observation is a statement based directly on what is seen or sensed. Anil reports seeing many mango trees, which is a direct observation."
+  },
+
+  "semantic": {
+    "concepts": [
+      "observation",
+      "prediction",
+      "inference",
+      "scientific_statements"
+    ],
+    "prerequisites": [
+      "basic_scientific_process_skills"
+    ],
+    "question_pattern": "identifying_observation",
+    "reasoning_type": "conceptual",
+    "asset_skill_no": 2,
+    "asset_skill_label": "Knowledge of use of scientific processes and procedures"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_39224",
+    "original_qno": 5,
+    "skill_no": 2,
+    "percent_correct": 39,
+    "option_distribution_percent": {
+      "A": 39,
+      "B": 14,
+      "C": 6,
+      "D": 41
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_39224_Q6",
+    "source": "Ei_ASSET Science Paper 39224",
+    "created": "2026-02-12T10:40:00+05:30",
+    "last_modified": "2026-02-12T11:05:00+05:30",
+    "protocol_conformance": ["EQJS-2.0", "CDP-1.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-02-12T11:05:00+05:30",
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001",
+        "CIR-INV-CLOSED-OPEN",
+        "CDP-INV-EXPLICIT-CONNECTIVITY"
+      ],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "physics",
+    "topic": [
+      "electricity",
+      "simple_circuits",
+      "fault_finding"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "analyze",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 24
+  },
+
+  "content": {
+    "question_text": "Hansa tried lighting a bulb using a battery and two wires as shown below. But the bulb didn't light up.\nShe thought of a possible reason behind the bulb not lighting up. To test her reason, she took a new bulb that was working and also replaced the battery with a fully charged battery. What could be the possible reason she was testing?",
+    "question_format": "mcq",
+    "stimulus": {
+      "diagrams": [
+        {
+          "diagram_id": "stimulus_circuit_1",
+          "protocol": "CDP-1.0",
+          "type": "schematic_circuit",
+          "intent": "physics_faithful",
+          "semantic_description": "A closed simple electric circuit using a single AAA pencil cell, two connecting wires, and a bulb as the load. Despite the circuit being closed, the bulb does not glow.",
+          "structured_cdp": {
+            "question_metadata": {
+              "id": "Ei_ASSET_Sci_39224_Q6_circuit",
+              "pedagogical_intent": "Diagnose why a closed circuit does not light a bulb",
+              "intent": "physics_faithful",
+              "symbol_set": "IEC"
+            },
+            "diagrams": [
+              {
+                "id": "cdp_diagram_1",
+                "title": "Closed circuit with non-glowing bulb",
+                "layout": {
+                  "type": "grid_manhattan",
+                  "grid_size": 1.0,
+                  "crossing_style": "forbid"
+                },
+                "components": [
+                  {
+                    "id": "B1",
+                    "type": "battery",
+                    "position": { "x": 1, "y": 3 },
+                    "orientation": 0,
+                    "label": "AAA cell",
+                    "params": { "value": "1.5 V" }
+                  },
+                  {
+                    "id": "L1",
+                    "type": "lamp",
+                    "position": { "x": 5, "y": 3 },
+                    "orientation": 0,
+                    "label": "Bulb"
+                  }
+                ],
+                "connections": [
+                  {
+                    "id": "W1",
+                    "from": "B1.positive",
+                    "to": "L1.left",
+                    "path": "auto_manhattan",
+                    "junction_dot": false
+                  },
+                  {
+                    "id": "W2",
+                    "from": "L1.right",
+                    "to": "B1.negative",
+                    "path": "auto_manhattan",
+                    "junction_dot": false
+                  }
+                ],
+                "node_labels": [
+                  {
+                    "position": { "x": 3, "y": 3 },
+                    "text": "Bulb does not glow"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "options": {
+      "A": "The bulb may be defective.",
+      "B": "One of the wires may be broken.",
+      "C": "The battery may not be fully charged.",
+      "D": "The wires may be made of different metals."
+    }
+  },
+
+  "solution": {
+    "correct_answer": "B",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify which possible cause remains after replacing both bulb and battery",
+          "marks": 1,
+          "keywords": ["controlled testing", "fault isolation", "broken wire"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 36,
+        "misconception": "Assuming the bulb is faulty even after replacement",
+        "pedagogical_note": "Using a working bulb rules out bulb defect"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 24,
+        "misconception": "Ignoring that the battery was replaced with a fully charged one",
+        "pedagogical_note": "Battery charge is no longer a variable"
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 15,
+        "misconception": "Belief that different conducting metals stop current flow",
+        "pedagogical_note": "Different metals can still conduct electricity in a simple circuit"
+      }
+    ],
+    "expert_comment": "By replacing both the bulb and the battery, Hansa is isolating the remaining component. If the bulb still does not glow, a broken or internally disconnected wire is the most plausible cause."
+  },
+
+  "semantic": {
+    "concepts": [
+      "closed_circuit",
+      "electric_current",
+      "fault_diagnosis",
+      "controlled_experiment"
+    ],
+    "prerequisites": [
+      "components_of_simple_circuit",
+      "need_for_continuous_conducting_path"
+    ],
+    "question_pattern": "diagnosis_by_variable_elimination",
+    "reasoning_type": "diagnostic_reasoning",
+    "asset_skill_no": 9,
+    "asset_skill_label": "Hypothesis or prediction"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_39224",
+    "original_qno": 6,
+    "skill_no": 9,
+    "percent_correct": 24,
+    "option_distribution_percent": {
+      "A": 36,
+      "B": 24,
+      "C": 24,
+      "D": 15
+    }
+  }
+},
+
+{
+  "stimulus_id": "Ei_ASSET_Sci_39224_STIM_FERTILIZER_WORLD",
+  "stimulus_type": "data_visual_infographic",
+  "eqjs_version": "2.0",
+
+  "protocol_conformance": [
+    "EQJS-2.0",
+    "INF-MAP-CANVAS-1.0",
+    "GRAPH-LINE-TREND-1.0"
+  ],
+
+  "purpose": "Shared data stimulus for questions Q7, Q8, and Q9. No inference or question-specific logic is embedded.",
+
+  "content_schema": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Worldwide Growth in Fertilizer Use - Infographic Data",
+    "version": "1.0.0",
+    "description": "Shown below is a graphic representation indicating the use of fertiliser across the world. For each country marked, the bold circle represents its fertiliser usage in 1996-97 and the dotted circle represents its fertiliser usage in 2006-07. In worldwide trends, it was seen that the fertiliser consumption in group 1 countries increased, whereas the consumption in group 2 countries decreased in this time period. This trend is indicated in the line graph.",
+
+    "metadata": {
+      "source": "http://www.nytimes.com/imagepages/2008/04/30/business/20080430_FERTILIZER_GRAPHIC.html",
+      "data_year_baseline": "1996-97",
+      "data_year_comparison": "2006-07",
+      "note": "* Data for regions marked with asterisk are for 2005-6 and the 10-year change is from 1995-96"
+    },
+
+    "infographic": {
+      "title": "Worldwide Growth in Fertilizer Use",
+
+      "layout": {
+        "width": 1200,
+        "height": 850,
+        "background": "#e8e8e8",
+        "projection": "natural_earth",
+        "outer_frame": {
+          "shape": "rounded_rectangle",
+          "border": "solid"
+        }
+      },
+
+      "map_layer": {
+        "type": "world_map",
+        "base_image": "BlankMap-World.png",
+        "fill": "#cccccc",
+        "stroke": "#ffffff",
+        "stroke_width": 0.5,
+        "role": "primary_canvas"
+      },
+
+      "legend": {
+        "circle_encoding": {
+          "description": "Area of each circle is in proportion to the fertilizer usage",
+          "baseline_circle": {
+            "label": "1996-97",
+            "style": "bold_border",
+            "stroke_width": 2.5
+          },
+          "comparison_circle": {
+            "label": "2006-07",
+            "style": "dotted_border",
+            "stroke_dasharray": "6,3"
+          }
+        },
+        "percentage_label": {
+          "description": "10-year change in fertilizer use",
+          "font_weight": "bold"
+        }
+      },
+
+      "country_data": [
+        { "id": "china", "group": 1 },
+        { "id": "india", "group": 1 },
+        { "id": "united_states", "group": 1 },
+        { "id": "european_union", "group": 2 },
+        { "id": "brazil", "group": 1 },
+        { "id": "pakistan", "group": 1 },
+        { "id": "iran", "group": 1 },
+        { "id": "canada", "group": 2 },
+        { "id": "poland", "group": 1 },
+        { "id": "vietnam", "group": 1 },
+        { "id": "bangladesh", "group": 1 },
+        { "id": "africa", "group": 1 },
+        { "id": "eastern_europe_central_asia", "group": 2 },
+        { "id": "argentina", "group": null }
+      ],
+
+      "inset_line_graph": {
+        "title": "Worldwide fertilizer consumption",
+        "y_axis_label": "million tonnes",
+        "x_axis_years": [1971, 1976, 1981, 1986, 1991, 1996, 2001, 2007],
+        "series": [
+          {
+            "id": "group_1",
+            "label": "Group 1 Countries",
+            "trend_direction": "increase"
+          },
+          {
+            "id": "group_2",
+            "label": "Group 2 Countries",
+            "trend_direction": "decrease"
+          }
+        ]
+      },
+
+      "footnotes": [
+        "Fertilizer use compared with 10 years ago",
+        "*Data for these regions are for 2005-6 and the 10-year change is from 1995-96",
+        "Area of each circle is in proportion to the fertilizer usage"
+      ]
+    }
+  },
+
+  "usage": {
+    "shared_across_questions": [
+      "Ei_ASSET_Sci_39224_Q7",
+      "Ei_ASSET_Sci_39224_Q8",
+      "Ei_ASSET_Sci_39224_Q9"
+    ],
+    "stimulus_only": true,
+    "no_inference_embedded": true
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_39224_Q7",
+    "source": "Ei_ASSET Science Paper 39224",
+    "created": "2026-02-12T12:10:00+05:30",
+    "last_modified": "2026-02-12T12:10:00+05:30",
+    "protocol_conformance": ["EQJS-2.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-02-12T12:10:00+05:30",
+      "checked_invariants": ["MCQ-INV-001", "ANSWER-INV-001"],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "biology",
+    "topic": [
+      "fertiliser_use",
+      "agriculture",
+      "data_interpretation"
+    ],
+    "difficulty": "easy",
+    "cognitive_level": "analyze",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 73
+  },
+
+  "content": {
+    "question_text": "The fertilizer usage in 2006–07 in Argentina was ________ compared to that in 1996–97.",
+    "question_format": "mcq",
+    "stimulus_reference": "Ei_ASSET_Sci_39224_STIM_FERTILIZER_WORLD",
+    "options": {
+      "A": "less",
+      "B": "more",
+      "C": "the same",
+      "D": "We cannot say based on the given information."
+    }
+  },
+
+  "solution": {
+    "correct_answer": "B",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Compare the dotted circle (2006–07) with the bold circle (1996–97) for Argentina in the infographic",
+          "marks": 1,
+          "keywords": ["Argentina", "2006–07", "1996–97", "circle size comparison"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 15,
+        "misconception": "Assuming no labelled percentage implies a decrease",
+        "pedagogical_note": "Absence of a percentage label does not imply reduced usage"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 6,
+        "misconception": "Assuming equal circle sizes indicate no change",
+        "pedagogical_note": "The comparison relies on the relative visual encoding of the two circles"
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 6,
+        "misconception": "Belief that missing numerical labels make comparison impossible",
+        "pedagogical_note": "Visual comparison of circle sizes allows qualitative judgement"
+      }
+    ],
+    "expert_comment": "From the infographic, the circle representing 2006–07 for Argentina is larger than that for 1996–97, indicating higher fertiliser usage in 2006–07."
+  },
+
+  "semantic": {
+    "concepts": [
+      "visual_data_comparison",
+      "fertiliser_consumption",
+      "qualitative_trend_analysis"
+    ],
+    "prerequisites": [
+      "interpreting_proportional_symbols",
+      "reading_infographics"
+    ],
+    "question_pattern": "comparative_statement_completion",
+    "reasoning_type": "data_based_reasoning",
+    "asset_skill_no": 7,
+    "asset_skill_label": "Advanced data interpretation"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_39224",
+    "original_qno": 7,
+    "skill_no": 7,
+    "percent_correct": 73,
+    "option_distribution_percent": {
+      "A": 15,
+      "B": 73,
+      "C": 6,
+      "D": 6
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_39224_Q8",
+    "source": "Ei_ASSET Science Paper 39224",
+    "created": "2026-02-12T12:20:00+05:30",
+    "last_modified": "2026-02-12T12:20:00+05:30",
+    "protocol_conformance": ["EQJS-2.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-02-12T12:20:00+05:30",
+      "checked_invariants": ["MCQ-INV-001", "ANSWER-INV-001"],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "biology",
+    "topic": [
+      "fertiliser_use",
+      "agriculture",
+      "global_trends",
+      "data_interpretation"
+    ],
+    "difficulty": "easy",
+    "cognitive_level": "understand",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 67
+  },
+
+  "content": {
+    "question_text": "Which of the following could be one of the Group 2 countries?",
+    "question_format": "mcq",
+    "stimulus_reference": "Ei_ASSET_Sci_39224_STIM_FERTILIZER_WORLD",
+    "options": {
+      "A": "Iran",
+      "B": "Brazil",
+      "C": "Vietnam",
+      "D": "Canada"
+    }
+  },
+
+  "solution": {
+    "correct_answer": "D",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify a country whose fertiliser consumption decreased over the given time period",
+          "marks": 1,
+          "keywords": ["Group 2", "decrease", "fertiliser consumption"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 9,
+        "misconception": "Confusing increase in fertiliser use with Group 2 classification",
+        "pedagogical_note": "Iran shows an increase in fertiliser usage and belongs to Group 1"
+      },
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 13,
+        "misconception": "Assuming rapid agricultural growth implies reduced fertiliser use",
+        "pedagogical_note": "Brazil shows a large increase and is clearly a Group 1 country"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 10,
+        "misconception": "Misreading the group classification on the infographic",
+        "pedagogical_note": "Vietnam is marked as a Group 1 country with increasing usage"
+      }
+    ],
+    "expert_comment": "Group 2 countries are those where fertiliser consumption decreased over time. Canada shows a reduction in fertiliser use and is therefore classified as a Group 2 country."
+  },
+
+  "semantic": {
+    "concepts": [
+      "group_classification",
+      "trend_identification",
+      "fertiliser_consumption"
+    ],
+    "prerequisites": [
+      "interpreting_trends_from_infographics"
+    ],
+    "question_pattern": "group_identification_from_data",
+    "reasoning_type": "classification_based_on_data",
+    "asset_skill_no": 6,
+    "asset_skill_label": "Analysis to identify trends or properties"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_39224",
+    "original_qno": 8,
+    "skill_no": 6,
+    "percent_correct": 67,
+    "option_distribution_percent": {
+      "A": 9,
+      "B": 13,
+      "C": 10,
+      "D": 67
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_39224_Q9",
+    "source": "Ei_ASSET Science Paper 39224",
+    "created": "2026-02-12T12:30:00+05:30",
+    "last_modified": "2026-02-12T12:30:00+05:30",
+    "protocol_conformance": ["EQJS-2.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-02-12T12:30:00+05:30",
+      "checked_invariants": ["MCQ-INV-001", "ANSWER-INV-001"],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "biology",
+    "topic": [
+      "fertiliser_use",
+      "agriculture",
+      "data_interpretation",
+      "proportional_reasoning"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "analyze",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 44
+  },
+
+  "content": {
+    "question_text": "Which of the following could be the percentage increase in the fertilizer use in China from 1996–97 to 2006–07? (Hint: Compare the area of the dotted circle and the solid circle.)",
+    "question_format": "mcq",
+    "stimulus_reference": "Ei_ASSET_Sci_39224_STIM_FERTILIZER_WORLD",
+    "options": {
+      "A": "5%",
+      "B": "40%",
+      "C": "75%",
+      "D": "100%"
+    }
+  },
+
+  "solution": {
+    "correct_answer": "B",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Estimate the relative increase by comparing the areas of the dotted and solid circles for China",
+          "marks": 1,
+          "keywords": ["China", "area comparison", "approximate increase"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 19,
+        "misconception": "Underestimating the visual difference between the two circles",
+        "pedagogical_note": "The dotted circle is substantially larger than the solid circle, indicating more than a small increase"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 30,
+        "misconception": "Overestimating growth by equating noticeable increase with very large percentage change",
+        "pedagogical_note": "The area increase is significant but not close to doubling"
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 7,
+        "misconception": "Assuming the increase is a doubling because the outer circle is much larger",
+        "pedagogical_note": "A 100% increase would require the area to roughly double, which is not shown"
+      }
+    ],
+    "expert_comment": "The dotted circle for China is clearly larger than the solid circle but not close to twice its area. An approximate increase of about 40% best matches the visual representation."
+  },
+
+  "semantic": {
+    "concepts": [
+      "proportional_symbols",
+      "percentage_change",
+      "visual_estimation"
+    ],
+    "prerequisites": [
+      "understanding_percentages",
+      "interpreting_area_based_symbols"
+    ],
+    "question_pattern": "approximate_percentage_estimation",
+    "reasoning_type": "quantitative_estimation",
+    "asset_skill_no": 7,
+    "asset_skill_label": "Advanced data interpretation"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_39224",
+    "original_qno": 9,
+    "skill_no": 7,
+    "percent_correct": 44,
+    "option_distribution_percent": {
+      "A": 19,
+      "B": 44,
+      "C": 30,
+      "D": 7
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_39224_Q10",
+    "source": "Ei_ASSET Science Paper 39224",
+    "created": "2026-02-12T12:45:00+05:30",
+    "last_modified": "2026-02-12T12:45:00+05:30",
+    "protocol_conformance": ["EQJS-2.0", "OPT-LENS-NATURAL-1.0", "TAB-OPTICS-OPTIONS-1.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-02-12T12:45:00+05:30",
+      "checkedn,
+    }
+  },
+
+  "classification": {
+    "subject": "physics",
+    "topic": [
+      "light",
+      "lenses",
+      "image_formation",
+      "refraction"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "analyze",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 22
+  },
+
+  "content": {
+    "question_text": "The photo below is taken on the International Space Station. Astronaut Kevin Ford is holding in front of his face an object ‘X’, through which an inverted image of his face is seen. Which of the following correctly shows the type of lens the object ‘X’ acts as, and the type of image that is seen in it?",
+    "question_format": "mcq",
+
+    "stimulus": {
+      "diagrams": [
+        {
+          "diagram_id": "stimulus_water_drop_lens",
+          "protocol": "OPT-LENS-NATURAL-1.0",
+          "type": "natural_lens_diagram",
+          "semantic_description": "An astronaut in a zero-gravity environment with a spherical drop of water floating in front of his face. The face appears inverted when viewed through the water drop.",
+          "structured_description": {
+            "environment": "zero_gravity",
+            "object_X": "spherical water droplet",
+            "optical_property": "acts_as_convex_lens",
+            "observed_image": {
+              "orientation": "inverted",
+              "nature": "real"
+            }
+          }
+        }
+      ]
+    },
+
+    "options": {
+      "presentation": "table",
+      "table_protocol": "TAB-OPTICS-OPTIONS-1.0",
+      "columns": ["Option", "Type of lens", "Image"],
+      "rows": [
+        ["A", "Concave lens", "Virtual"],
+        ["B", "Convex lens", "Real"],
+        ["C", "Concave lens", "Real"],
+        ["D", "Convex lens", "Virtual"]
+      ]
+    }
+  },
+
+  "solution": {
+    "correct_answer": "B",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify the optical behaviour of a spherical water droplet and the nature of the image formed",
+          "marks": 1,
+          "keywords": ["water droplet", "convex lens", "real image", "inverted"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 25,
+        "misconception": "Confusing concave lenses with image inversion",
+        "pedagogical_note": "Concave lenses always form virtual, upright images"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 25,
+        "misconception": "Believing concave lenses can produce real images",
+        "pedagogical_note": "Concave lenses do not form real images of real objects"
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 27,
+        "misconception": "Assuming convex lenses always form virtual images",
+        "pedagogical_note": "Convex lenses form real, inverted images when the object is beyond the focal length"
+      }
+    ],
+    "expert_comment": "A spherical drop of water behaves like a convex lens. Since the image of the astronaut’s face is inverted, the image must be real, which is characteristic of a convex lens under these conditions."
+  },
+
+  "semantic": {
+    "concepts": [
+      "convex_lens",
+      "real_image",
+      "refraction",
+      "natural_lenses"
+    ],
+    "prerequisites": [
+      "properties_of_convex_and_concave_lenses",
+      "image_orientation_and_type"
+    ],
+    "question_pattern": "identify_lens_from_image_properties",
+    "reasoning_type": "conceptual_physics",
+    "asset_skill_no": 6,
+    "asset_skill_label": "Analysis to identify trends or properties"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_39224",
+    "original_qno": 10,
+    "skill_no": 6,
+    "percent_correct": 22,
+   "option_distribution_percent": {
+      "A": 25,
+      "B": 22,
+      "C": 25,
+      "D": 27
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+  "metadata": {
+    "id": "Ei_ASSET_Sci_39224_Q11",
+    "source": "Ei_ASSET Science Paper 39224",
+    "created": "2026-02-12T12:55:00+05:30",
+    "last_modified": "2026-02-12T12:55:00+05:30",
+    "protocol_conformance": ["EQJS-2.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-02-12T12:55:00+05:30",
+      "checked_invariants": ["MCQ-INV-001", "ANSWER-INV-001"],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "physics",
+    "topic": [
+      "combustion",
+      "fire_triangle",
+      "fire_safety"
+    ],
+    "difficulty": "easy",
+    "cognitive_level": "understand",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 50
+  },
+
+  "content": {
+    "question_text": "A woollen blanket is often used to extinguish small fires. How does the blanket extinguish such fires?\n1. It reduces the air supply to the fuel by blocking the path of the air.\n2. It reduces the temperature of the fuel by shielding it from atmospheric heat.\n3. It reduces the amount of fuel by absorbing fuel into its fibres.",
+    "question_format": "mcq",
+    "options": {
+      "A": "only 1",
+      "B": "only 2",
+      "C": "only 1 and 2",
+      "D": "all – 1, 2 and 3"
+    }
+  },
+
+  "solution": {
+    "correct_answer": "A",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify which condition of the fire triangle is removed by covering the fire with a woollen blanket",
+          "marks": 1,
+          "keywords": ["oxygen", "air supply", "smothering"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 7,
+        "misconception": "Assuming the blanket cools the fire significantly",
+        "pedagogical_note": "A woollen blanket does not actively reduce the temperature of the fuel"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 24,
+        "misconception": "Believing both oxygen removal and cooling are responsible",
+        "pedagogical_note": "The primary mechanism is cutting off oxygen, not cooling"
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 18,
+        "misconception": "Assuming the blanket absorbs fuel",
+        "pedagogical_note": "The blanket does not reduce the amount of fuel available"
+      }
+    ],
+    "expert_comment": "A woollen blanket extinguishes fire by smothering it and cutting off the supply of oxygen, which is essential for combustion."
+  },
+
+  "semantic": {
+    "concepts": [
+      "combustion",
+      "oxygen_requirement",
+      "fire_extinguishing_methods"
+    ],
+    "prerequisites": [
+      "fire_triangle_concept"
+    ],
+    "question_pattern": "multi_statement_evaluation",
+    "reasoning_type": "conceptual",
+    "asset_skill_no": 4,
+    "asset_skill_label": "Representing or explaining processes or phenomena"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_39224",
+    "original_qno": 11,
+    "skill_no": 4,
+    "percent_correct": 50,
+    "option_distribution_percent": {
+      "A": 50,
+      "B": 7,
+      "C": 24,
+      "D": 18
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_39224_Q12",
+    "source": "Ei_ASSET Science Paper 39224",
+    "created": "2026-02-12T13:05:00+05:30",
+    "last_modified": "2026-02-12T13:05:00+05:30",
+    "protocol_conformance": ["EQJS-2.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-02-12T13:05:00+05:30",
+      "checked_invariants": ["MCQ-INV-001", "ANSWER-INV-001"],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "chemistry",
+    "topic": [
+      "combustion",
+      "fossil_fuels",
+      "biogeochemical_cycles",
+      "air_pollution"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "understand",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 39
+  },
+
+  "content": {
+    "question_text": "Combustion of different fossil fuels releases gases such as carbon dioxide, sulphur dioxide, carbon monoxide and nitrogen dioxide into the atmosphere. These gases are responsible for air pollution, acid rain and global warming. Which of the elements that make up these gases were once a part of a living thing?",
+    "question_format": "mcq",
+    "options": {
+      "A": "only sulphur and oxygen",
+      "B": "only carbon and oxygen",
+      "C": "only carbon, nitrogen and sulphur",
+      "D": "all – sulphur, carbon, nitrogen and oxygen"
+    }
+  },
+
+  "solution": {
+    "correct_answer": "D",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify elements present in living organisms that later become part of fossil fuels and combustion gases",
+          "marks": 1,
+          "keywords": ["carbon cycle", "nitrogen cycle", "sulphur cycle", "oxygen"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 6,
+        "misconception": "Assuming oxygen cannot originate from living matter",
+        "pedagogical_note": "Oxygen is a major component of biomolecules such as carbohydrates, proteins and lipids"
+      },
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 37,
+        "misconception": "Ignoring the presence of nitrogen and sulphur in living organisms",
+        "pedagogical_note": "Proteins and nucleic acids contain nitrogen and sulphur"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 18,
+        "misconception": "Belief that oxygen is only atmospheric and not biological",
+        "pedagogical_note": "Oxygen is part of water and organic compounds in living systems"
+      }
+    ],
+    "expert_comment": "Living organisms contain carbon, hydrogen, oxygen, nitrogen and small amounts of sulphur. Fossil fuels originate from ancient life forms, so all these elements were once part of living matter."
+  },
+
+  "semantic": {
+    "concepts": [
+      "origin_of_fossil_fuels",
+      "elements_in_living_organisms",
+      "biogeochemical_cycles"
+    ],
+    "prerequisites": [
+      "basic_composition_of_living_things",
+      "formation_of_fossil_fuels"
+    ],
+    "question_pattern": "identify_elements_from_context",
+    "reasoning_type": "conceptual",
+    "asset_skill_no": 5,
+    "asset_skill_label": "Extraction and application of information"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_39224",
+    "original_qno": 12,
+    "skill_no": 5,
+    "percent_correct": 39,
+    "option_distribution_percent": {
+      "A": 6,
+      "B": 37,
+      "C": 18,
+      "D": 39
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_39224_Q13",
+    "source": "Ei_ASSET Science Paper 39224",
+    "created": "2026-02-12T13:15:00+05:30",
+    "last_modified": "2026-02-12T13:15:00+05:30",
+    "protocol_conformance": ["EQJS-2.0", "DIAG-SPLIT-FIELD-1.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-02-12T13:15:00+05:30",
+      "checked_invariants": ["MCQ-INV-001", "ANSWER-INV-001"],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "biology",
+    "topic": [
+      "soil",
+      "manure",
+      "chemical_fertilisers",
+      "agriculture"
+    ],
+    "difficulty": "easy",
+    "cognitive_level": "understand",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 80
+  },
+
+  "content": {
+    "question_text": "Farmer Udayan divides his field into two equal parts P and Q. In part P he uses manure and in part Q he uses a chemical fertiliser. Which of the following is MOST likely to be true about the two parts of the field?",
+    "question_format": "mcq",
+
+    "stimulus": {
+      "diagrams": [
+        {
+          "diagram_id": "split_field_manure_fertiliser",
+          "protocol": "DIAG-SPLIT-FIELD-1.0",
+          "type": "labeled_region_diagram",
+          "semantic_description": "A rectangular field divided vertically into two equal parts. The left part is labelled Part P with the text 'Manure used'. The right part is labelled Part Q with the text 'Chemical fertiliser used'.",
+          "structured_description": {
+            "shape": "rectangle",
+            "division": "vertical_equal_split",
+            "regions": [
+              {
+                "label": "Part P",
+                "annotation": "Manure used"
+              },
+              {
+                "label": "Part Q",
+                "annotation": "Chemical fertiliser used"
+              }
+            ]
+          }
+        }
+      ]
+    },
+
+    "options": {
+      "A": "The soil in Part P has less microorganisms living in it than the soil in Part Q.",
+      "B": "All crops grown in Part P will give the same yield as when grown in Part Q.",
+      "C": "The soil in Part P contains more organic matter than the soil in Part Q.",
+      "D": "Less weeds will grow in Part P than in Part Q."
+    }
+  },
+
+  "solution": {
+    "correct_answer": "C",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Compare the effect of manure and chemical fertilisers on soil composition",
+          "marks": 1,
+          "keywords": ["manure", "organic matter", "soil quality"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 7,
+        "misconception": "Believing manure reduces microorganisms in soil",
+        "pedagogical_note": "Manure generally increases microbial activity in soil"
+      },
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 7,
+        "misconception": "Assuming yield depends only on type of nutrient added",
+        "pedagogical_note": "Crop yield depends on multiple factors, not only manure versus fertiliser"
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 6,
+        "misconception": "Assuming manure suppresses weed growth",
+        "pedagogical_note": "Manure can also promote weed growth by enriching the soil"
+      }
+    ],
+    "expert_comment": "Manure adds decomposed organic material to the soil, increasing its organic matter content compared to soil treated only with chemical fertilisers."
+  },
+
+  "semantic": {
+    "concepts": [
+      "organic_matter_in_soil",
+      "effects_of_manure",
+      "soil_fertility"
+    ],
+    "prerequisites": [
+      "basic_soil_components",
+      "difference_between_manure_and_fertilisers"
+    ],
+    "question_pattern": "most_likely_outcome",
+    "reasoning_type": "conceptual",
+    "asset_skill_no": 5,
+    "asset_skill_label": "Extraction and application of information"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_39224",
+    "original_qno": 13,
+    "skill_no": 5,
+    "percent_correct": 80,
+    "option_distribution_percent": {
+      "A": 7,
+      "B": 7,
+      "C": 80,
+      "D": 6
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_39224_Q14",
+    "source": "Ei_ASSET Science Paper 39224",
+    "created": "2026-02-12T13:30:00+05:30",
+    "last_modified": "2026-02-12T13:30:00+05:30",
+    "protocol_conformance": [
+      "EQJS-2.0",
+      "DIAG-FLOATING-COMPARISON-1.0",
+      "DIAG-CONTAINER-LIQUID-1.0"
+    ],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-02-12T13:30:00+05:30",
+      "checked_invariants": ["MCQ-INV-001", "ANSWER-INV-001", "DIAG-INV-CONSISTENCY"],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "physics",
+    "topic": [
+      "density",
+      "buoyancy",
+      "floating_and_sinking"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "analyze",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 54
+  },
+
+  "content": {
+    "question_text": "Khalid took two jars with the same amount of water and put one ball in each of them. Here is how the balls looked as they floated in water. What can he do to make the ball in Jar 2 stay afloat to the same extent as the ball in Jar 1?",
+    "question_format": "mcq",
+
+    "stimulus": {
+      "diagrams": [
+        {
+          "diagram_id": "floating_balls_two_jars_renderable",
+          "protocol": "DIAG-FLOATING-COMPARISON-1.0",
+          "type": "renderable_physics_diagram",
+
+          "rendering_instructions": {
+            "canvas": {
+              "width": 900,
+              "height": 350,
+              "background": "white"
+            },
+            "style": {
+              "stroke_color": "#000000",
+              "stroke_width": 2,
+              "fill_water": "#e0e0e0",
+              "fill_ball": "none"
+            }
+          },
+
+          "objects": [
+            {
+              "object_id": "jar_1",
+              "type": "container",
+              "shape": "open_top_rectangle",
+              "position": { "x": 100, "y": 50 },
+              "dimensions": { "width": 250, "height": 220 },
+              "label": "Jar 1"
+            },
+            {
+              "object_id": "jar_2",
+              "type": "container",
+              "shape": "open_top_rectangle",
+              "position": { "x": 500, "y": 50 },
+              "dimensions": { "width": 250, "height": 220 },
+              "label": "Jar 2"
+            },
+            {
+              "object_id": "water_1",
+              "type": "liquid",
+              "container_ref": "jar_1",
+              "fill_height_ratio": 0.65,
+              "surface_line": true
+            },
+            {
+              "object_id": "water_2",
+              "type": "liquid",
+              "container_ref": "jar_2",
+              "fill_height_ratio": 0.65,
+              "surface_line": true
+            },
+            {
+              "object_id": "ball_1",
+              "type": "sphere",
+              "container_ref": "jar_1",
+              "radius": 35,
+              "float_state": {
+                "fraction_above_water": 0.45
+              }
+            },
+            {
+              "object_id": "ball_2",
+              "type": "sphere",
+              "container_ref": "jar_2",
+              "radius": 35,
+              "float_state": {
+                "fraction_above_water": 0.20
+              }
+            }
+          ],
+
+          "semantic_description": "Two identical jars contain equal amounts of water. A ball floats higher in Jar 1 than in Jar 2, indicating greater buoyancy in Jar 1.",
+          "key_visual_contrast": "extent_of_submergence"
+        }
+      ]
+    },
+
+    "options": {
+      "A": "remove some water from jar 2",
+      "B": "heat the water in jar 2",
+      "C": "stick a small marble to the ball in jar 2",
+      "D": "dissolve some sugar in the water in jar 2"
+    }
+  },
+
+  "solution": {
+    "correct_answer": "D",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Increase the density of the liquid in Jar 2 so that the buoyant force increases",
+          "marks": 1,
+          "keywords": ["density", "buoyancy", "dissolving solute"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 24,
+        "misconception": "Belief that lowering water level affects buoyancy",
+        "pedagogical_note": "Buoyant force depends on fluid density, not volume of liquid present"
+      },
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 10,
+        "misconception": "Thinking heating water increases density",
+        "pedagogical_note": "Heating water reduces its density"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 11,
+        "misconception": "Assuming added mass helps floating",
+        "pedagogical_note": "Adding mass increases weight and causes deeper sinking"
+      }
+    ],
+    "expert_comment": "Dissolving sugar increases the density of water in Jar 2. A denser liquid exerts a greater buoyant force, allowing the ball to float higher and match the floating level in Jar 1."
+  },
+
+  "semantic": {
+    "concepts": [
+      "buoyancy",
+      "density_of_liquids",
+      "floating_equilibrium"
+    ],
+    "prerequisites": [
+      "basic_density_concept",
+      "Archimedes_principle"
+    ],
+    "question_pattern": "intervention_to_equalise_outcome",
+    "reasoning_type": "causal_physical_reasoning",
+    "asset_skill_no": 8,
+    "asset_skill_label": "Integrating concepts for decision making"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_39224",
+    "original_qno": 14,
+    "skill_no": 8,
+    "percent_correct": 54,
+    "option_distribution_percent": {
+      "A": 24,
+      "B": 10,
+      "C": 11,
+      "D": 54
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_39224_Q15",
+    "source": "Ei_ASSET Science Paper 39224",
+    "created": "2026-02-12T13:40:00+05:30",
+    "last_modified": "2026-02-12T13:40:00+05:30",
+    "protocol_conformance": ["EQJS-2.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-02-12T13:40:00+05:30",
+      "checked_invariants": ["MCQ-INV-001", "ANSWER-INV-001"],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "biology",
+    "topic": [
+      "cell_transport",
+      "diffusion",
+      "osmosis"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "understand",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 30
+  },
+
+  "content": {
+    "question_text": "Diffusion and osmosis are two different processes. Diffusion is the natural movement of particles from an area of higher concentration to an area of lower concentration due to random molecular motion. Whereas osmosis is a special type of diffusion in which water molecules move from a region of lower solute concentration to one of higher solute concentration through a semi-permeable membrane. Both the processes result in a balanced solute concentration. A tea bag with a semi-permeable membrane is placed in a cup into which hot water is poured. Which of the following best describes the phenomena responsible for the change in colour of water in the cup?",
+    "question_format": "mcq",
+    "options": {
+      "A": "diffusion, as the tea bag and water are at different temperatures",
+      "B": "osmosis, as particles in tea move across the semi-permeable membrane",
+      "C": "diffusion, as the particles in tea move from high concentration to lower concentration",
+      "D": "osmosis, as water moves from a low solute concentration to a high solute concentration"
+    }
+  },
+
+  "solution": {
+    "correct_answer": "C",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify the mechanism by which tea particles spread from the tea bag into the surrounding water",
+          "marks": 1,
+          "keywords": ["diffusion", "concentration gradient", "tea particles"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 34,
+        "misconception": "Belief that osmosis involves movement of solute particles through a semi-permeable membrane",
+        "pedagogical_note": "Osmosis involves the movement of water molecules only, not solute particles such as tea."
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 25,
+        "misconception": "Assuming the presence of a semi-permeable membrane automatically implies osmosis",
+        "pedagogical_note": "The colour change occurs due to diffusion of tea particles, not water movement."
+      },
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 11,
+        "misconception": "Attributing diffusion primarily to temperature difference",
+        "pedagogical_note": "Temperature affects the rate of diffusion but not the fundamental cause."
+      }
+    ],
+    "expert_comment": "The colour of the water changes because tea particles move from a region of higher concentration inside the tea bag to a lower concentration in the surrounding water. This process is diffusion, not osmosis."
+  },
+
+  "semantic": {
+    "concepts": [
+      "diffusion",
+      "osmosis",
+      "concentration_gradient"
+    ],
+    "prerequisites": [
+      "particle_nature_of_matter",
+      "definitions_of_diffusion_and_osmosis"
+    ],
+    "question_pattern": "process_identification_from_context",
+    "reasoning_type": "conceptual",
+    "asset_skill_no": 3,
+    "asset_skill_label": "Classification/comparison; giving examples"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_39224",
+    "original_qno": 15,
+    "skill_no": 3,
+    "percent_correct": 30,
+    "option_distribution_percent": {
+      "A": 11,
+      "B": 34,
+      "C": 30,
+      "D": 25
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_39224_Q16",
+    "source": "Ei_ASSET Science Paper 39224",
+    "created": "2026-02-12T13:50:00+05:30",
+    "last_modified": "2026-02-12T13:50:00+05:30",
+    "protocol_conformance": [
+      "EQJS-2.0",
+      "TAB-ORGANISM-LIST-1.0"
+    ],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-02-12T13:50:00+05:30",
+      "checked_invariants": ["MCQ-INV-001", "ANSWER-INV-001"],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "biology",
+    "topic": [
+      "reproduction",
+      "sexual_reproduction",
+      "classification_of_organisms"
+    ],
+    "difficulty": "easy",
+    "cognitive_level": "understand",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 20
+  },
+
+  "content": {
+    "question_text": "Which of the organisms in the list reproduce sexually?",
+    "question_format": "mcq",
+
+    "stimulus": {
+      "tables": [
+        {
+          "table_id": "organism_list",
+          "protocol": "TAB-ORGANISM-LIST-1.0",
+          "type": "single_row_label_table",
+          "semantic_description": "A single-row table listing different organisms.",
+          "columns": [
+            "Mosquito",
+            "Snake",
+            "Camel",
+            "Mango plant",
+            "Chicken"
+          ]
+        }
+      ]
+    },
+
+    "options": {
+      "A": "only snakes and camels",
+      "B": "only snakes, camels and chickens",
+      "C": "only snakes, camels, chickens and mosquitoes",
+      "D": "All the organisms in the above list reproduce sexually."
+    }
+  },
+
+  "solution": {
+    "correct_answer": "D",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify which organisms are capable of sexual reproduction",
+          "marks": 1,
+          "keywords": [
+            "sexual reproduction",
+            "animals",
+            "flowering plants"
+          ]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 17,
+        "misconception": "Belief that only large animals reproduce sexually",
+        "pedagogical_note": "Many insects and plants also reproduce sexually"
+      },
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 24,
+        "misconception": "Assuming plants do not reproduce sexually",
+        "pedagogical_note": "Flowering plants such as mango reproduce sexually through flowers and seeds"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 38,
+        "misconception": "Excluding plants from sexual reproduction",
+        "pedagogical_note": "Sexual reproduction occurs in both animals and many plants"
+      }
+    ],
+    "expert_comment": "All the organisms listed—mosquito, snake, camel, mango plant, and chicken—are capable of sexual reproduction. Hence, the correct answer is option D."
+  },
+
+  "semantic": {
+    "concepts": [
+      "sexual_reproduction_in_animals",
+      "sexual_reproduction_in_plants"
+    ],
+    "prerequisites": [
+      "basic_life_processes",
+      "reproduction_in_plants_and_animals"
+    ],
+    "question_pattern": "identify_common_property",
+    "reasoning_type": "conceptual",
+    "asset_skill_no": 3,
+    "asset_skill_label": "Classification/comparison; giving examples"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_39224",
+    "original_qno": 16,
+    "skill_no": 3,
+    "percent_correct": 20,
+    "option_distribution_percent": {
+      "A": 17,
+      "B": 24,
+      "C": 38,
+      "D": 20
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_39224_Q17",
+    "source": "Ei_ASSET Science Paper 39224",
+    "created": "2026-02-12T14:05:00+05:30",
+    "last_modified": "2026-02-12T14:05:00+05:30",
+    "protocol_conformance": [
+      "EQJS-2.0",
+      "DIAG-FARMLAND-PLOTS-1.0",
+      "TAB-PROCEDURE-FERTILISER-1.0"
+    ],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-02-12T14:05:00+05:30",
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001",
+        "EXP-INV-CONTROL-VARIABLES"
+      ],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "biology",
+    "topic": [
+      "experimental_design",
+      "fertilisers",
+      "crop_yield",
+      "controlled_investigation"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "analyze",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 35
+  },
+
+  "content": {
+    "question_text": "Yatin divides his 10 acres of farmland into smaller plots of different areas as shown below. He plants one variety of bajra in plots P and Q while planting another variety in plots R and S. In all the plots he plants the same number of bajra plants per unit area and adequately waters the plants. He wants to check the effect of a chemical fertiliser on the production of both the varieties of bajra. Which of the following procedures should he follow to check this effect?",
+    "question_format": "mcq",
+
+    "stimulus": {
+      "diagrams": [
+        {
+          "diagram_id": "yatins_farmland_layout",
+          "protocol": "DIAG-FARMLAND-PLOTS-1.0",
+          "type": "renderable_layout_diagram",
+          "semantic_description": "A schematic layout of Yatin’s farmland divided into four plots of different areas labelled P, Q, R and S.",
+          "structured_description": {
+            "overall_label": "Yatin’s farmland",
+            "plots": [
+              {
+                "label": "Plot P",
+                "relative_area": "largest",
+                "position": "left"
+              },
+              {
+                "label": "Plot R",
+                "relative_area": "medium",
+                "position": "top_right"
+              },
+              {
+                "label": "Plot Q",
+                "relative_area": "small",
+                "position": "bottom_center"
+              },
+              {
+                "label": "Plot S",
+                "relative_area": "small",
+                "position": "bottom_right"
+              }
+            ]
+          }
+        }
+      ]
+    },
+
+    "options": {
+      "presentation": "table",
+      "table_protocol": "TAB-PROCEDURE-FERTILISER-1.0",
+      "columns": [
+        "Procedure",
+        "Amount of fertiliser added in plot P",
+        "Amount of fertiliser added in plot Q",
+        "Amount of fertiliser added in plot R",
+        "Amount of fertiliser added in plot S"
+      ],
+      "rows": [
+        ["A", "5 kg/acre", "No fertiliser", "3 kg/acre", "No fertiliser"],
+        ["B", "5 kg", "2.5 kg", "3 kg", "1.5 kg"],
+        ["C", "2.5 kg/acre", "No fertiliser", "2.5 kg/acre", "No fertiliser"],
+        ["D", "2.5 kg", "No fertiliser", "2.5 kg", "No fertiliser"]
+      ]
+    }
+  },
+
+  "solution": {
+    "correct_answer": "C",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify the procedure that keeps fertiliser application per unit area constant while providing control plots for both crop varieties",
+          "marks": 1,
+          "keywords": [
+            "controlled experiment",
+            "per unit area",
+            "control plot",
+            "fair test"
+          ]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 16,
+        "misconception": "Using different fertiliser amounts per unit area across plots",
+        "pedagogical_note": "Different kg/acre values introduce an additional variable"
+      },
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 31,
+        "misconception": "Comparing total fertiliser amounts instead of fertiliser per unit area",
+        "pedagogical_note": "Plots are of different sizes, so total kilograms is not a fair comparison"
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 16,
+        "misconception": "Assuming equal total fertiliser is sufficient",
+        "pedagogical_note": "Equal total amounts do not account for differences in plot area"
+      }
+    ],
+    "expert_comment": "To fairly test the effect of fertiliser, Yatin must apply the same amount per unit area to the test plots and use plots without fertiliser as controls for each variety. Procedure C satisfies these conditions."
+  },
+
+  "semantic": {
+    "concepts": [
+      "controlled_variables",
+      "fair_testing",
+      "fertiliser_application_rate"
+    ],
+    "prerequisites": [
+      "idea_of_control_and_test_groups",
+      "understanding_per_unit_area"
+    ],
+    "question_pattern": "identify_correct_experimental_procedure",
+    "reasoning_type": "experimental_design_reasoning",
+    "asset_skill_no": 10,
+    "asset_skill_label": "Design/evaluation of investigations"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_39224",
+    "original_qno": 17,
+    "skill_no": 10,
+    "percent_correct": 35,
+    "option_distribution_percent": {
+      "A": 16,
+      "B": 31,
+      "C": 35,
+      "D": 16
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_39224_Q18",
+    "source": "Ei_ASSET Science Paper 39224",
+    "created": "2026-02-12T14:15:00+05:30",
+    "last_modified": "2026-02-12T14:15:00+05:30",
+    "protocol_conformance": ["EQJS-2.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-02-12T14:15:00+05:30",
+      "checked_invariants": ["MCQ-INV-001", "ANSWER-INV-001"],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "biology",
+    "topic": [
+      "cell_structure",
+      "scale_and_size",
+      "microscopic_organisms"
+    ],
+    "difficulty": "easy",
+    "cognitive_level": "understand",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 38
+  },
+
+  "content": {
+    "question_text": "The size of an animal cell is __________________ the size of a water molecule.",
+    "question_format": "mcq",
+    "options": {
+      "A": "smaller than",
+      "B": "larger than",
+      "C": "almost equal to",
+      "D": "It is larger in some animals and smaller in some animals."
+    }
+  },
+
+  "solution": {
+    "correct_answer": "B",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Compare the scale of an animal cell with that of a water molecule",
+          "marks": 1,
+          "keywords": ["cell size", "molecule size", "orders of magnitude"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 28,
+        "misconception": "Believing cells are extremely small, comparable to molecules",
+        "pedagogical_note": "Cells are microscopic but are vastly larger than individual molecules"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 14,
+        "misconception": "Assuming all microscopic entities are of similar size",
+        "pedagogical_note": "There are many orders of magnitude difference between molecules and cells"
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 20,
+        "misconception": "Thinking cell size varies relative to molecular size",
+        "pedagogical_note": "All animal cells are enormously larger than water molecules"
+      }
+    ],
+    "expert_comment": "An animal cell is many orders of magnitude larger than a water molecule. Even the smallest cells are far bigger than individual molecules."
+  },
+
+  "semantic": {
+    "concepts": [
+      "scale_in_biology",
+      "cell_size",
+      "molecular_size"
+    ],
+    "prerequisites": [
+      "basic_cell_theory",
+      "idea_of_molecules"
+    ],
+    "question_pattern": "comparative_scale_statement",
+    "reasoning_type": "conceptual",
+    "asset_skill_no": 3,
+    "asset_skill_label": "Classification/comparison; giving examples"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_39224",
+    "original_qno": 18,
+    "skill_no": 3,
+    "percent_correct": 38,
+    "option_distribution_percent": {
+      "A": 28,
+      "B": 38,
+      "C": 14,
+      "D": 20
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_39224_Q19",
+    "source": "Ei_ASSET Science Paper 39224",
+    "created": "2026-02-12T14:30:00+05:30",
+    "last_modified": "2026-02-12T14:30:00+05:30",
+    "protocol_conformance": [
+      "EQJS-2.0",
+      "IMG-SEMANTIC-DESCRIPTION-1.0"
+    ],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-02-12T14:30:00+05:30",
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001"
+      ],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "physics",
+    "topic": [
+      "moon_environment",
+      "atmosphere",
+      "erosion",
+      "space_science"
+    ],
+    "difficulty": "easy",
+    "cognitive_level": "apply",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 49
+  },
+
+  "content": {
+    "question_text": "The picture shows the footprints of the first men to walk on the Moon. The footprints were left there by the Apollo 11 astronauts, in July, 1969. Almost 40 years later, a spacecraft orbiting the Moon photographed the landing area and found that the footprints left behind by the Apollo 11 astronauts were still there. Which of the following is a possible explanation for the footprints remaining intact after so many years?",
+    "question_format": "mcq",
+
+    "stimulus": {
+      "images": [
+        {
+          "image_id": "moon_footprint_and_astronaut",
+          "protocol": "IMG-SEMANTIC-DESCRIPTION-1.0",
+          "semantic_description": "A close-up view of a human boot footprint pressed into fine, dusty lunar soil, showing sharp edges and clear tread patterns. Beside it, an astronaut in a bulky spacesuit stands on the Moon’s surface near a planted flag. The surface appears dry, dusty, and undisturbed, with no signs of wind-driven movement or erosion."
+        }
+      ]
+    },
+
+    "options": {
+      "A": "The Moon has no wind to blow dust over the footprints.",
+      "B": "The footprints on the Moon have dried up and become hard.",
+      "C": "The soil on the Moon is very heavy and hence the footprints stay intact.",
+      "D": "Dust does not settle on the footprints because of the low gravity of the Moon."
+    }
+  },
+
+  "solution": {
+    "correct_answer": "A",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify the environmental factor on the Moon that prevents erosion of footprints",
+          "marks": 1,
+          "keywords": [
+            "no atmosphere",
+            "no wind",
+            "no erosion"
+          ]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 31,
+        "misconception": "Assuming low gravity prevents dust from settling",
+        "pedagogical_note": "Low gravity affects weight, not the presence or absence of erosion by wind"
+      },
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 9,
+        "misconception": "Thinking moisture is involved in forming or preserving footprints",
+        "pedagogical_note": "There is no water on the Moon to dry up footprints"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 10,
+        "misconception": "Believing heavier soil prevents disturbance",
+        "pedagogical_note": "Soil mass does not explain long-term preservation; lack of atmosphere does"
+      }
+    ],
+    "expert_comment": "The Moon has no atmosphere and therefore no wind or weathering processes to disturb the surface. As a result, footprints can remain unchanged for millions of years."
+  },
+
+  "semantic": {
+    "concepts": [
+      "absence_of_atmosphere",
+      "erosion",
+      "lunar_surface_conditions"
+    ],
+    "prerequisites": [
+      "basic_idea_of_atmosphere",
+      "effects_of_wind_on_earth"
+    ],
+    "question_pattern": "phenomenon_explanation_from_environment",
+    "reasoning_type": "causal",
+    "asset_skill_no": 5,
+    "asset_skill_label": "Extraction and application of information"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_39224",
+    "original_qno": 19,
+    "skill_no": 5,
+    "percent_correct": 49,
+    "option_distribution_percent": {
+      "A": 49,
+      "B": 9,
+      "C": 10,
+      "D": 31
+    }
+  }
+}, 
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_39224_Q20",
+    "source": "Ei_ASSET Science Paper 39224",
+    "created": "2026-02-12T14:45:00+05:30",
+    "last_modified": "2026-02-12T14:45:00+05:30",
+    "protocol_conformance": [
+      "EQJS-2.0",
+      "DIAG-WATER-SUPPLY-PRESSURE-1.0"
+    ],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-02-12T14:45:00+05:30",
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001",
+        "DIAG-INV-RELATIVE-HEIGHT"
+      ],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "physics",
+    "topic": [
+      "fluids",
+      "water_pressure",
+      "pressure_with_depth"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "apply",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 58
+  },
+
+  "content": {
+    "question_text": "A building with three floors has a water supply design as shown in the figure. Empty, identical containers are placed on the 1st floor, the 2nd floor and on the 3rd floor. The taps on the three floors are opened at the same time and the time taken to fill the containers completely on each floor is noted. On which floor is the container likely to take the SHORTEST time to fill completely? (Note: The water is always at level H in the water tank.)",
+    "question_format": "mcq",
+
+    "stimulus": {
+      "diagrams": [
+        {
+          "diagram_id": "multi_floor_water_supply",
+          "protocol": "DIAG-WATER-SUPPLY-PRESSURE-1.0",
+          "type": "schematic_physics_diagram",
+          "semantic_description": "A tall building supplied with water from a tank placed above all floors. A large, beaker-shaped water tank completely filled with water is shown at the top, labelled 'Water tank', with the water level marked as H. From the lower side of the tank, a vertical pipe goes downward. A tap is shown at the start of this pipe and labelled 'Tap'. The vertical pipe branches at three different heights to horizontal pipes, each ending in a tap and an empty identical container. The highest branch supplies the 3rd floor, the middle branch supplies the 2nd floor, and the lowest branch supplies the 1st floor. The floors are clearly labelled '3rd floor', '2nd floor', and '1st floor' from top to bottom. All containers are identical and initially empty."
+        }
+      ]
+    },
+
+    "options": {
+      "A": "1st floor",
+      "B": "2nd floor",
+      "C": "3rd floor",
+      "D": "All the three containers will take the same time to fill completely."
+    }
+  },
+
+  "solution": {
+    "correct_answer": "A",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Relate water pressure at a tap to the vertical depth below the water level in the tank",
+          "marks": 1,
+          "keywords": [
+            "pressure increases with depth",
+            "greater height difference",
+            "higher flow rate"
+          ]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 14,
+        "misconception": "Assuming equal water level in the tank gives equal flow at all floors",
+        "pedagogical_note": "Flow rate depends on pressure, which varies with height difference from the tank"
+      },
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 6,
+        "misconception": "Choosing a middle option assuming a balance",
+        "pedagogical_note": "Pressure is strictly greatest at the lowest tap"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 21,
+        "misconception": "Thinking water reaches the top floor first and hence fills faster",
+        "pedagogical_note": "The top floor has the least pressure because it is closest to the water level"
+      }
+    ],
+    "expert_comment": "Water pressure at a tap depends on the vertical distance below the water level in the tank. The tap on the 1st floor is at the greatest depth below the water level H, so water flows fastest there and the container fills in the shortest time."
+  },
+
+  "semantic": {
+    "concepts": [
+      "liquid_pressure",
+      "pressure_due_to_height",
+      "flow_rate"
+    ],
+    "prerequisites": [
+      "basic_idea_of_pressure",
+      "everyday_examples_of_water_tanks"
+    ],
+    "question_pattern": "apply_physical_principle_to_system",
+    "reasoning_type": "causal_physics",
+    "asset_skill_no": 6,
+    "asset_skill_label": "Analysis to identify trends or properties"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_39224",
+    "original_qno": 20,
+    "skill_no": 6,
+    "percent_correct": 58,
+    "option_distribution_percent": {
+      "A": 58,
+      "B": 6,
+      "C": 21,
+      "D": 14
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_39224_Q21",
+    "source": "Ei_ASSET Science Paper 39224",
+    "created": "2026-02-12T15:00:00+05:30",
+    "last_modified": "2026-02-12T15:00:00+05:30",
+    "protocol_conformance": [
+      "EQJS-2.0",
+      "IMG-SEMANTIC-DESCRIPTION-1.0"
+    ],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-02-12T15:00:00+05:30",
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001"
+      ],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "biology",
+    "topic": [
+      "animal_identification",
+      "patterns_in_nature",
+      "biodiversity_monitoring"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "analyze",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 43
+  },
+
+  "content": {
+    "question_text": "Rishi uses patterns formed by the stripes of a tiger to identify it. The photograph below shows a few of these patterns marked. Using all the marked patterns instead of just one or two of them, reduces the chance of which of the following?",
+    "question_format": "mcq",
+
+    "stimulus": {
+      "images": [
+        {
+          "image_id": "tiger_stripe_patterns",
+          "protocol": "IMG-SEMANTIC-DESCRIPTION-1.0",
+          "semantic_description": "A side view photograph of a tiger showing its body covered with black stripes on a lighter background. Multiple stripe regions along the flank and back are marked with outlines and numbered pointers. Each marked region highlights a distinct local stripe pattern. While individual stripe shapes may resemble those of other tigers, the combination of many such stripe patterns across the body is unique to a single tiger and can be used for reliable identification."
+        }
+      ]
+    },
+
+    "options": {
+      "A": "identifying the same tiger multiple times",
+      "B": "encountering the same tiger multiple times",
+      "C": "identifying two different tigers as the same one",
+      "D": "these markings changing over time for the same tiger"
+    }
+  },
+
+  "solution": {
+    "correct_answer": "C",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Recognise that using more identifying features reduces misidentification between individuals",
+          "marks": 1,
+          "keywords": [
+            "unique combination",
+            "identification",
+            "reduce error"
+          ]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 29,
+        "misconception": "Confusing identification error with repeated identification",
+        "pedagogical_note": "Identifying the same tiger multiple times is not reduced by using more patterns"
+      },
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 16,
+        "misconception": "Mixing up physical encounters with identification processes",
+        "pedagogical_note": "Pattern use affects identification, not how often a tiger is encountered"
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 11,
+        "misconception": "Assuming pattern use affects biological change",
+        "pedagogical_note": "Stripe patterns do not change significantly over time"
+      }
+    ],
+    "expert_comment": "Using multiple stripe patterns together makes the identification more specific. This reduces the risk of mistaking two different tigers that share one or two similar stripe features as the same individual."
+  },
+
+  "semantic": {
+    "concepts": [
+      "unique_identifiers",
+      "pattern_combination",
+      "error_reduction"
+    ],
+    "prerequisites": [
+      "idea_of_patterns",
+      "basic_identification_logic"
+    ],
+    "question_pattern": "reasoning_about_identification_methods",
+    "reasoning_type": "logical_analysis",
+    "asset_skill_no": 9,
+    "asset_skill_label": "Hypothesis or prediction"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_39224",
+    "original_qno": 21,
+    "skill_no": 9,
+    "percent_correct": 43,
+    "option_distribution_percent": {
+      "A": 29,
+      "B": 16,
+      "C": 43,
+      "D": 11
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_39224_Q22",
+    "source": "Ei_ASSET Science Paper 39224",
+    "created": "2026-02-12T15:15:00+05:30",
+    "last_modified": "2026-02-12T15:15:00+05:30",
+    "protocol_conformance": ["EQJS-2.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-02-12T15:15:00+05:30",
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001"
+      ],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "biology",
+    "topic": [
+      "fossils",
+      "preservation_of_remains",
+      "evidence_of_evolution"
+    ],
+    "difficulty": "easy",
+    "cognitive_level": "understand",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 57
+  },
+
+  "content": {
+    "question_text": "Scientists have discovered the fossil of a prehistoric whale. Which body parts of the whale are LEAST likely to be represented in this fossil?",
+    "question_format": "mcq",
+    "options": {
+      "A": "bones",
+      "B": "teeth",
+      "C": "lungs",
+      "D": "All parts are likely to be equally represented."
+    }
+  },
+
+  "solution": {
+    "correct_answer": "C",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify which body parts are least likely to fossilise",
+          "marks": 1,
+          "keywords": [
+            "soft tissues",
+            "hard parts",
+            "fossilisation"
+          ]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 17,
+        "misconception": "Believing all body parts decay similarly",
+        "pedagogical_note": "Hard parts like bones fossilise more easily than soft tissues"
+      },
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 15,
+        "misconception": "Assuming teeth decay faster than soft organs",
+        "pedagogical_note": "Teeth are among the most commonly preserved fossil remains"
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 11,
+        "misconception": "Thinking fossilisation preserves entire organisms equally",
+        "pedagogical_note": "Soft organs rarely fossilise compared to hard structures"
+      }
+    ],
+    "expert_comment": "Soft organs such as lungs decay quickly after death and are very rarely preserved as fossils. Hard parts like bones and teeth are much more likely to fossilise."
+  },
+
+  "semantic": {
+    "concepts": [
+      "fossilisation",
+      "hard_and_soft_tissues"
+    ],
+    "prerequisites": [
+      "basic_idea_of_fossils",
+      "difference_between_bones_and_organs"
+    ],
+    "question_pattern": "least_likely_identification",
+    "reasoning_type": "conceptual",
+    "asset_skill_no": 1,
+    "asset_skill_label": "Recollection or recognition of science facts and concepts"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_39224",
+    "original_qno": 22,
+    "skill_no": 1,
+    "percent_correct": 57,
+    "option_distribution_percent": {
+      "A": 17,
+      "B": 15,
+      "C": 57,
+      "D": 11
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_39224_Q23",
+    "source": "Ei_ASSET Science Paper 39224",
+    "created": "2026-02-12T15:40:00+05:30",
+    "last_modified": "2026-02-12T15:40:00+05:30",
+    "protocol_conformance": [
+      "EQJS-2.0",
+      "DIAG-IMMERSION-HEAT-TRANSFER-1.0"
+    ],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-02-12T15:40:00+05:30",
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001",
+        "DIAG-INV-CONSTANT-TEMP",
+        "DIAG-INV-PRE-IMMERSION"
+      ],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "physics",
+    "topic": [
+      "heat_transfer",
+      "thermal_equilibrium",
+      "temperature"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "analyze",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 27
+  },
+
+  "content": {
+    "question_text": "Charanjit immerses three identical steel cubes P, Q and R, which are all at room temperature, into three separate beakers containing different volumes of water, as shown. All the three beakers are maintained at a CONSTANT temperature of 75 °C. After an hour, he checks the temperature of each steel cube. What is he likely to observe?",
+    "question_format": "mcq",
+
+    "stimulus": {
+      "diagrams": [
+        {
+          "diagram_id": "steel_cubes_before_immersion",
+          "protocol": "DIAG-IMMERSION-HEAT-TRANSFER-1.0",
+          "type": "renderable_physics_diagram",
+          "semantic_description": "Three identical steel cubes labelled P, Q and R are shown positioned above three separate open cylindrical beakers at the same horizontal level. Each cube has a downward arrow indicating that it will be dropped into the beaker below. The cubes are not yet in contact with the water. Beaker P contains 250 mL of water, beaker Q contains 500 mL of water, and beaker R contains 750 mL of water. All the water is labelled as being at a constant temperature of 75 °C. The cubes are initially at room temperature.",
+          "structured_description": {
+            "objects": [
+              {
+                "id": "cube_P",
+                "type": "steel_cube",
+                "label": "P",
+                "initial_temperature": "room_temperature",
+                "state": "above_beaker",
+                "arrow": "downward"
+              },
+              {
+                "id": "cube_Q",
+                "type": "steel_cube",
+                "label": "Q",
+                "initial_temperature": "room_temperature",
+                "state": "above_beaker",
+                "arrow": "downward"
+              },
+              {
+                "id": "cube_R",
+                "type": "steel_cube",
+                "label": "R",
+                "initial_temperature": "room_temperature",
+                "state": "above_beaker",
+                "arrow": "downward"
+              }
+            ],
+            "containers": [
+              {
+                "id": "beaker_P",
+                "water_volume_mL": 250,
+                "water_temperature_C": 75,
+                "water_state": "undisturbed"
+              },
+              {
+                "id": "beaker_Q",
+                "water_volume_mL": 500,
+                "water_temperature_C": 75,
+                "water_state": "undisturbed"
+              },
+              {
+                "id": "beaker_R",
+                "water_volume_mL": 750,
+                "water_temperature_C": 75,
+                "water_state": "undisturbed"
+              }
+            ],
+            "annotations": [
+              "Water at 75 °C",
+              "Volumes: 250 mL, 500 mL, 750 mL",
+              "Cubes shown before immersion"
+            ]
+          }
+        }
+      ]
+    },
+
+    "options": {
+      "A": "temperature of P < temperature of Q = temperature of R",
+      "B": "temperature of P > temperature of Q > temperature of R",
+      "C": "temperature of P < temperature of Q < temperature of R",
+      "D": "temperature of P = temperature of Q = temperature of R"
+    }
+  },
+
+  "solution": {
+    "correct_answer": "D",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Apply the concept of thermal equilibrium for identical objects placed in constant-temperature environments",
+          "marks": 1,
+          "keywords": [
+            "thermal equilibrium",
+            "constant temperature",
+            "final temperature"
+          ]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 34,
+        "misconception": "Assuming larger water volume makes the cube hotter",
+        "pedagogical_note": "Water volume affects heating rate, not the final equilibrium temperature"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 31,
+        "misconception": "Believing final temperature depends on amount of water",
+        "pedagogical_note": "At equilibrium, temperature depends only on the surrounding temperature"
+      },
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 7,
+        "misconception": "Partial understanding of heat transfer",
+        "pedagogical_note": "Given sufficient time, all cubes reach the same temperature"
+      }
+    ],
+    "expert_comment": "After sufficient time, all three steel cubes will reach thermal equilibrium with the water maintained at 75 °C. The volume of water affects how quickly this happens, not the final temperature."
+  },
+
+  "semantic": {
+    "concepts": [
+      "thermal_equilibrium",
+      "constant_temperature_bath",
+      "heat_transfer"
+    ],
+    "prerequisites": [
+      "idea_of_heat_and_temperature",
+      "contact_and_energy_exchange"
+    ],
+    "question_pattern": "equilibrium_reasoning",
+    "reasoning_type": "conceptual_physics",
+    "asset_skill_no": 4,
+    "asset_skill_label": "Representing/explaining processes or phenomena"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_39224",
+    "original_qno": 23,
+    "skill_no": 4,
+    "percent_correct": 27,
+    "option_distribution_percent": {
+      "A": 7,
+      "B": 34,
+      "C": 31,
+      "D": 27
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_39224_Q24",
+    "source": "Ei_ASSET Science Paper 39224",
+    "created": "2026-02-12T09:30:00+05:30",
+    "last_modified": "2026-02-12T09:30:00+05:30",
+    "protocol_conformance": [
+      "EQJS-2.0",
+      "DGM-SATCOM-1.0"
+    ],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-02-12T09:30:00+05:30",
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001",
+        "DIAGRAM-INV-ANCHOR"
+      ],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "physics",
+    "topic": [
+      "communication_systems",
+      "satellite_communication",
+      "electromagnetic_waves"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "understand",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 42
+  },
+
+  "content": {
+    "question_text": "The diagram shows how a home TV dish antenna receives the TV signal from a broadcasting station via a satellite. Kiran saw many home TV dish antennae installed on his building terrace by different TV service providers. Many antennae were pointing in different directions. Which of the following is the LIKELY reason for this?",
+    "question_format": "mcq",
+
+    "stimulus": {
+      "diagrams": [
+        {
+          "diagram_id": "satellite_tv_communication",
+          "protocol": "DGM-SATCOM-1.0",
+          "type": "schematic_diagram",
+          "semantic_description": "A schematic diagram of satellite-based television signal transmission. On the left is a broadcasting station with multiple dish antennas emitting radio waves upward. At the top centre is an artificial satellite labeled 'Satellite'. Curved arrows indicate radio signals travelling from the broadcasting station to the satellite, and from the satellite downwards. On the right is a home TV dish antenna labeled 'Home TV dish antenna', connected by a cable to a set-top box labeled 'Set-top box', which is further connected to a television labeled 'Television'. All components are clearly separated spatially, and arrows indicate the direction of signal flow from broadcasting station to satellite to home dish antenna.",
+          "orientation_constraints": {
+            "broadcasting_station": "left",
+            "satellite": "top_center",
+            "home_dish": "right",
+            "signal_flow": "left_to_right_via_satellite"
+          }
+        }
+      ]
+    },
+
+    "options": {
+      "A": "The TVs in each house face a different direction.",
+      "B": "Different TV service providers use different satellites.",
+      "C": "The antennae collectively supply signals to all the TVs.",
+      "D": "The broadcasting stations are located at different places."
+    }
+  },
+
+  "solution": {
+    "correct_answer": "B",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify that different dish orientations correspond to different satellites used by service providers",
+          "marks": 1,
+          "keywords": [
+            "satellite",
+            "dish orientation",
+            "service providers"
+          ]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 13,
+        "misconception": "Belief that the direction of the television determines dish orientation",
+        "pedagogical_note": "The TV screen orientation has no role in receiving satellite signals."
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 17,
+        "misconception": "Assuming dish antennas function as shared signal distributors",
+        "pedagogical_note": "Each dish independently receives signals; they do not collectively supply TVs."
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 27,
+        "misconception": "Confusing ground broadcasting station location with satellite alignment",
+        "pedagogical_note": "Dish antennas are aligned toward satellites, not directly toward broadcasting stations."
+      }
+    ],
+    "expert_comment": "Satellite TV dishes must be pointed precisely toward the satellite used by the service provider. Since different providers use different satellites positioned at different locations in orbit, the dishes point in different directions."
+  },
+
+  "semantic": {
+    "concepts": [
+      "satellite_communication",
+      "signal_transmission",
+      "antenna_alignment"
+    ],
+    "prerequisites": [
+      "basic_communication_systems",
+      "role_of_satellites"
+    ],
+    "question_pattern": "reason_identification_from_schematic",
+    "reasoning_type": "causal",
+    "asset_skill_no": 2,
+    "asset_skill_label": "Knowledge of use of scientific instruments, tools and procedures"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_39224",
+    "original_qno": 24,
+    "skill_no": 2,
+    "percent_correct": 42,
+    "option_distribution_percent": {
+      "A": 13,
+      "B": 42,
+      "C": 17,
+      "D": 27
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_39224_Q25",
+    "source": "Ei_ASSET Science Paper 39224",
+    "created": "2026-02-12T09:45:00+05:30",
+    "last_modified": "2026-02-12T09:45:00+05:30",
+    "protocol_conformance": ["EQJS-2.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-02-12T09:45:00+05:30",
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001"
+      ],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "physics",
+    "topic": [
+      "sound",
+      "characteristics_of_sound",
+      "frequency_and_pitch"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "understand",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 40
+  },
+
+  "content": {
+    "question_text": "A person's voice differs from another's in many respects. Here are a few key differences:\n1. The volume of his/her voice\n2. The frequencies natural to the voice\n3. The changes in pitch and emphasis in his/her voice\n\nWhich of these characteristics do we use mostly to identify a friend's voice from telephone conversations or recordings?",
+    "question_format": "mcq",
+    "options": {
+      "A": "only 1",
+      "B": "only 3",
+      "C": "only 2 and 3",
+      "D": "all - 1, 2 and 3"
+    }
+  },
+
+  "solution": {
+    "correct_answer": "C",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify sound characteristics that remain distinctive across recordings",
+          "marks": 1,
+          "keywords": [
+            "frequency",
+            "pitch",
+            "voice quality"
+          ]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 8,
+        "misconception": "Assuming loudness uniquely identifies a person's voice",
+        "pedagogical_note": "Volume can change easily and is not a stable identifying feature."
+      },
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 15,
+        "misconception": "Belief that pitch changes alone are sufficient for voice identification",
+        "pedagogical_note": "Pitch variation contributes, but natural frequencies (timbre) are also crucial."
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 36,
+        "misconception": "Assuming all voice properties are equally important for identification",
+        "pedagogical_note": "Volume is unreliable and depends on distance, recording, and speaking conditions."
+      }
+    ],
+    "expert_comment": "Voice identification relies mainly on the natural frequencies (timbre) of the voice and characteristic pitch variations, which remain relatively consistent across conversations and recordings. Loudness is not a reliable identifier."
+  },
+
+  "semantic": {
+    "concepts": [
+      "sound_frequency",
+      "pitch",
+      "timbre",
+      "voice_identification"
+    ],
+    "prerequisites": [
+      "basic_properties_of_sound",
+      "relation_between_frequency_and_pitch"
+    ],
+    "question_pattern": "feature_selection_from_list",
+    "reasoning_type": "conceptual",
+    "asset_skill_no": 4,
+    "asset_skill_label": "Representing/explaining processes or phenomena"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_39224",
+    "original_qno": 25,
+    "skill_no": 4,
+    "percent_correct": 40,
+    "option_distribution_percent": {
+      "A": 8,
+      "B": 15,
+      "C": 40,
+      "D": 36
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_39224_Q26",
+    "source": "Ei_ASSET Science Paper 39224",
+    "created": "2026-02-12T10:05:00+05:30",
+    "last_modified": "2026-02-12T10:05:00+05:30",
+    "protocol_conformance": ["EQJS-2.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-02-12T10:05:00+05:30",
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001"
+      ],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "biology",
+    "topic": [
+      "adaptation",
+      "survival",
+      "food_chains",
+      "environmental_change"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "analyze",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 53
+  },
+
+  "content": {
+    "question_text": "An animal species lives on an island. The island habitat is warm. The animal:\n- has short fur\n- eats only tree ants\n- is not found anywhere else on the Earth.\n\nOne year, there were unexpectedly cold conditions that lasted almost a year and all the ants died. The trees lost their leaves, but plenty of seeds and dried leaves were on the ground.\n\nWhich of these is MOST likely to happen to these animals that year?",
+    "question_format": "mcq",
+    "options": {
+      "A": "Most of them will die because of the cold and lack of food.",
+      "B": "All of them will start eating the seeds and the dried leaves.",
+      "C": "They will develop thick fur that can protect them from the snow.",
+      "D": "They will learn how to hibernate and hide till the warm weather returns."
+    }
+  },
+
+  "solution": {
+    "correct_answer": "A",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Evaluate survival of a specialised species under sudden environmental change",
+          "marks": 1,
+          "keywords": [
+            "specialised diet",
+            "lack of adaptation",
+            "environmental stress"
+          ]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 14,
+        "misconception": "Assuming animals can quickly change their diet when food becomes scarce",
+        "pedagogical_note": "Highly specialised feeders cannot abruptly switch to completely different food sources."
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 13,
+        "misconception": "Belief that physical adaptations can occur within a single generation",
+        "pedagogical_note": "Evolutionary adaptations such as thicker fur occur over many generations, not within one year."
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 19,
+        "misconception": "Assuming behaviours like hibernation can be learned quickly",
+        "pedagogical_note": "Hibernation is an evolved physiological trait, not a learned short-term behaviour."
+      }
+    ],
+    "expert_comment": "Because the species is highly specialised, adapted to warm conditions, and dependent on a single food source that has disappeared, most individuals are unlikely to survive the combined stress of cold and starvation."
+  },
+
+  "semantic": {
+    "concepts": [
+      "specialisation",
+      "adaptation_limits",
+      "natural_selection",
+      "environmental_pressure"
+    ],
+    "prerequisites": [
+      "basic_ecology",
+      "food_webs",
+      "difference_between_adaptation_and_acclimatisation"
+    ],
+    "question_pattern": "prediction_under_environmental_change",
+    "reasoning_type": "hypothetical",
+    "asset_skill_no": 9,
+    "asset_skill_label": "Hypothesis or prediction"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_39224",
+    "original_qno": 26,
+    "skill_no": 9,
+    "percent_correct": 53,
+    "option_distribution_percent": {
+      "A": 53,
+      "B": 14,
+      "C": 13,
+      "D": 19
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_39224_Q27",
+    "source": "Ei_ASSET Science Paper 39224",
+    "created": "2026-02-12T10:40:00+05:30",
+    "last_modified": "2026-02-12T10:40:00+05:30",
+    "protocol_conformance": ["EQJS-2.0", "DIAG-SPLIT-ROOM-PLANT-1.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-02-12T10:40:00+05:30",
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001",
+        "DIAG-INV-ANCHORING"
+      ],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "biology",
+    "topic": [
+      "photosynthesis",
+      "respiration_in_plants"
+    ],
+    "difficulty": "easy",
+    "cognitive_level": "understand",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 55
+  },
+
+  "content": {
+    "question_text": "Narayan kept two identical pea plants P and Q in two separate rooms as shown below, for four hours.\n\nWhich option correctly indicates the processes occurring in the two plants throughout these four hours?",
+    "question_format": "mcq",
+
+    "stimulus": {
+      "diagrams": [
+        {
+          "diagram_id": "plant_light_dark_setup",
+          "protocol": "DIAG-SPLIT-ROOM-PLANT-1.0",
+          "type": "schematic",
+          "semantic_description": "Two adjacent rooms separated by a vertical partition. The left room is labelled 'Lit room' and contains a hanging lamp switched ON above a potted plant labelled 'Plant P'. Light rays are shown emitting downward from the lamp. The right room is labelled 'Dark room' and contains an identical potted plant labelled 'Plant Q' with no light source present. Both plants are upright and identical in appearance, placed on the floor of their respective rooms.",
+          "constraints": {
+            "plant_identity": "P and Q identical",
+            "light_condition_difference": "only illumination differs",
+            "time_duration": "4 hours"
+          }
+        }
+      ]
+    },
+
+    "options": {
+      "A": {
+        "Plant P": "both photosynthesis and respiration",
+        "Plant Q": "only respiration"
+      },
+      "B": {
+        "Plant P": "only photosynthesis",
+        "Plant Q": "only respiration"
+      },
+      "C": {
+        "Plant P": "only photosynthesis",
+        "Plant Q": "no photosynthesis and no respiration"
+      },
+      "D": {
+        "Plant P": "both photosynthesis and respiration",
+        "Plant Q": "no photosynthesis and no respiration"
+      }
+    }
+  },
+
+  "solution": {
+    "correct_answer": "A",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify processes occurring in plants under light and dark conditions",
+          "marks": 1,
+          "keywords": [
+            "photosynthesis",
+            "respiration",
+            "light dependent"
+          ]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 14,
+        "misconception": "Assuming respiration does not occur during photosynthesis",
+        "pedagogical_note": "Respiration occurs continuously in living plants, day and night."
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 13,
+        "misconception": "Belief that respiration needs light",
+        "pedagogical_note": "Respiration is independent of light and occurs in all living cells."
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 17,
+        "misconception": "Assuming plants stop respiring in the absence of light",
+        "pedagogical_note": "Respiration never stops as long as the plant is alive."
+      }
+    ],
+    "expert_comment": "Plant P, being in light, carries out both photosynthesis and respiration. Plant Q, kept in the dark, cannot photosynthesise but continues respiration. Hence option A is correct."
+  },
+
+  "semantic": {
+    "concepts": [
+      "photosynthesis_requires_light",
+      "respiration_continuous_process"
+    ],
+    "prerequisites": [
+      "basic_plant_physiology",
+      "difference_between_photosynthesis_and_respiration"
+    ],
+    "question_pattern": "process_identification_under_conditions",
+    "reasoning_type": "conceptual",
+    "asset_skill_no": 1,
+    "asset_skill_label": "Recollection or recognition of science facts and concepts"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_39224",
+    "original_qno": 27,
+    "skill_no": 1,
+    "percent_correct": 55,
+    "option_distribution_percent": {
+      "A": 55,
+      "B": 14,
+      "C": 13,
+      "D": 17
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_39224_Q28",
+    "source": "Ei_ASSET Science Paper 39224",
+    "created": "2026-02-12T11:05:00+05:30",
+    "last_modified": "2026-02-12T11:05:00+05:30",
+    "protocol_conformance": ["EQJS-2.0", "DIAG-TOOL-COMPARISON-1.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-02-12T11:05:00+05:30",
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001",
+        "DIAG-INV-IDENTITY"
+      ],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "physics",
+    "topic": [
+      "simple_machines",
+      "screw",
+      "applications_of_force"
+    ],
+    "difficulty": "easy",
+    "cognitive_level": "understand",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 61
+  },
+
+  "content": {
+    "question_text": "Carpenters can use iron nails or screws to fix two pieces of wood together.\n\nWhat advantage does a screw have over a nail of the SAME size?",
+    "question_format": "mcq",
+
+    "stimulus": {
+      "diagrams": [
+        {
+          "diagram_id": "nail_vs_screw",
+          "protocol": "DIAG-TOOL-COMPARISON-1.0",
+          "type": "comparative_schematic",
+          "semantic_description": "Two metal fasteners shown side by side on a horizontal axis. On the left is a straight iron nail with a flat circular head and smooth cylindrical shaft labelled 'Nail'. On the right is an iron screw of the same overall length and thickness, with a helical thread along its shaft and a slotted head labelled 'Screw'. Both objects are shown unembedded, not interacting with wood.",
+          "constraints": {
+            "same_size": true,
+            "material": "iron",
+            "orientation": "horizontal",
+            "no_contextual_bias": "neither shown being used"
+          }
+        }
+      ]
+    },
+
+    "options": {
+      "A": "It needs less tools, to fix it in wood, than a nail.",
+      "B": "It can be removed and reused more easily.",
+      "C": "It remains rust free longer than a nail.",
+      "D": "It makes a smaller hole in the wood."
+    }
+  },
+
+  "solution": {
+    "correct_answer": "B",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify the functional advantage of threaded fasteners",
+          "marks": 1,
+          "keywords": [
+            "screw threads",
+            "removal",
+            "reuse"
+          ]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 12,
+        "misconception": "Belief that screws require fewer tools than nails",
+        "pedagogical_note": "Screws usually require a screwdriver, while nails can be hammered directly."
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 20,
+        "misconception": "Assuming screws resist rust better by default",
+        "pedagogical_note": "Both are iron and rust at similar rates unless coated."
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 7,
+        "misconception": "Thinking threads reduce hole size",
+        "pedagogical_note": "Threads increase contact area and grip but do not make a smaller hole."
+      }
+    ],
+    "expert_comment": "Because of their threads, screws can be unscrewed without damaging the wood significantly, allowing them to be reused. Nails, once removed, usually deform or damage the wood."
+  },
+
+  "semantic": {
+    "concepts": [
+      "simple_machines",
+      "screw_as_inclined_plane",
+      "mechanical_advantage"
+    ],
+    "prerequisites": [
+      "basic_tools",
+      "force_and_motion"
+    ],
+    "question_pattern": "comparison_of_tools",
+    "reasoning_type": "conceptual",
+    "asset_skill_no": 2,
+    "asset_skill_label": "Knowledge of use of scientific instruments, tools and procedures"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_39224",
+    "original_qno": 28,
+    "skill_no": 2,
+    "percent_correct": 61,
+    "option_distribution_percent": {
+      "A": 12,
+      "B": 61,
+      "C": 20,
+      "D": 7
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_39224_Q29",
+    "source": "Ei_ASSET Science Paper 39224",
+    "created": "2026-02-12T11:30:00+05:30",
+    "last_modified": "2026-02-12T11:30:00+05:30",
+    "protocol_conformance": ["EQJS-2.0", "DIAG-CYCLE-PARTS-VISIBILITY-1.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-02-12T11:30:00+05:30",
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001",
+        "DIAG-INV-SEMANTIC-CONSISTENCY"
+      ],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "physics",
+    "topic": [
+      "light",
+      "reflection",
+      "visibility"
+    ],
+    "difficulty": "easy",
+    "cognitive_level": "understand",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 35
+  },
+
+  "content": {
+    "question_text": "Mrudul parked her cycle in the garage. Which of the following parts of her cycle will she be able to see if the garage is COMPLETELY dark?",
+    "question_format": "mcq",
+
+    "stimulus": {
+      "diagrams": [
+        {
+          "diagram_id": "cycle_parts_visibility",
+          "protocol": "DIAG-CYCLE-PARTS-VISIBILITY-1.0",
+          "type": "object_comparison",
+          "semantic_description": "Three separate bicycle parts shown side by side. The first is a bicycle reflector with a textured reflective surface, labelled 'Reflector'. The second is a bicycle rear-view mirror with a circular reflective face mounted on a handlebar stalk, labelled 'Mirror'. The third is a bicycle wheel showing metal spokes radiating from the hub to the rim, labelled 'Spokes'. The objects are shown isolated against a neutral background with no light source depicted.",
+          "constraints": {
+            "lighting_condition": "complete darkness",
+            "no_external_light": true,
+            "objects_not_self_luminous": true
+          }
+        }
+      ]
+    },
+
+    "options": {
+      "A": "only the reflector",
+      "B": "only the reflector and the mirror",
+      "C": "only the reflector and the spokes",
+      "D": "(None of these objects would be visible.)"
+    }
+  },
+
+  "solution": {
+    "correct_answer": "D",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Recognise that objects are visible only when light is reflected into the eyes",
+          "marks": 1,
+          "keywords": [
+            "complete darkness",
+            "no reflection",
+            "visibility"
+          ]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 22,
+        "misconception": "Belief that reflectors glow on their own in darkness",
+        "pedagogical_note": "Reflectors only reflect incident light; they do not emit light."
+      },
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 22,
+        "misconception": "Assuming mirrors or reflectors are visible without light",
+        "pedagogical_note": "Mirrors also require light to reflect an image."
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 20,
+        "misconception": "Confusing material shine with self-luminosity",
+        "pedagogical_note": "Metal spokes are not luminous and cannot be seen without light."
+      }
+    ],
+    "expert_comment": "In complete darkness, no light is available to be reflected by any object. Since reflectors, mirrors, and spokes do not emit light, none of them would be visible."
+  },
+
+  "semantic": {
+    "concepts": [
+      "reflection_of_light",
+      "non_luminous_objects",
+      "conditions_for_visibility"
+    ],
+    "prerequisites": [
+      "basic_light_concepts",
+      "difference_between_luminous_and_non_luminous_objects"
+    ],
+    "question_pattern": "visibility_under_conditions",
+    "reasoning_type": "conceptual",
+    "asset_skill_no": 1,
+    "asset_skill_label": "Recollection or recognition of science facts and concepts"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_39224",
+    "original_qno": 29,
+    "skill_no": 1,
+    "percent_correct": 35,
+    "option_distribution_percent": {
+      "A": 22,
+      "B": 22,
+      "C": 20,
+      "D": 35
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_39224_Q30",
+    "source": "Ei_ASSET Science Paper 39224",
+    "created": "2026-02-12T12:10:00+05:30",
+    "last_modified": "2026-02-12T12:10:00+05:30",
+    "protocol_conformance": ["EQJS-2.0", "DIAG-LIFECYCLE-CYCLIC-1.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-02-12T12:10:00+05:30",
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001",
+        "DIAG-INV-SEQUENCE"
+      ],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "biology",
+    "topic": [
+      "life_cycles",
+      "growth_and_development",
+      "metamorphosis"
+    ],
+    "difficulty": "easy",
+    "cognitive_level": "understand",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 72
+  },
+
+  "content": {
+    "question_text": "Shown here is the life cycle of the common frog. If we compare the adult frog to the tadpole, we would see that there are no visible similarities between them. A complete change in physical appearance happens through various stages from tadpole to adult. Given below are the stages of development in various organisms. Whose development is similar to that of the frog?",
+    "question_format": "mcq",
+
+    "stimulus": {
+      "diagrams": [
+        {
+          "diagram_id": "frog_life_cycle",
+          "protocol": "DIAG-LIFECYCLE-CYCLIC-1.0",
+          "type": "cyclic_process_diagram",
+          "semantic_description": "A circular life cycle diagram of a frog showing five stages connected by arrows in clockwise order. The stages are: eggs (cluster of round eggs), tadpole (fish-like larva with tail and no legs), tadpole with legs (larva with hind legs emerging), froglet (small frog with a shrinking tail), and adult frog. Arrows indicate progression from one stage to the next, forming a closed cycle.",
+          "constraints": {
+            "cycle_closed": true,
+            "arrows_directional": true,
+            "distinct_morphological_stages": true
+          }
+        }
+      ]
+    },
+
+    "options": {
+      "A": "Egg -> Chick -> Hen -> Egg",
+      "B": "Egg -> Fry -> Adult fish -> Egg",
+      "C": "Egg -> Duckling -> Duck -> Egg",
+      "D": "Egg -> Caterpillar -> Pupa -> Butterfly -> Egg"
+    }
+  },
+
+  "solution": {
+    "correct_answer": "D",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify an organism that undergoes complete metamorphosis with major body form changes",
+          "marks": 1,
+          "keywords": [
+            "metamorphosis",
+            "larva",
+            "pupa",
+            "adult"
+          ]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 12,
+        "misconception": "Confusing growth with metamorphosis",
+        "pedagogical_note": "A chick gradually grows into a hen without drastic body restructuring."
+      },
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 8,
+        "misconception": "Assuming all aquatic larvae imply metamorphosis",
+        "pedagogical_note": "Fish fry resemble adult fish in basic body plan."
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 8,
+        "misconception": "Mistaking juvenile resemblance for complete transformation",
+        "pedagogical_note": "Ducklings resemble adult ducks and do not undergo complete metamorphosis."
+      }
+    ],
+    "expert_comment": "Both frogs and butterflies undergo complete metamorphosis, where the larval stage looks completely different from the adult form, unlike birds or fish."
+  },
+
+  "semantic": {
+    "concepts": [
+      "metamorphosis",
+      "life_cycle_comparison",
+      "larval_and_adult_stages"
+    ],
+    "prerequisites": [
+      "basic_animal_life_cycles",
+      "growth_vs_development"
+    ],
+    "question_pattern": "analogy_based_life_cycle_comparison",
+    "reasoning_type": "conceptual",
+    "asset_skill_no": 3,
+    "asset_skill_label": "Classification/comparison; giving examples"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_39224",
+    "original_qno": 30,
+    "skill_no": 3,
+    "percent_correct": 72,
+    "option_distribution_percent": {
+      "A": 12,
+      "B": 8,
+      "C": 8,
+      "D": 72
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_39224_Q31",
+    "source": "Ei_ASSET Science Paper 39224",
+    "created": "2026-02-12T12:25:00+05:30",
+    "last_modified": "2026-02-12T12:25:00+05:30",
+    "protocol_conformance": ["EQJS-2.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-02-12T12:25:00+05:30",
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001"
+      ],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "physics",
+    "topic": [
+      "sound",
+      "pitch",
+      "properties_of_gases",
+      "experimental_design"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "analyze",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 50
+  },
+
+  "content": {
+    "question_text": "Beth designed the following experiment to verify the claim that inhaling gases that are of different densities than air changes the pitch of the human voice as long as the gases are in the lungs. Step 1: She inhaled helium (less dense than air) and recorded her voice. Step 2: She then inhaled sulphur hexafluoride (denser than air) and recorded her voice. Step 3: She then compared these two recordings. Which of the following additional steps are needed for her to verify the claim?\n\nP - Record her normal voice before step 1.\nQ - After step 1 and before step 2, breathe in and breathe out air a few times and then record her voice.\nR - Inhale more helium in step 1 than sulphur hexafluoride in step 2 as it is less dense.",
+    "question_format": "mcq",
+    "options": {
+      "A": "only P",
+      "B": "only P and Q",
+      "C": "only Q and R",
+      "D": "all - P, Q and R"
+    }
+  },
+
+  "solution": {
+    "correct_answer": "B",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify necessary control and reset steps in an experiment",
+          "marks": 1,
+          "keywords": [
+            "control",
+            "baseline",
+            "fair_test"
+          ]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 25,
+        "misconception": "Ignoring the need to remove residual gas effects",
+        "pedagogical_note": "Residual helium in the lungs would affect the second recording if normal breathing is not restored."
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 13,
+        "misconception": "Belief that unequal quantities of gases improve accuracy",
+        "pedagogical_note": "The claim concerns gas density, not quantity inhaled."
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 12,
+        "misconception": "Assuming all suggested steps are scientifically necessary",
+        "pedagogical_note": "Changing quantities introduces an additional variable rather than controlling one."
+      }
+    ],
+    "expert_comment": "Recording the normal voice provides a baseline for comparison, and breathing out air between the two gases ensures that the effect observed is due only to the gas currently in the lungs. Inhaling different quantities is unnecessary and confounds the test."
+  },
+
+  "semantic": {
+    "concepts": [
+      "control_variables",
+      "baseline_measurement",
+      "fair_testing"
+    ],
+    "prerequisites": [
+      "basic_sound_properties",
+      "principles_of_experiments"
+    ],
+    "question_pattern": "experimental_design_evaluation",
+    "reasoning_type": "procedural",
+    "asset_skill_no": 10,
+    "asset_skill_label": "Design/evaluation of investigations"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_39224",
+    "original_qno": 31,
+    "skill_no": 10,
+    "percent_correct": 50,
+    "option_distribution_percent": {
+      "A": 25,
+      "B": 50,
+      "C": 13,
+      "D": 12
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_39224_Q32",
+    "source": "Ei_ASSET Science Paper 39224",
+    "created": "2026-02-12T12:40:00+05:30",
+    "last_modified": "2026-02-12T12:40:00+05:30",
+    "protocol_conformance": ["EQJS-2.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-02-12T12:40:00+05:30",
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001"
+      ],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "biology",
+    "topic": [
+      "microorganisms",
+      "fungal_growth",
+      "conditions_for_growth"
+    ],
+    "difficulty": "easy",
+    "cognitive_level": "understand",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 71
+  },
+
+  "content": {
+    "question_text": "Gautam took a slice of bread, from a packet of bread, and toasted it. He then put the toasted slice in a dry, air-tight box. From the same packet, he took another slice of bread and put it, without toasting it, in another identical, dry, air-tight box. After three days he observed grey-coloured fungus growing only on the slice of untoasted bread, but not on the toasted slice. Which of the following statements could be ONE reason for what Gautam observed?",
+    "question_format": "mcq",
+    "options": {
+      "A": "The fungus is there but is not seen because of the colour of the toast.",
+      "B": "The toasting made the bread dry preventing the growth of fungus.",
+      "C": "Toasted bread is too hard to enable the growth of fungus on it.",
+      "D": "Toasted bread is too dark in colour for fungus to grow."
+    }
+  },
+
+  "solution": {
+    "correct_answer": "B",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify the condition required for fungal growth that is altered by toasting",
+          "marks": 1,
+          "keywords": [
+            "moisture",
+            "fungal growth",
+            "dry conditions"
+          ]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 9,
+        "misconception": "Assuming colour affects biological growth",
+        "pedagogical_note": "Fungal growth is not prevented or hidden by the colour of the surface."
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 14,
+        "misconception": "Belief that hardness of food prevents fungal growth",
+        "pedagogical_note": "Hardness alone does not prevent fungal growth if moisture is present."
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 5,
+        "misconception": "Thinking colour directly controls fungal growth",
+        "pedagogical_note": "Colour has no role in determining whether fungus can grow."
+      }
+    ],
+    "expert_comment": "Fungi require moisture to grow. Toasting removes moisture from the bread, making conditions unsuitable for fungal growth even when air is present."
+  },
+
+  "semantic": {
+    "concepts": [
+      "requirements_for_fungal_growth",
+      "role_of_moisture",
+      "effects_of_heating"
+    ],
+    "prerequisites": [
+      "basic_needs_of_microorganisms"
+    ],
+    "question_pattern": "cause_effect_explanation",
+    "reasoning_type": "conceptual",
+    "asset_skill_no": 4,
+    "asset_skill_label": "Representing/explaining processes or phenomena"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_39224",
+    "original_qno": 32,
+    "skill_no": 4,
+    "percent_correct": 71,
+    "option_distribution_percent": {
+      "A": 9,
+      "B": 71,
+      "C": 14,
+      "D": 5
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_39224_Q33",
+    "source": "Ei_ASSET Science Paper 39224",
+    "created": "2026-02-12T09:05:00+05:30",
+    "last_modified": "2026-02-12T09:05:00+05:30",
+    "protocol_conformance": [
+      "EQJS-2.0",
+      "DIAG-DOT-GRID-1.0",
+      "DIAG-PHOTO-REFERENCE-1.0"
+    ],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-02-12T09:05:00+05:30",
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001",
+        "DIAGRAM-INV-EXPLICIT"
+      ],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "physics",
+    "topic": [
+      "force_and_pressure",
+      "pressure_distribution",
+      "contact_area"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "analyze",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 72
+  },
+
+  "content": {
+    "question_text": "Girish wants to sleep on a bed of nails like the one shown in the picture. Shown below are three beds P, Q and R, with nails arranged as shown by the black dots. Which of the three beds will hurt Girish the LEAST when he sleeps on it?",
+    "question_format": "mcq",
+    "options": {
+      "A": "P",
+      "B": "Q",
+      "C": "R",
+      "D": "All the three beds will hurt Girish equally."
+    },
+    "stimulus": {
+      "diagrams": [
+        {
+          "diagram_id": "stimulus_photo_1",
+          "protocol": "DIAG-PHOTO-REFERENCE-1.0",
+          "type": "reference_photograph",
+          "semantic_description": "A photograph showing a person lying flat on a bed of closely spaced upright nails. The nails are vertical, uniformly oriented, and support the body over a large contact area.",
+          "constraints": {
+            "perspective": "side_oblique",
+            "nails_orientation": "vertical",
+            "human_posture": "lying flat on back",
+            "intent": "illustrative reference only; not to scale"
+          }
+        },
+        {
+          "diagram_id": "stimulus_diagram_1",
+          "protocol": "DIAG-DOT-GRID-1.0",
+          "type": "dot_grid_comparison",
+          "semantic_description": "Three rectangular beds labelled P, Q, and R, each represented by black dots indicating the positions of nail tips. Bed P has the highest density of dots, Q has intermediate spacing, and R has the lowest density.",
+          "structured_description": {
+            "beds": [
+              {
+                "label": "P",
+                "dot_density": "high",
+                "spacing": "closest"
+              },
+              {
+                "label": "Q",
+                "dot_density": "medium",
+                "spacing": "moderate"
+              },
+              {
+                "label": "R",
+                "dot_density": "low",
+                "spacing": "widest"
+              }
+            ],
+            "assumption_block": "All nails are identical in size and shape; only spacing varies."
+          }
+        }
+      ]
+    }
+  },
+
+  "solution": {
+    "correct_answer": "A",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify that pressure depends on force distributed over area",
+          "marks": 1,
+          "keywords": [
+            "pressure",
+            "force",
+            "contact area",
+            "distribution"
+          ]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 6,
+        "misconception": "Assuming moderate spacing is sufficient without maximizing contact area",
+        "pedagogical_note": "Pressure is minimized only when force is distributed over the maximum number of contact points."
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 15,
+        "misconception": "Belief that fewer nails cause less pain",
+        "pedagogical_note": "Fewer nails concentrate the same body weight over a smaller area, increasing pressure."
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 6,
+        "misconception": "Ignoring the role of nail density in pressure distribution",
+        "pedagogical_note": "Equal body weight does not imply equal pressure when contact areas differ."
+      }
+    ],
+    "expert_comment": "Bed P has the highest density of nails, which distributes Girish’s weight over the largest contact area, resulting in the least pressure on any single nail and hence the least pain."
+  },
+
+  "semantic": {
+    "concepts": [
+      "pressure",
+      "force_distribution",
+      "contact_area"
+    ],
+    "prerequisites": [
+      "definition_of_pressure",
+      "basic_force_concepts"
+    ],
+    "question_pattern": "concept_application_visual_comparison",
+    "reasoning_type": "conceptual_physical",
+    "asset_skill_no": 6,
+    "asset_skill_label": "Analysis to identify trends or properties"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_39224",
+    "original_qno": 33,
+    "skill_no": 6,
+    "percent_correct": 72,
+    "option_distribution_percent": {
+      "A": 72,
+      "B": 6,
+      "C": 15,
+      "D": 6
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_39224_Q34",
+    "source": "Ei_ASSET Science Paper 39224",
+    "created": "2026-02-12T09:12:00+05:30",
+    "last_modified": "2026-02-12T09:12:00+05:30",
+    "protocol_conformance": [
+      "EQJS-2.0",
+      "DIAG-SILHOUETTE-MOTION-1.0"
+    ],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-02-12T09:12:00+05:30",
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001",
+        "DIAGRAM-INV-EXPLICIT"
+      ],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "physics",
+    "topic": [
+      "forces",
+      "motion",
+      "gravity",
+      "air_resistance"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "understand",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 21
+  },
+
+  "content": {
+    "question_text": "A boy throws a basketball into the air. Which of the forces listed below act on the ball AFTER he throws it?\n\n1. the force of the throw\n2. the force of gravity\n3. the air resistance to the ball",
+    "question_format": "mcq",
+    "options": {
+      "A": "only 1 and 2",
+      "B": "only 1 and 3",
+      "C": "only 2 and 3",
+      "D": "all - 1, 2 and 3"
+    },
+    "stimulus": {
+      "diagrams": [
+        {
+          "diagram_id": "stimulus_diagram_1",
+          "protocol": "DIAG-SILHOUETTE-MOTION-1.0",
+          "type": "silhouette_motion_reference",
+          "semantic_description": "A silhouette-style diagram of a boy throwing a basketball upward. The ball is shown separated from the hand, indicating the moment after release.",
+          "constraints": {
+            "ball_state": "no longer in contact with hand",
+            "motion_direction": "initially upward",
+            "style": "non-realistic silhouette",
+            "intent": "to indicate post-release motion, not force vectors"
+          }
+        }
+      ]
+    }
+  },
+
+  "solution": {
+    "correct_answer": "C",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify forces acting on an object after it is no longer in contact with the thrower",
+          "marks": 1,
+          "keywords": [
+            "contact force",
+            "gravity",
+            "air resistance",
+            "after release"
+          ]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 12,
+        "misconception": "Belief that the force of the throw continues after contact ends",
+        "pedagogical_note": "A force due to a push or throw acts only while there is contact."
+      },
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 12,
+        "misconception": "Confusing motion with force",
+        "pedagogical_note": "Upward motion does not require a continuing upward force."
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 51,
+        "misconception": "Assuming all listed forces must act simultaneously",
+        "pedagogical_note": "Once the ball leaves the hand, the applied force no longer acts."
+      }
+    ],
+    "expert_comment": "After the ball leaves the boy’s hand, the force of the throw no longer acts. Only gravity and air resistance continue to act on the ball."
+  },
+
+  "semantic": {
+    "concepts": [
+      "contact_forces",
+      "non_contact_forces",
+      "gravity",
+      "air_resistance"
+    ],
+    "prerequisites": [
+      "difference_between_force_and_motion",
+      "basic_newtonian_ideas"
+    ],
+    "question_pattern": "force_identification_after_event",
+    "reasoning_type": "conceptual",
+    "asset_skill_no": 1,
+    "asset_skill_label": "Recollection or recognition of science facts and concepts"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_39224",
+    "original_qno": 34,
+    "skill_no": 1,
+    "percent_correct": 21,
+    "option_distribution_percent": {
+      "A": 16,
+      "B": 12,
+      "C": 21,
+      "D": 51
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_39224_Q35",
+    "source": "Ei_ASSET Science Paper 39224",
+    "created": "2026-02-12T09:20:00+05:30",
+    "last_modified": "2026-02-12T09:20:00+05:30",
+    "protocol_conformance": ["EQJS-2.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-02-12T09:20:00+05:30",
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001"
+      ],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "chemistry",
+    "topic": [
+      "states_of_matter",
+      "physical_changes",
+      "sublimation"
+    ],
+    "difficulty": "easy",
+    "cognitive_level": "understand",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 71
+  },
+
+  "content": {
+    "question_text": "Shami weighed some naphthalene balls and then placed them in his cupboard, on the top of his clothes. After a month, he finds that the clothes in the cupboard are smelling of naphthalene. He weighs the balls again. What is he likely to find?",
+    "question_format": "mcq",
+    "options": {
+      "A": "All the balls have increased in weight.",
+      "B": "All the balls have decreased in weight.",
+      "C": "There is no change in the weight of any ball.",
+      "D": "Some balls have increased and some decreased in weight."
+    }
+  },
+
+  "solution": {
+    "correct_answer": "B",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify the physical process occurring with naphthalene",
+          "marks": 1,
+          "keywords": [
+            "sublimation",
+            "solid to gas",
+            "loss of mass"
+          ]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 7,
+        "misconception": "Assuming absorption of smell implies gain in mass",
+        "pedagogical_note": "Smell spreading indicates particles leaving the solid, not entering it."
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 14,
+        "misconception": "Belief that solids do not change mass unless melted",
+        "pedagogical_note": "Some solids like naphthalene change directly into gas."
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 7,
+        "misconception": "Assuming inconsistent behaviour among identical substances",
+        "pedagogical_note": "All balls undergo the same physical process under similar conditions."
+      }
+    ],
+    "expert_comment": "Naphthalene undergoes sublimation, changing directly from solid to gas. As particles escape into the air, the mass of all the balls decreases."
+  },
+
+  "semantic": {
+    "concepts": [
+      "sublimation",
+      "physical_change",
+      "mass_conservation"
+    ],
+    "prerequisites": [
+      "states_of_matter",
+      "particle_nature_of_matter"
+    ],
+    "question_pattern": "real_world_observation_to_process_identification",
+    "reasoning_type": "conceptual",
+    "asset_skill_no": 4,
+    "asset_skill_label": "Representing or explaining processes or phenomena"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_39224",
+    "original_qno": 35,
+    "skill_no": 4,
+    "percent_correct": 71,
+    "option_distribution_percent": {
+      "A": 7,
+      "B": 71,
+      "C": 14,
+      "D": 7
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_39224_Q36",
+    "source": "Ei_ASSET Science Paper 39224",
+    "created": "2026-02-12T09:32:00+05:30",
+    "last_modified": "2026-02-12T09:32:00+05:30",
+    "protocol_conformance": [
+      "EQJS-2.0",
+      "DIAG-DUAL-FLUID-ASCENT-1.0"
+    ],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-02-12T09:32:00+05:30",
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001",
+        "DIAGRAM-INV-EXPLICIT"
+      ],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "physics",
+    "topic": [
+      "buoyancy",
+      "fluid_friction",
+      "motion_in_fluids"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "analyze",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 50
+  },
+
+  "content": {
+    "question_text": "Two identical containers are shown with liquids filled up to the same level. Container P contains water and container Q contains coconut oil. A wooden ball is held at the bottom of each container and released at the same time. The ball in water reaches the surface in 10 seconds. Coconut oil does not flow as easily as water. It also floats on water. Wood floats on both water and coconut oil. The ball will reach the surface of the oil __________.",
+    "question_format": "mcq",
+    "options": {
+      "A": "in exactly 10 seconds",
+      "B": "in less than 10 seconds",
+      "C": "in more than 10 seconds",
+      "D": "(we cannot say any of the above without density and fluid friction data)"
+    },
+    "stimulus": {
+      "diagrams": [
+        {
+          "diagram_id": "stimulus_diagram_1",
+          "protocol": "DIAG-DUAL-FLUID-ASCENT-1.0",
+          "type": "comparative_container_diagram",
+          "semantic_description": "Two identical rectangular containers labelled P and Q. Both are filled to the same height. Container P contains water and container Q contains coconut oil. A wooden ball is shown at the bottom of each container, released upward. Arrows indicate upward motion of the balls toward the surface.",
+          "structured_description": {
+            "container_geometry": "identical",
+            "liquid_levels": "equal height",
+            "fluids": {
+              "P": "water",
+              "Q": "coconut oil"
+            },
+            "ball_material": "wood",
+            "ball_initial_position": "bottom of container",
+            "motion_reference": "upward due to buoyancy"
+          },
+          "assumption_block": "Containers are identical and balls are identical; only the fluid differs."
+        }
+      ]
+    }
+  },
+
+  "solution": {
+    "correct_answer": "C",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Compare the effect of fluid resistance on the upward motion of the ball",
+          "marks": 1,
+          "keywords": [
+            "buoyant force",
+            "fluid friction",
+            "viscosity"
+          ]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 10,
+        "misconception": "Assuming time depends only on buoyancy",
+        "pedagogical_note": "Upward speed also depends on resistance offered by the fluid."
+      },
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 24,
+        "misconception": "Belief that floating higher implies faster ascent",
+        "pedagogical_note": "Coconut oil offers greater resistance to motion despite lower density."
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 15,
+        "misconception": "Assuming insufficient information despite qualitative clues",
+        "pedagogical_note": "The question provides enough comparative information about flow and resistance."
+      }
+    ],
+    "expert_comment": "Coconut oil is more viscous and does not flow as easily as water, so it offers greater resistance to the upward motion of the ball. Therefore, the ball will take more time to reach the surface in oil than in water."
+  },
+
+  "semantic": {
+    "concepts": [
+      "buoyancy",
+      "viscosity",
+      "fluid_resistance"
+    ],
+    "prerequisites": [
+      "floating_and_sinking",
+      "motion_through_fluids"
+    ],
+    "question_pattern": "comparative_reasoning_in_fluids",
+    "reasoning_type": "conceptual_physical",
+    "asset_skill_no": 8,
+    "asset_skill_label": "Integrating concepts for decision making"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_39224",
+    "original_qno": 36,
+    "skill_no": 8,
+    "percent_correct": 50,
+    "option_distribution_percent": {
+      "A": 10,
+      "B": 24,
+      "C": 50,
+      "D": 15
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_39224_Q38",
+    "source": "Ei_ASSET Science Paper 39224",
+    "created": "2026-02-12T09:42:00+05:30",
+    "last_modified": "2026-02-12T09:42:00+05:30",
+    "protocol_conformance": ["EQJS-2.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-02-12T09:42:00+05:30",
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001"
+      ],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "chemistry",
+    "topic": [
+      "electrolysis",
+      "electrolytic_cells",
+      "electrodes_and_ions"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "analyze",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 32
+  },
+
+  "content": {
+    "question_text": "Kim set up an electrolytic cell with a carbon rod as anode and a copper plate as cathode. Both electrodes were dipped in an aqueous solution of copper sulphate containing a few drops of sulphuric acid. What is LIKELY to happen when an electric current is passed?",
+    "question_format": "mcq",
+    "options": {
+      "A": "Carbon will be deposited on the copper plate.",
+      "B": "Some copper will be deposited on the copper plate.",
+      "C": "Nothing will happen since the electrodes are not the same.",
+      "D": "The concentration of copper sulphate solution will increase."
+    }
+  },
+
+  "solution": {
+    "correct_answer": "B",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify the reactions occurring at the cathode during electrolysis of copper sulphate",
+          "marks": 1,
+          "keywords": [
+            "Cu2+ ions",
+            "cathode",
+            "reduction",
+            "electroplating"
+          ]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 32,
+        "misconception": "Assuming electrode material deposits at the opposite electrode",
+        "pedagogical_note": "Only ions present in the electrolyte participate in deposition, not solid electrode material."
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 18,
+        "misconception": "Belief that electrolysis requires identical electrodes",
+        "pedagogical_note": "Electrolysis depends on ion movement in the electrolyte, not electrode similarity."
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 18,
+        "misconception": "Assuming electrolysis always increases solute concentration",
+        "pedagogical_note": "Copper ions are removed from solution and deposited at the cathode."
+      }
+    ],
+    "expert_comment": "In copper sulphate solution, Cu²⁺ ions move to the cathode and gain electrons, depositing copper metal on the copper plate. The carbon anode remains largely unaffected."
+  },
+
+  "semantic": {
+    "concepts": [
+      "electrolysis",
+      "reduction_at_cathode",
+      "ion_migration"
+    ],
+    "prerequisites": [
+      "basic_ionic_concepts",
+      "definition_of_anode_and_cathode"
+    ],
+    "question_pattern": "predict_outcome_of_electrolysis",
+    "reasoning_type": "conceptual_chemical",
+    "asset_skill_no": 8,
+    "asset_skill_label": "Integrating concepts for decision making"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_39224",
+    "original_qno": 38,
+    "skill_no": 8,
+    "percent_correct": 32,
+    "option_distribution_percent": {
+      "A": 32,
+      "B": 32,
+      "C": 18,
+      "D": 18
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_39224_Q43",
+    "source": "Ei_ASSET Science Paper 39224",
+    "created": "2026-02-12T09:55:00+05:30",
+    "last_modified": "2026-02-12T09:55:00+05:30",
+    "protocol_conformance": ["EQJS-2.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-02-12T09:55:00+05:30",
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001"
+      ],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "chemistry",
+    "topic": [
+      "corrosion",
+      "oxidation",
+      "materials_and_coatings"
+    ],
+    "difficulty": "easy",
+    "cognitive_level": "understand",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 39
+  },
+
+  "content": {
+    "question_text": "Jigna placed a shiny copper statue in a glass case. At the same time, she hung an equally shiny copper frame on the wall. After some days, she noticed that the statue was tarnished but the frame on the wall remained shiny. What could be the reason for this difference in the two copper objects?",
+    "question_format": "mcq",
+    "options": {
+      "A": "The statue was inside the glass case where the air was warmer.",
+      "B": "The frame was exposed to moist air and so remained shiny.",
+      "C": "The frame had a coating on it and the statue did not.",
+      "D": "The statue collected more dust on it than the frame."
+    }
+  },
+
+  "solution": {
+    "correct_answer": "C",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify the role of protective coatings in preventing tarnishing",
+          "marks": 1,
+          "keywords": [
+            "coating",
+            "oxidation",
+            "corrosion prevention"
+          ]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 27,
+        "misconception": "Assuming temperature alone causes tarnishing",
+        "pedagogical_note": "Copper tarnishing mainly depends on chemical reactions with air and moisture, not mild temperature differences."
+      },
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 23,
+        "misconception": "Belief that moisture prevents corrosion",
+        "pedagogical_note": "Moist air actually accelerates tarnishing and corrosion of copper."
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 9,
+        "misconception": "Confusing dust deposition with chemical tarnishing",
+        "pedagogical_note": "Dust does not chemically react with copper to cause tarnish."
+      }
+    ],
+    "expert_comment": "Copper tarnishes due to reaction with substances in air. A protective coating on the frame would prevent contact with air and moisture, keeping it shiny, while the uncoated statue tarnishes."
+  },
+
+  "semantic": {
+    "concepts": [
+      "tarnishing",
+      "oxidation_of_metals",
+      "protective_coatings"
+    ],
+    "prerequisites": [
+      "basic_properties_of_metals",
+      "chemical_reactions_with_air"
+    ],
+    "question_pattern": "everyday_observation_to_cause_identification",
+    "reasoning_type": "conceptual",
+    "asset_skill_no": 1,
+    "asset_skill_label": "Recollection or recognition of science facts and concepts"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_39224",
+    "original_qno": 43,
+    "skill_no": 1,
+    "percent_correct": 39,
+    "option_distribution_percent": {
+      "A": 27,
+      "B": 23,
+      "C": 39,
+      "D": 9
+    }
+  }
+},
+
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+
+  "metadata": {
+    "id": "Ei_ASSET_Sci_39224_Q44",
+    "source": "Ei_ASSET Science Paper 39224",
+    "created": "2026-02-12T10:10:00+05:30",
+    "last_modified": "2026-02-12T10:10:00+05:30",
+    "protocol_conformance": [
+      "EQJS-2.0",
+      "TAB-DATA-EXTRACT-1.0",
+      "GRP-BAR-COMPARE-1.0"
+    ],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-02-12T10:10:00+05:30",
+      "checked_invariants": [
+        "MCQ-INV-001",
+        "ANSWER-INV-001",
+        "GRAPH-INV-SCALE-CONSISTENCY"
+      ],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+
+  "classification": {
+    "subject": "chemistry",
+    "topic": [
+      "fuels",
+      "calorific_value",
+      "combustion",
+      "environmental_impact",
+      "data_interpretation"
+    ],
+    "difficulty": "medium",
+    "cognitive_level": "analyze",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 48
+  },
+
+  "content": {
+    "question_text": "The table below shows the calorific values of some fuels and the amount of carbon dioxide produced on combustion. Which of the following graphs correctly compares the amount of carbon dioxide produced by the fuels, for the SAME amount of energy produced?",
+    "question_format": "mcq",
+
+    "stimulus": {
+      "tables": [
+        {
+          "table_id": "fuel_data_table",
+          "protocol": "TAB-DATA-EXTRACT-1.0",
+          "columns": [
+            "Fuel",
+            "Calorific value (kJ/kg)",
+            "Carbon dioxide produced (kg/kg fuel)"
+          ],
+          "rows": [
+            { "Fuel": "Petrol", "Calorific value (kJ/kg)": 45000, "Carbon dioxide produced (kg/kg fuel)": 3.12 },
+            { "Fuel": "Diesel", "Calorific value (kJ/kg)": 45000, "Carbon dioxide produced (kg/kg fuel)": 3.37 },
+            { "Fuel": "CNG", "Calorific value (kJ/kg)": 50000, "Carbon dioxide produced (kg/kg fuel)": 2.77 },
+            { "Fuel": "LPG", "Calorific value (kJ/kg)": 50000, "Carbon dioxide produced (kg/kg fuel)": 3.19 }
+          ],
+          "extraction_note": "Values extracted exactly as shown in the source image; no rounding or inference applied."
+        }
+      ],
+
+      "diagrams": [
+        {
+          "diagram_id": "option_A",
+          "label": "A",
+          "protocol": "GRP-BAR-COMPARE-1.0",
+          "y_axis_label": "Carbon dioxide × 10^5 (kg/kJ)",
+          "bars": {
+            "Petrol": 5.6,
+            "Diesel": 7.5,
+            "CNG": 7.0,
+            "LPG": 6.4
+          }
+        },
+        {
+          "diagram_id": "option_B",
+          "label": "B",
+          "protocol": "GRP-BAR-COMPARE-1.0",
+          "y_axis_label": "Carbon dioxide × 10^5 (kg/kJ)",
+          "bars": {
+            "Petrol": 6.9,
+            "Diesel": 7.5,
+            "CNG": 5.5,
+            "LPG": 6.4
+          }
+        },
+        {
+          "diagram_id": "option_C",
+          "label": "C",
+          "protocol": "GRP-BAR-COMPARE-1.0",
+          "y_axis_label": "Carbon dioxide × 10^5 (kg/kJ)",
+          "bars": {
+            "Petrol": 7.0,
+            "Diesel": 7.0,
+            "CNG": 5.6,
+            "LPG": 5.6
+          }
+        },
+        {
+          "diagram_id": "option_D",
+          "label": "D",
+          "protocol": "GRP-BAR-COMPARE-1.0",
+          "y_axis_label": "Carbon dioxide × 10^5 (kg/kJ)",
+          "bars": {
+            "Petrol": 5.6,
+            "Diesel": 6.4,
+            "CNG": 7.0,
+            "LPG": 7.5
+          }
+        }
+      ]
+    },
+
+    "options": {
+      "A": "Graph A",
+      "B": "Graph B",
+      "C": "Graph C",
+      "D": "Graph D"
+    }
+  },
+
+  "solution": {
+    "correct_answer": "B",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Convert CO₂ produced per kg fuel into CO₂ produced per unit energy",
+          "marks": 1,
+          "keywords": [
+            "carbon dioxide per kJ",
+            "calorific value",
+            "ratio comparison"
+          ]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 12,
+        "misconception": "Comparing CO₂ per kg fuel instead of per unit energy",
+        "pedagogical_note": "The question requires normalization by calorific value."
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 25,
+        "misconception": "Assuming equal bars for fuels with same calorific value",
+        "pedagogical_note": "CO₂ produced per kg differs even if calorific values are equal."
+      },
+      {
+        "incorrect_answer": "D",
+        "frequency_percent": 14,
+        "misconception": "Reversing the effect of higher calorific value",
+        "pedagogical_note": "Higher calorific value reduces CO₂ per unit energy if emissions per kg are comparable."
+      }
+    ],
+    "expert_comment": "For the same energy output, CO₂ produced must be calculated as (CO₂ per kg fuel) divided by (calorific value). Only Graph B correctly represents these normalized values."
+  },
+
+  "semantic": {
+    "concepts": [
+      "calorific_value",
+      "emissions_normalization",
+      "environmental_comparison"
+    ],
+    "prerequisites": [
+      "ratio_and_proportion",
+      "interpreting_tables_and_graphs"
+    ],
+    "question_pattern": "table_to_graph_normalized_comparison",
+    "reasoning_type": "quantitative",
+    "asset_skill_no": 7,
+    "asset_skill_label": "Advanced data interpretation"
+  },
+
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_39224",
+    "original_qno": 44,
+    "skill_no": 7,
+    "percent_correct": 48,
+    "option_distribution_percent": {
+      "A": 12,
+      "B": 48,
+      "C": 25,
+      "D": 14
+    }
+  }
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
