@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AINative-V8",
+  "type": "object",
+  "required": ["ainative_version", "source_eqjs_id", "approval_status", "stage1_output", "t2_rubric", "scoring_config", "candidates", "audit_result", "calibration_config"],
+  "properties": {
+    "ainative_version": { "type": "string", "const": "V8.0" },
+    "source_eqjs_id": { "type": "string" },
+    "source_eqjs_file": { "type": "string" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "approval_status": {
+      "type": "string",
+      "enum": ["awaiting_human_validation", "auto_approved", "human_approved", "failed_audit", "rejected"]
+    },
+    "stage1_output": {
+      "type": "object",
+      "required": ["core_concept", "mastery_logic", "diagram_dependent", "phase2_model", "q_matrix", "transfer_domains"],
+      "properties": {
+        "core_concept": { "type": "string" },
+        "mastery_logic": { "type": "string" },
+        "diagram_dependent": { "type": "boolean" },
+        "diagram_mechanism": { "type": ["string", "null"] },
+        "misconception_ordering": { "type": "string", "enum": ["ordered", "unordered"] },
+        "phase2_model": { "type": "string", "enum": ["GPCM", "NRM"] },
+        "q_matrix": {
+          "type": "object",
+          "minProperties": 2,
+          "additionalProperties": {
+            "type": "object",
+            "required": ["option", "description"],
+            "properties": {
+              "option": { "type": "string" },
+              "description": { "type": "string" },
+              "attribute_profile": { "type": "array", "items": { "type": "integer" } }
+            }
+          }
+        },
+        "transfer_domains": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 3,
+          "items": {
+            "type": "object",
+            "required": ["domain", "seed", "preserves_mechanism"],
+            "properties": {
+              "domain": { "type": "string" },
+              "seed": { "type": "string" },
+              "preserves_mechanism": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "t2_rubric": {
+      "type": "object",
+      "required": ["scoring_model", "fluency_excluded"],
+      "properties": {
+        "scoring_model": { "type": "string", "const": "concept_presence_only" },
+        "correct_concepts": { "type": "array", "items": { "type": "string" } },
+        "correct_mechanism": { "type": "string" },
+        "fluency_excluded": { "type": "boolean", "const": true }
+      }
+    },
+    "scoring_config": {
+      "type": "object",
+      "properties": {
+        "joint_score_scale": { "type": "array" },
+        "mastery_gate_threshold": { "type": "integer", "const": 3 },
+        "phase2_model": { "type": "string" },
+        "routing_lok_enabled": { "type": "boolean", "const": true }
+      }
+    },
+    "candidates": { "type": "object" },
+    "audit_result": {
+      "type": "object",
+      "required": ["status"],
+      "properties": {
+        "status": { "type": "string", "enum": ["APPROVED", "REJECTED"] }
+      }
+    },
+    "calibration_config": {
+      "type": "object",
+      "required": ["calibration_phase"],
+      "properties": {
+        "calibration_phase": { "type": "string" },
+        "lltm_predicted_params": { "type": "object" },
+        "n_responses": { "type": "integer" }
+      }
+    }
+  }
+}
