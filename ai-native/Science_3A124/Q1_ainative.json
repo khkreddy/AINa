@@ -1,0 +1,131 @@
+{
+  "ainative_version": "V8.0",
+  "source_eqjs_id": "Ei_ASSET_Sci_3A124_Q1",
+  "source_eqjs_file": "eqjs/Science_3A124/Q1.json",
+  "generated_at": "2026-02-22T10:00:00+00:00",
+  "approval_status": "auto_approved",
+  "stage1_output": {
+    "core_concept": "Commensalism is an ecological interaction where one organism benefits and the other is neither helped nor harmed.",
+    "mastery_logic": "A student must distinguish commensalism from mutualism (both benefit), predation (one harmed), and antibiosis (one inhibited). The key test is whether the second organism is truly unaffected.",
+    "diagram_dependent": false,
+    "diagram_mechanism": null,
+    "misconception_ordering": "unordered",
+    "phase2_model": "NRM",
+    "q_matrix": {
+      "M1": {
+        "option": "A",
+        "description": "Confuses commensalism with mutualism — believes both organisms benefiting still qualifies as commensalism",
+        "attribute_profile": [1, 0, 0]
+      },
+      "M2": {
+        "option": "B",
+        "description": "Confuses predation with symbiosis — misidentifies a harmful interaction (insect consumption) as a commensal relationship",
+        "attribute_profile": [0, 1, 0]
+      },
+      "M3": {
+        "option": "C",
+        "description": "Confuses antibiosis with commensalism — believes secreting a substance that kills another organism counts as one being unaffected",
+        "attribute_profile": [0, 0, 1]
+      }
+    },
+    "transfer_domains": [
+      {
+        "domain": "marine biology",
+        "seed": "Remora fish attaching to sharks for transport without affecting the shark",
+        "preserves_mechanism": "One organism gains a benefit (transport/access to food) while the host organism is neither helped nor harmed"
+      },
+      {
+        "domain": "urban ecology",
+        "seed": "Birds nesting on building ledges without affecting the building's function",
+        "preserves_mechanism": "One organism uses another's structure for shelter without any effect on the structure provider"
+      },
+      {
+        "domain": "agriculture",
+        "seed": "Cattle egrets following grazing cattle to catch disturbed insects",
+        "preserves_mechanism": "One organism benefits from the activity of another without the other being affected positively or negatively"
+      }
+    ]
+  },
+  "t2_rubric": {
+    "scoring_model": "concept_presence_only",
+    "correct_concepts": [
+      "commensalism",
+      "one organism benefits",
+      "other organism unaffected"
+    ],
+    "correct_mechanism": "In commensalism, one organism gains a benefit (shelter, transport, food access) while the other organism is completely unaffected — neither helped nor harmed. This distinguishes it from mutualism (both benefit), parasitism (one harmed), and predation (one consumed).",
+    "fluency_excluded": true
+  },
+  "scoring_config": {
+    "joint_score_scale": [0, 1, 2, 3, 4],
+    "mastery_gate_threshold": 3,
+    "phase2_model": "NRM",
+    "routing_lok_enabled": true
+  },
+  "candidates": {
+    "generation_type": "Single",
+    "pathway_A": {
+      "T3_probe": {
+        "prompt": "A biological relationship exists between two species where one species gains an advantage while the other species experiences no positive or negative effect. Which of the following correctly describes this type of interaction?",
+        "options": {
+          "A": {
+            "text": "Both species must receive some form of benefit for the relationship to be classified this way.",
+            "maps_to": "M1"
+          },
+          "B": {
+            "text": "Only one species benefits, and the other species is completely unaffected by the interaction.",
+            "maps_to": "Mastery"
+          },
+          "C": {
+            "text": "One species benefits by consuming or absorbing nutrients from the other species.",
+            "maps_to": "M2"
+          },
+          "D": {
+            "text": "I am not sure / I do not know this concept.",
+            "maps_to": "routing_LoK"
+          }
+        }
+      },
+      "T4_transfer": {
+        "selected_domain": "marine biology",
+        "domain_shift_rationale": "Marine biology provides a structurally different context (ocean ecosystem vs. terrestrial) while preserving the identical mechanism of one organism benefiting from proximity to another without affecting it.",
+        "prompt": "In the ocean, remora fish attach themselves to the underside of large sharks using a suction disc on their heads. The remoras feed on scraps of food that drift away when the shark eats, and they gain protection by staying close to the shark. Scientists have observed that sharks show no measurable change in swimming efficiency, hunting success, or health when remoras are attached. What type of ecological relationship does this represent?",
+        "options": {
+          "A": {
+            "text": "This is mutualism because the shark provides food and the remora provides cleaning services.",
+            "maps_to": "M1"
+          },
+          "B": {
+            "text": "This is commensalism because the remora benefits while the shark is unaffected.",
+            "maps_to": "Mastery"
+          },
+          "C": {
+            "text": "This is parasitism because the remora takes food resources from the shark.",
+            "maps_to": "M2"
+          }
+        }
+      }
+    }
+  },
+  "audit_result": {
+    "status": "APPROVED",
+    "retries": 0,
+    "evaluation_details": {
+      "T3_purity_pass": true,
+      "T3_discrimination_pass": true,
+      "T4_transfer_distance_pass": true,
+      "T4_purity_pass": true,
+      "construct_purity_pass": true,
+      "orthogonality_pass": null
+    }
+  },
+  "calibration_config": {
+    "calibration_phase": "A_cold_start",
+    "lltm_predicted_params": {
+      "alpha": 1.0,
+      "beta": 0.2533,
+      "d_steps": [-0.5, 0.0, 0.5]
+    },
+    "n_responses": 0
+  }
+}

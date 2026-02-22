@@ -1,0 +1,98 @@
+{
+  "eqjs_version": "2.0",
+  "schema_type": "exam_question",
+  "metadata": {
+    "id": "Ei_ASSET_Sci_3A124_Q1",
+    "source": "Ei_ASSET Science Paper 3A124",
+    "created": "2026-01-31T11:45:00+05:30",
+    "last_modified": "2026-01-31T11:45:00+05:30",
+    "protocol_conformance": ["EQJS-2.0"],
+    "validation_status": {
+      "validated": true,
+      "timestamp": "2026-01-31T11:45:00+05:30",
+      "checked_invariants": ["MCQ-INV-001", "ANSWER-INV-001"],
+      "validator_version": "EQJS-CORE-2.0"
+    }
+  },
+  "classification": {
+    "subject": "biology",
+    "topic": ["ecology", "biotic_relationships", "commensalism"],
+    "difficulty": "medium",
+    "cognitive_level": "understand",
+    "estimated_time_seconds": 93,
+    "marks": 1,
+    "asset_percent_correct": 60
+  },
+  "content": {
+    "question_text": "Commensalism is a type of relationship between two organisms in which one organism benefits while the other is unaffected. Which of the following is an example of commensalism?",
+    "question_format": "mcq",
+    "options": {
+      "A": "Squirrels eat fruits and carry the seeds on their coat.",
+      "B": "Venus fly trap plants consume insects for nitrogen.",
+      "C": "Penicillium secretes penicillin, which kills bacteria.",
+      "D": "Tree frogs use plants only for protection."
+    }
+  },
+  "solution": {
+    "correct_answer": "D",
+    "marking_scheme": {
+      "total_marks": 1,
+      "breakdown": [
+        {
+          "step": "Identify an interaction where one organism benefits and the other is unaffected",
+          "marks": 1,
+          "keywords": ["commensalism", "one benefits", "other unaffected"]
+        }
+      ]
+    },
+    "common_errors": [
+      {
+        "incorrect_answer": "A",
+        "frequency_percent": 17,
+        "misconception": "Confusing commensalism with mutualism where both organisms benefit",
+        "pedagogical_note": "Seed dispersal benefits both squirrels and plants, so this is not commensalism"
+      },
+      {
+        "incorrect_answer": "B",
+        "frequency_percent": 12,
+        "misconception": "Misidentifying predation as a symbiotic relationship",
+        "pedagogical_note": "Insect is harmed, so the relationship is predatory, not commensal"
+      },
+      {
+        "incorrect_answer": "C",
+        "frequency_percent": 10,
+        "misconception": "Confusing antibiosis with commensalism",
+        "pedagogical_note": "Killing or inhibiting another organism indicates harm, not neutrality"
+      }
+    ],
+    "expert_comment": "Only option D shows one organism (tree frog) benefiting while the plant is neither helped nor harmed, which fits the definition of commensalism."
+  },
+  "semantic": {
+    "concepts": [
+      "commensalism",
+      "symbiotic_relationships",
+      "ecological_interactions"
+    ],
+    "prerequisites": [
+      "definitions_of_symbiosis",
+      "basic_ecology_terms"
+    ],
+    "question_pattern": "definition_to_example_classification",
+    "reasoning_type": "conceptual",
+    "asset_skill_no": 3,
+    "asset_skill_label": "Classification/comparison of organisms/processes; giving examples"
+  },
+  "assessment_metadata": {
+    "assessment": "Ei_ASSET",
+    "paper_code": "Science_3A124",
+    "original_qno": 1,
+    "skill_no": 3,
+    "percent_correct": 60,
+    "option_distribution_percent": {
+      "A": 17,
+      "B": 12,
+      "C": 10,
+      "D": 60
+    }
+  }
+}
